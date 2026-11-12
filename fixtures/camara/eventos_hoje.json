@@ -1,0 +1,108 @@
+{
+ "dados": [
+  {
+   "id": 81022,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/81022",
+   "dataHoraInicio": "2026-11-10T15:00",
+   "dataHoraFim": "2026-11-10T17:30",
+   "situacao": "Encerrada (Final)",
+   "descricaoTipo": "Outro Evento",
+   "descricao": "Cerimônia de Entrega do Prêmio Paulo Gustavo aos agraciados de 2026\r\n Os ganhadores do ano de 2026 são (em ordem alfabética):\n\n \n\r\n\r\n-     Ana Carolina Delgado Cunha (Carol Delgado)\n\n\r\n\r\n-     Clarice Falcão\n\n\r\n\r\n-     Clube Dazminina\n\n\r\n\r\n-     Fábio Porchat\n\n\r\n\r\n-     Marcus Majella",
+   "localExterno": "Salão Nobre",
+   "orgaos": [
+    {
+     "id": 536996,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/536996",
+     "sigla": "CCULT",
+     "nome": "Comissão de Cultura",
+     "apelido": "Cultura",
+     "codTipoOrgao": 2,
+     "tipoOrgao": "Comissão Permanente",
+     "nomePublicacao": "Comissão de Cultura",
+     "nomeResumido": "Cultura"
+    }
+   ],
+   "localCamara": {
+    "nome": null,
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": null
+  },
+  {
+   "id": 82666,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/82666",
+   "dataHoraInicio": "2026-11-11T10:43",
+   "dataHoraFim": "2026-11-11T11:33",
+   "situacao": "Encerrada (Final)",
+   "descricaoTipo": "Reunião Deliberativa",
+   "descricao": "Discussão e votação de propostas legislativas",
+   "localExterno": null,
+   "orgaos": [
+    {
+     "id": 2015,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015",
+     "sigla": "CTRAB",
+     "nome": "Comissão de Trabalho",
+     "apelido": "Trabalho",
+     "codTipoOrgao": 2,
+     "tipoOrgao": "Comissão Permanente",
+     "nomePublicacao": "Comissão de Trabalho",
+     "nomeResumido": "Trabalho"
+    }
+   ],
+   "localCamara": {
+    "nome": "Anexo II, Plenário 12",
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": "https://www.youtube.com/watch?v=rsYBrHaK85g"
+  },
+  {
+   "id": 82912,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/82912",
+   "dataHoraInicio": "2026-11-11T10:28",
+   "dataHoraFim": "2026-11-11T11:41",
+   "situacao": "Encerrada (Final)",
+   "descricaoTipo": "Reunião Deliberativa",
+   "descricao": "Discussão e votação de propostas legislativas",
+   "localExterno": null,
+   "orgaos": [
+    {
+     "id": 2009,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+     "sigla": "CE",
+     "nome": "Comissão de Educação",
+     "apelido": "Educação",
+     "codTipoOrgao": 2,
+     "tipoOrgao": "Comissão Permanente",
+     "nomePublicacao": "Comissão de Educação",
+     "nomeResumido": "Educação"
+    }
+   ],
+   "localCamara": {
+    "nome": "Anexo II, Plenário 10",
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": "https://www.youtube.com/watch?v=wvSeUzJZock"
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/eventos?dataInicio=2026-11-10&dataFim=2026-11-12&itens=100"
+  },
+  {
+   "rel": "first",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/eventos?dataInicio=2026-11-10&dataFim=2026-11-12&pagina=1&itens=100"
+  },
+  {
+   "rel": "last",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/eventos?dataInicio=2026-11-10&dataFim=2026-11-12&pagina=1&itens=100"
+  }
+ ]
+}

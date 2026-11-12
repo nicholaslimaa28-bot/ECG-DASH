@@ -1,0 +1,113 @@
+{
+ "ResultadoPlenario": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/ResultadoPlenariov2.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 14:20:04",
+   "VersaoServico": "2",
+   "DataVersaoServico": "2019-10-15",
+   "DescricaoDataSet": "Retorna o resultado dos Itens de Pauta da(s) Sessão(ões) Plenária(s) na data informada."
+  },
+  "Sessoes": {
+   "Sessao": [
+    {
+     "codigoSessao": "594175",
+     "numeroSessao": "146",
+     "dataSessao": "11/11/2026",
+     "horaSessao": "14:00",
+     "diaSessao": "quarta-feira",
+     "tipoSessao": "DOR",
+     "descricaoTipoSessao": "Sessão Deliberativa Ordinária",
+     "siglaCasa": "SF",
+     "Itens": {
+      "Item": [
+       {
+        "codigoItem": "595684",
+        "codigoMateria": "175647",
+        "idIdentificacao": "9101962",
+        "identificacao": "PROJETO DE LEI COMPLEMENTAR Nº 230, DE 2025\n\n",
+        "parecer": "Parecer nº 219, de 2026, de Plenário, Relator: Senador Esperidião Amin, favorável ao projeto, com a Emenda nº 1, de redação, que apresenta.\n",
+        "apreciacaoPapeleta": "Projeto de Lei Complementar nº 230, de 2025, do Deputado Juscelino Filho, que",
+        "ementaPapeleta": "altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), para vedar a limitação de empenho e movimentação financeira das despesas relativas ao Fundo de Universalização dos Serviços de Telecomunicações (Fust), e a Lei nº 9.998, de 17 de agosto de 2000, para os fins que especifica.",
+        "siglaCasaMateria": "CD",
+        "siglaMateria": "PLP",
+        "numeroMateria": "00230",
+        "anoMateria": "2025",
+        "DescricaoObjetivoProcesso": "Revisora",
+        "DescricaoIdentificacaoMateria": "Projeto de Lei Complementar n° 230, de 2025",
+        "textoResultado": "Objeto da deliberação: Requerimento nº 744, de 2026, de Líderes, que solicita urgência para a matéria.\n\nResultado: Aprovado o requerimento. \n\nResultado da matéria: Aprovado o projeto, com a Emenda nº 1, de redação.\nVotação nominal: \nSim: 68\nNão: 0\nAbstenção: 0\nPresidente: 1\nTotal: 69\n\nObjeto da deliberação: Parecer nº 220, de 2026, da Comissão Diretora, com a redação final.\nResultado: Aprovada a redação final. \n\nA matéria vai à sanção. \n\nSerá feita a devida comunicação à Câmara dos Deputados.\n\n",
+        "indicadorDeliberacao": "S",
+        "descricaoDeliberacao": "Apreciado",
+        "sequencialItem": "1",
+        "tipoPauta": "O",
+        "descricaoTipoPauta": "Pauta",
+        "indicadorRevisado": "N",
+        "codigoTipoApreciacao": "38",
+        "descricaoTipoApreciacao": "-",
+        "autorMateria": "Deputado Juscelino Filho"
+       },
+       {
+        "codigoItem": "596790",
+        "codigoMateria": "175190",
+        "idIdentificacao": "9085606",
+        "identificacao": "PROJETO DE LEI DE CONVERSÃO Nº 16, DE 2026\n\n",
+        "parecer": "Parecer nº 1, de 2026, da Comissão Mista, Relator: Deputado Paulo Pimenta, Relator Revisor: Senador Eduardo Braga, favorável à medida provisória e a parte das emendas, na forma do projeto de lei de conversão apresentado. \nA matéria foi aprovada ontem, dia 10 de novembro, na Câmara dos Deputados, e seu prazo de vigência se esgota em 11 de novembro de 2026.\n",
+        "apreciacaoPapeleta": "Discussão, em turno único, do Projeto de Lei de Conversão nº 16, de 2026, que\n",
+        "ementaPapeleta": "autoriza a criação de linhas de crédito para composição de dívidas para liquidação ou amortização de operações de crédito rural e de Cédulas de Produto Rural e autoriza a participação da União em fundo garantidor destinado à cobertura de operações de crédito rural contratadas por produtores rurais afetados por eventos climáticos adversos. (proveniente da Medida Provisória nº 1.376, de 2026)",
+        "siglaCasaMateria": "CN",
+        "siglaMateria": "MPV",
+        "numeroMateria": "01376",
+        "anoMateria": "2026",
+        "DescricaoIdentificacaoMateria": "Medida Provisória n° 1376, de 2026",
+        "textoResultado": "Resultado da matéria: Impugnados os arts. 11, 12 e 13 do Projeto de Lei de Conversão, por tratarem de matéria estranha à Medida Provisória.\n\nResultado da matéria: Aprovado o projeto de lei de conversão, ficam prejudicadas a medida provisória e as demais emendas apresentadas.\n\nA matéria vai à sanção.\n\nSerá feita a devida comunicação à Câmara dos Deputados.\n\n",
+        "indicadorDeliberacao": "S",
+        "descricaoDeliberacao": "Apreciado",
+        "sequencialItem": "1",
+        "tipoPauta": "E",
+        "descricaoTipoPauta": "Extrapauta",
+        "indicadorRevisado": "N",
+        "codigoTipoApreciacao": "1",
+        "descricaoTipoApreciacao": "Discussão, em turno único",
+        "autorMateria": "Presidência da República"
+       },
+       {
+        "codigoItem": "595687",
+        "codigoMateria": "174061",
+        "idIdentificacao": "9044543",
+        "identificacao": "PROJETO DE LEI Nº 6.461, DE 2019\n\n",
+        "cabecalho": "(Estatuto do Aprendiz)",
+        "parecer": "Parecer nº 68, de 2026, da Comissão de Assuntos Sociais, Relator: Senador Veneziano Vital do Rêgo, Relator \"ad hoc\": Senador Flávio Arns, favorável ao projeto e contrário às Emendas nºs 1 a 5.\n\nPendente de parecer sobre emendas de Plenário.\nDesignado Relator de Plenário o Senador Veneziano Vital do Rêgo.\n\n(Pendente de deliberação do Requerimento nº 88, de 2026, da Comissão de Assuntos Sociais, que solicita urgência para a matéria, nos termos dos arts. 336, II, e 338, IV, do Regimento Interno do Senado Federal).",
+        "apreciacaoPapeleta": "Projeto de Lei nº 6.461, de 2019, do Deputado André de Paula, que ",
+        "ementaPapeleta": "institui o Estatuto do Aprendiz; e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943 (CLT), e as Leis nºs 6.019, de 3 de janeiro de 1974, e 14.601, de 19 de junho de 2023.",
+        "siglaCasaMateria": "CD",
+        "siglaMateria": "PL",
+        "numeroMateria": "06461",
+        "anoMateria": "2019",
+        "DescricaoObjetivoProcesso": "Revisora",
+        "DescricaoIdentificacaoMateria": "Projeto de Lei n° 6461, de 2019",
+        "textoResultado": "",
+        "indicadorDeliberacao": "N",
+        "descricaoDeliberacao": "Não apreciado",
+        "sequencialItem": "2",
+        "tipoPauta": "O",
+        "descricaoTipoPauta": "Pauta",
+        "codigoTipoApreciacao": "38",
+        "descricaoTipoApreciacao": "-",
+        "autorMateria": "Deputado André de Paula"
+       }
+      ]
+     }
+    },
+    {
+     "codigoSessao": "549939",
+     "numeroSessao": "22",
+     "dataSessao": "11/11/2026",
+     "horaSessao": "10:00",
+     "diaSessao": "quarta-feira",
+     "tipoSessao": "SOL",
+     "descricaoTipoSessao": "Sessão Solene",
+     "siglaCasa": "CN"
+    }
+   ]
+  }
+ }
+}

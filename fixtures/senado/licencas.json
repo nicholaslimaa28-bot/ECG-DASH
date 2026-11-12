@@ -1,0 +1,46 @@
+{
+ "LicencaParlamentar": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/LicencaParlamentarv6.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 14:00:19",
+   "VersaoServico": "6",
+   "DataVersaoServico": "2021-09-09",
+   "DescricaoDataSet": "Retorna a relação de Licenças do Senador informado no parâmetro."
+  },
+  "Parlamentar": {
+   "Codigo": "5672",
+   "Nome": "Alan Rick",
+   "Licencas": {
+    "Licenca": [
+     {
+      "Codigo": "27845",
+      "DataInicio": "2026-10-08",
+      "DataInicioPrevista": "2026-10-08",
+      "DataFim": "2026-10-08",
+      "DataFimPrevista": "2026-10-08",
+      "SiglaTipoAfastamento": "LICENCA_ATIVIDADE_PARLAMENTAR",
+      "DescricaoTipoAfastamento": "Missão política ou cultural de interesse parlamentar"
+     },
+     {
+      "Codigo": "24703",
+      "DataInicio": "2025-10-20",
+      "DataInicioPrevista": "2025-10-20",
+      "DataFim": "2025-10-20",
+      "DataFimPrevista": "2025-10-20",
+      "SiglaTipoAfastamento": "LICENCA_ATIVIDADE_PARLAMENTAR",
+      "DescricaoTipoAfastamento": "Missão política ou cultural de interesse parlamentar"
+     },
+     {
+      "Codigo": "24657",
+      "DataInicio": "2025-09-18",
+      "DataInicioPrevista": "2025-09-18",
+      "DataFim": "2025-09-18",
+      "DataFimPrevista": "2025-09-18",
+      "SiglaTipoAfastamento": "LICENCA_ATIVIDADE_PARLAMENTAR",
+      "DescricaoTipoAfastamento": "Missão política ou cultural de interesse parlamentar"
+     }
+    ]
+   }
+  }
+ }
+}

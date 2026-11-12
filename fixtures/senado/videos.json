@@ -1,0 +1,41 @@
+[
+ {
+  "codigo": 3919134,
+  "dataUnidade": "2026-11-11T14:21:31-03:00",
+  "descricao": "Abertura",
+  "descricaoOrador": "Chico Rodrigues (Presidente Senador PSB-RR)",
+  "duracaoAudio": "93",
+  "duracaoVideo": "93",
+  "enderecoAudio": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111143202_2092898.MP3",
+  "enderecoThumbnail": "https://www12.senado.leg.br/portalcedoc/pcedoc/ThumbDb/000003/919/3919134u.jpg",
+  "enderecoVideo": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111143202_2092899.MP4",
+  "horaExibicao": "14:21:31",
+  "nomeOrador": "Chico Rodrigues (Presidente Senador PSB-RR)"
+ },
+ {
+  "codigo": 3919135,
+  "dataUnidade": "2026-11-11T14:23:04-03:00",
+  "descricao": "Pronunciamento",
+  "descricaoOrador": "Damares Alves (Senadora Republicanos-DF)",
+  "duracaoAudio": "624",
+  "duracaoVideo": "624",
+  "enderecoAudio": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111144102_2092911.MP3",
+  "enderecoThumbnail": "https://www12.senado.leg.br/portalcedoc/pcedoc/ThumbDb/000003/919/3919135u.jpg",
+  "enderecoVideo": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111144102_2092913.MP4",
+  "horaExibicao": "14:23:04",
+  "nomeOrador": "Damares Alves (Senadora Republicanos-DF)"
+ },
+ {
+  "codigo": 3919140,
+  "dataUnidade": "2026-11-11T14:33:28-03:00",
+  "descricao": "Comentários do Presidente",
+  "descricaoOrador": "Chico Rodrigues (Presidente Senador PSB-RR)",
+  "duracaoAudio": "84",
+  "duracaoVideo": "84",
+  "enderecoAudio": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111144102_2092912.MP3",
+  "enderecoThumbnail": "https://www12.senado.leg.br/portalcedoc/pcedoc/ThumbDb/000003/919/3919140u.jpg",
+  "enderecoVideo": "https://www12.senado.leg.br/portalcedoc/pcedoc/2026/20261111/20261111144102_2092914.MP4",
+  "horaExibicao": "14:33:28",
+  "nomeOrador": "Chico Rodrigues (Presidente Senador PSB-RR)"
+ }
+]

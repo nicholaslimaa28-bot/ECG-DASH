@@ -1,0 +1,35 @@
+{
+ "uriDeputados": null,
+ "uriConvidados": null,
+ "fases": null,
+ "id": 83266,
+ "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+ "dataHoraInicio": "2026-11-11T13:55",
+ "dataHoraFim": "2026-11-11T20:07",
+ "situacao": "Encerrada",
+ "descricaoTipo": "Sessão Deliberativa",
+ "descricao": "Sessão Deliberativa Extraordinária Semipresencial (AM nº 123/2020)\r\n",
+ "localExterno": null,
+ "orgaos": [
+  {
+   "id": 180,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "apelido": "Plenário",
+   "codTipoOrgao": 26,
+   "tipoOrgao": "Plenário Virtual",
+   "nomePublicacao": "Plenário",
+   "nomeResumido": "Plenário"
+  }
+ ],
+ "requerimentos": [],
+ "localCamara": {
+  "nome": "Plenário da Câmara dos Deputados",
+  "predio": null,
+  "sala": null,
+  "andar": null
+ },
+ "urlDocumentoPauta": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266/pauta",
+ "urlRegistro": "https://www.youtube.com/watch?v=qTcOGuWH7CQ"
+}

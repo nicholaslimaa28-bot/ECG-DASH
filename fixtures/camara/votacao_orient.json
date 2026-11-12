@@ -1,0 +1,23 @@
+[
+ {
+  "orientacaoVoto": "Sim",
+  "codTipoLideranca": "B",
+  "siglaPartidoBloco": "Maioria",
+  "codPartidoBloco": null,
+  "uriPartidoBloco": null
+ },
+ {
+  "orientacaoVoto": "Sim",
+  "codTipoLideranca": "P",
+  "siglaPartidoBloco": "AVANTE",
+  "codPartidoBloco": 36898,
+  "uriPartidoBloco": "https://dadosabertos.camara.leg.br/api/v2/partidos/36898"
+ },
+ {
+  "orientacaoVoto": "Sim",
+  "codTipoLideranca": "B",
+  "siglaPartidoBloco": "Fdr PSOL-REDE",
+  "codPartidoBloco": null,
+  "uriPartidoBloco": null
+ }
+]

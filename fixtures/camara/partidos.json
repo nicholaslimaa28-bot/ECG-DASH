@@ -1,0 +1,36 @@
+{
+ "dados": [
+  {
+   "id": 36898,
+   "sigla": "AVANTE",
+   "nome": "Avante",
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/partidos/36898"
+  },
+  {
+   "id": 37905,
+   "sigla": "CIDADANIA",
+   "nome": "Cidadania",
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/partidos/37905"
+  },
+  {
+   "id": 36899,
+   "sigla": "MDB",
+   "nome": "Movimento Democrático Brasileiro",
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899"
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/partidos?itens=100&ordem=ASC&ordenarPor=sigla"
+  },
+  {
+   "rel": "first",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/partidos?ordem=ASC&ordenarPor=sigla&pagina=1&itens=100"
+  },
+  {
+   "rel": "last",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/partidos?ordem=ASC&ordenarPor=sigla&pagina=1&itens=100"
+  }
+ ]
+}

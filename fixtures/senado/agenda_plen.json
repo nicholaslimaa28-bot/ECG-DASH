@@ -1,0 +1,174 @@
+{
+ "AgendaPlenario": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/AgendaPlenariov2.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 14:19:52",
+   "VersaoServico": "2",
+   "DataVersaoServico": "2019-10-15",
+   "DescricaoDataSet": "Retorna a Agenda do dia nos Plenários do Senado e Congresso."
+  },
+  "Sessoes": {
+   "Sessao": [
+    {
+     "DiaUtil": "11",
+     "Data": "2026-11-11",
+     "DiaSemana": "quarta-feira",
+     "Mes": "Novembro",
+     "Horario": "10 horas ",
+     "Hora": "10:00",
+     "NumeroSessao": "22ª SESSÃO ",
+     "TipoSessao": "SESSÃO SOLENE ",
+     "LocalSessao": "Plenário do Senado Federal",
+     "CodigoSessao": "549939",
+     "Casa": "CN",
+     "SessaoLegislativa": "4",
+     "Legislatura": "57",
+     "CodigoSituacaoSessao": "40",
+     "SituacaoSessao": "Encerrada",
+     "Realizada": {
+      "Status": "Sim"
+     },
+     "PautaConfirmada": "Sim",
+     "TipoPresenca": "P",
+     "DescricaoTipoPresenca": "Presencial",
+     "Evento": {
+      "DescricaoTipoEvento": "Sessão do Congresso Nacional",
+      "Data": "11 de novembro de 2026",
+      "DiaSemana": "quarta-feira",
+      "Horario": "às 10 horas",
+      "TipoSessao": "(SESSÃO SOLENE ) ",
+      "DescricaoEvento": "Destinada a homenagear Nossa Senhora de Nazaré. Requerentes: Senador Esperidião Amin (PP/SC)  e Deputado Joaquim Passarinho (PL/PA). REQ 1/2026-Mesa. ",
+      "FimInscricao": "(Até as 17h59min de 10.11.2026)",
+      "IndicadorPublicaOrador": "0"
+     }
+    },
+    {
+     "DiaUtil": "11",
+     "Data": "2026-11-11",
+     "DiaSemana": "quarta-feira",
+     "Mes": "Novembro",
+     "Horario": "14 horas ",
+     "Hora": "14:00",
+     "NumeroSessao": "146ª SESSÃO ",
+     "TipoSessao": "SESSÃO DELIBERATIVA ORDINÁRIA ",
+     "LocalSessao": "Plenário do Senado Federal",
+     "CodigoSessao": "594175",
+     "Casa": "SF",
+     "SessaoLegislativa": "4",
+     "Legislatura": "57",
+     "CodigoSituacaoSessao": "38",
+     "SituacaoSessao": "Suspensa",
+     "Realizada": {
+      "Status": "Sim"
+     },
+     "PautaConfirmada": "Sim",
+     "TipoPresenca": "S",
+     "DescricaoTipoPresenca": "Semipresencial",
+     "Oradores": {
+      "TipoOrador": [
+       {
+        "DescricaoTipoOrador": "Oradores Inscritos",
+        "CodigoTipoOrador": "13",
+        "OradorSessao": {
+         "Orador": [
+          {
+           "Ordem": "1",
+           "Parlamentar": "Senador Humberto Costa",
+           "IndicadorCancelado": "N"
+          },
+          {
+           "Ordem": "2",
+           "Parlamentar": "Senador Esperidião Amin",
+           "IndicadorCancelado": "N"
+          },
+          {
+           "Ordem": "3",
+           "Parlamentar": "Senador Sargento Reginauro",
+           "IndicadorCancelado": "N"
+          }
+         ]
+        }
+       },
+       {
+        "DescricaoTipoOrador": "(Art. 17, § 1º)",
+        "CodigoTipoOrador": "17",
+        "OradorSessao": {
+         "Orador": [
+          {
+           "Ordem": "1",
+           "Parlamentar": "Senador Paulo Paim",
+           "IndicadorCancelado": "N",
+           "TextoInformacao": "Redistribuído"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "Materias": {
+      "Materia": [
+       {
+        "CodigoMateria": "175647",
+        "Identificacao": "PROJETO DE LEI COMPLEMENTAR Nº 230, DE 2025\n\n",
+        "SiglaMateria": "PLP",
+        "NumeroMateria": "00230",
+        "AnoMateria": "2025",
+        "DescricaoObjetivoProcesso": "Revisora",
+        "DescricaoIdentificacaoMateria": "PLP 230/2025",
+        "SiglaCasaIniciadora": "CD",
+        "Ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), para vedar a limitação de empenho e movimentação financeira das despesas relativas ao Fundo de Universalização dos Serviços de Telecomunicações (Fust), e a Lei nº 9.998, de 17 de agosto de 2000, para os fins que especifica.",
+        "Parecer": "Parecer nº 219, de 2026, de Plenário, Relator: Senador Esperidião Amin, favorável ao projeto, com a Emenda nº 1, de redação, que apresenta.\n",
+        "Apreciacao": "-",
+        "ApreciacaoPapeleta": "Projeto de Lei Complementar nº 230, de 2025, do Deputado Juscelino Filho, que",
+        "EmentaPapeleta": "altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), para vedar a limitação de empenho e movimentação financeira das despesas relativas ao Fundo de Universalização dos Serviços de Telecomunicações (Fust), e a Lei nº 9.998, de 17 de agosto de 2000, para os fins que especifica.",
+        "NomeAutor": "Juscelino Filho",
+        "TipoPauta": "O",
+        "DescricaoTipoPauta": "Pauta",
+        "SequenciaOrdem": "1"
+       },
+       {
+        "CodigoMateria": "175190",
+        "Identificacao": "PROJETO DE LEI DE CONVERSÃO Nº 16, DE 2026\n\n",
+        "SiglaMateria": "MPV",
+        "NumeroMateria": "01376",
+        "AnoMateria": "2026",
+        "DescricaoIdentificacaoMateria": "MPV 1376/2026",
+        "SiglaCasaIniciadora": "CN",
+        "Ementa": "Autoriza a criação de linhas de crédito para composição de dívidas para liquidação ou amortização de operações de crédito rural e de Cédulas de Produto Rural e autoriza a participação da União em fundo garantidor destinado à cobertura de operações de crédito rural contratadas por produtores rurais afetados por eventos climáticos adversos. (proveniente da Medida Provisória nº 1.376, de 2026)",
+        "Parecer": "Parecer nº 1, de 2026, da Comissão Mista, Relator: Deputado Paulo Pimenta, Relator Revisor: Senador Eduardo Braga, favorável à medida provisória e a parte das emendas, na forma do projeto de lei de conversão apresentado. \nA matéria foi aprovada ontem, dia 10 de novembro, na Câmara dos Deputados, e seu prazo de vigência se esgota em 11 de novembro de 2026.\n",
+        "Apreciacao": "Discussão, em turno único",
+        "ApreciacaoPapeleta": "Discussão, em turno único, do Projeto de Lei de Conversão nº 16, de 2026, que\n",
+        "EmentaPapeleta": "autoriza a criação de linhas de crédito para composição de dívidas para liquidação ou amortização de operações de crédito rural e de Cédulas de Produto Rural e autoriza a participação da União em fundo garantidor destinado à cobertura de operações de crédito rural contratadas por produtores rurais afetados por eventos climáticos adversos. (proveniente da Medida Provisória nº 1.376, de 2026)",
+        "NomeAutor": "Presidência da República",
+        "TipoPauta": "E",
+        "DescricaoTipoPauta": "Extrapauta",
+        "SequenciaOrdem": "1"
+       },
+       {
+        "CodigoMateria": "174061",
+        "Identificacao": "PROJETO DE LEI Nº 6.461, DE 2019\n\n",
+        "SiglaMateria": "PL",
+        "NumeroMateria": "06461",
+        "AnoMateria": "2019",
+        "DescricaoObjetivoProcesso": "Revisora",
+        "DescricaoIdentificacaoMateria": "PL 6461/2019",
+        "SiglaCasaIniciadora": "CD",
+        "Ementa": "Institui o Estatuto do Aprendiz; e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943 (CLT), e as Leis nºs 6.019, de 3 de janeiro de 1974, e 14.601, de 19 de junho de 2023.",
+        "Parecer": "Parecer nº 68, de 2026, da Comissão de Assuntos Sociais, Relator: Senador Veneziano Vital do Rêgo, Relator \"ad hoc\": Senador Flávio Arns, favorável ao projeto e contrário às Emendas nºs 1 a 5.\n\nPendente de parecer sobre emendas de Plenário.\nDesignado Relator de Plenário o Senador Veneziano Vital do Rêgo.\n\n(Pendente de deliberação do Requerimento nº 88, de 2026, da Comissão de Assuntos Sociais, que solicita urgência para a matéria, nos termos dos arts. 336, II, e 338, IV, do Regimento Interno do Senado Federal).",
+        "Apreciacao": "-",
+        "ApreciacaoPapeleta": "Projeto de Lei nº 6.461, de 2019, do Deputado André de Paula, que ",
+        "EmentaPapeleta": "institui o Estatuto do Aprendiz; e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943 (CLT), e as Leis nºs 6.019, de 3 de janeiro de 1974, e 14.601, de 19 de junho de 2023.",
+        "Cabecalho": "(Estatuto do Aprendiz)",
+        "NomeRelator": "Senador Veneziano Vital Do Rêgo",
+        "NomeAutor": "André de Paula",
+        "TipoPauta": "O",
+        "DescricaoTipoPauta": "Pauta",
+        "SequenciaOrdem": "2"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

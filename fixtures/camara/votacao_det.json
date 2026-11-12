@@ -1,0 +1,73 @@
+{
+ "dados": {
+  "id": "2233802-416",
+  "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-416",
+  "data": "2026-05-27",
+  "dataHoraRegistro": "2026-05-27T20:54:12",
+  "siglaOrgao": "PLEN",
+  "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+  "idOrgao": 180,
+  "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82310",
+  "idEvento": 82310,
+  "descricao": "Aprovado o Requerimento. Sim: 372; Não: 101; Total: 473.",
+  "aprovacao": 1,
+  "descUltimaAberturaVotacao": null,
+  "dataHoraUltimaAberturaVotacao": null,
+  "ultimaApresentacaoProposicao": {
+   "dataHoraRegistro": "2026-05-21T13:31:24",
+   "descricao": "Apresentação do REQ n. 2940/2026 (Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória), pela Deputada Rogéria Santos (REPUBLIC/BA), que \"Requerimento de retirada de assinatura em apoio à EMENDA N.° 02 à PEC 221 de 2019.\n\n\".",
+   "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625745"
+  },
+  "efeitosRegistrados": [],
+  "objetosPossiveis": [
+   {
+    "id": 2628651,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2628651",
+    "siglaTipo": "DTQ",
+    "codTipo": 1012,
+    "numero": 6,
+    "ano": 0,
+    "ementa": "Destaque de Preferência - PEC 221/2019 Turno 1",
+    "dataApresentacao": "2026-05-27T20:44"
+   },
+   {
+    "id": 2628653,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2628653",
+    "siglaTipo": "EMA",
+    "codTipo": 608,
+    "numero": 1,
+    "ano": 0,
+    "ementa": "Emenda Aglutinativa Substitutiva Global.",
+    "dataApresentacao": "2026-05-27T20:40"
+   },
+   {
+    "id": 2628548,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2628548",
+    "siglaTipo": "DTQ",
+    "codTipo": 846,
+    "numero": 5,
+    "ano": 0,
+    "ementa": "Destaque para Votação em Separado - PEC 221/2019 Turno 1",
+    "dataApresentacao": "2026-05-27T19:20"
+   }
+  ],
+  "proposicoesAfetadas": [
+   {
+    "id": 2233802,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2233802",
+    "siglaTipo": "PEC",
+    "codTipo": 136,
+    "numero": 221,
+    "ano": 2019,
+    "ementa": "Altera o Art. 7º inciso XII da constituição Federal, reduzindo a jornada de trabalho a 36 horas semanais em 10 anos.",
+    "dataApresentacao": "2019-12-11T17:37"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2233802-416"
+  }
+ ]
+}

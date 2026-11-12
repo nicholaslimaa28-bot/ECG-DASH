@@ -1,0 +1,46 @@
+{
+ "dados": {
+  "id": 2515534,
+  "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+  "siglaTipo": "PL",
+  "codTipo": 139,
+  "numero": 2475,
+  "ano": 2025,
+  "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+  "dataApresentacao": "2025-05-22T15:13",
+  "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+  "statusProposicao": {
+   "dataHora": "2026-11-11T13:55",
+   "sequencia": 71,
+   "siglaOrgao": "MESA",
+   "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+   "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220701",
+   "regime": "Urgência (Art. 155, RICD)",
+   "descricaoTramitacao": "Desapensação",
+   "codTipoTramitacao": "104",
+   "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+   "codSituacao": 1293,
+   "despacho": "Desapensação do Projeto de Lei nº 4.151, de 2025, apensado, em face da aprovação, em Plenário, da Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania. (Sessão Deliberativa Extraordinária Semipresencial de 11/11/2026 - 13:55 - 179ª Sessão)",
+   "url": null,
+   "ambito": "Regimental",
+   "apreciacao": "Proposição Sujeita à Apreciação do Plenário"
+  },
+  "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/autores",
+  "descricaoTipo": "Projeto de Lei",
+  "ementaDetalhada": "",
+  "keywords": "Alteração, Lei dos Crimes Hediondos (1990), inclusão, Maus-tratos, Morte de animal.",
+  "uriPropPrincipal": null,
+  "uriPropAnterior": null,
+  "uriPropPosterior": null,
+  "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2916380",
+  "urnFinal": null,
+  "texto": null,
+  "justificativa": null
+ },
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
+  }
+ ]
+}

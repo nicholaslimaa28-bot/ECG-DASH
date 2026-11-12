@@ -1,0 +1,95 @@
+{
+ "ListaTiposComparecimento": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/ListaTiposComparecimentov1.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 10:19:54",
+   "VersaoServico": "1",
+   "DataVersaoServico": "2017-02-01",
+   "DescricaoDataSet": "Retorna a lista de tipos de comparecimento em Votação."
+  },
+  "TiposComparecimento": {
+   "TipoComparecimento": [
+    {
+     "Sigla": "AFO",
+     "Descricao": "Afastamento do exercício"
+    },
+    {
+     "Sigla": "AP",
+     "Descricao": "Atividade parlamentar"
+    },
+    {
+     "Sigla": "AUS",
+     "Descricao": "Comunicação de ausência"
+    },
+    {
+     "Sigla": "CAS",
+     "Descricao": "Cassação de registro/diploma pela Justiça Eleitoral"
+    },
+    {
+     "Sigla": "DIS",
+     "Descricao": "Dissolução da Câmara"
+    },
+    {
+     "Sigla": "DJ",
+     "Descricao": "Afastamento por decisão judicial"
+    },
+    {
+     "Sigla": "EP",
+     "Descricao": "No exercício da Presidência da República"
+    },
+    {
+     "Sigla": "EPR",
+     "Descricao": "No exercício da Presidência da República"
+    },
+    {
+     "Sigla": "FAL",
+     "Descricao": "Falecimento"
+    },
+    {
+     "Sigla": "GR",
+     "Descricao": "Grupo de Risco"
+    },
+    {
+     "Sigla": "IL",
+     "Descricao": "Interrupção de licença"
+    },
+    {
+     "Sigla": "IMP",
+     "Descricao": "Impugnação de Mandato"
+    },
+    {
+     "Sigla": "L1",
+     "Descricao": "Missão política/cultural"
+    },
+    {
+     "Sigla": "L2",
+     "Descricao": "Licença saúde"
+    },
+    {
+     "Sigla": "L3",
+     "Descricao": "Licença particular"
+    },
+    {
+     "Sigla": "L4",
+     "Descricao": "Representação da Casa País/Exterior"
+    },
+    {
+     "Sigla": "L5",
+     "Descricao": "Candidatura Presidência/Vice-Presidência"
+    },
+    {
+     "Sigla": "L6",
+     "Descricao": "Solenidade Internacional/Nacional/Regional"
+    },
+    {
+     "Sigla": "L7",
+     "Descricao": "Dispositivo não citado"
+    },
+    {
+     "Sigla": "LA",
+     "Descricao": "Licença à adotante"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "dados": [
+  {
+   "id": 83126,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/83126",
+   "dataHoraInicio": "2026-11-04T10:00",
+   "dataHoraFim": null,
+   "situacao": "Cancelada",
+   "descricaoTipo": "Reunião Deliberativa",
+   "descricao": "Discussão e votação de propostas legislativas",
+   "localExterno": null,
+   "orgaos": [
+    {
+     "id": 2003,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+     "sigla": "CCJC",
+     "nome": "Comissão de Constituição e Justiça e de Cidadania",
+     "apelido": "Constituição e Justiça e de Cidadania",
+     "codTipoOrgao": 2,
+     "tipoOrgao": "Comissão Permanente",
+     "nomePublicacao": "Comissão de Constituição e Justiça e de Cidadania",
+     "nomeResumido": "Constituição e Justiça"
+    }
+   ],
+   "localCamara": {
+    "nome": "Anexo II, Plenário 01",
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": null
+  },
+  {
+   "id": 83159,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+   "dataHoraInicio": "2026-11-04T13:55",
+   "dataHoraFim": "2026-11-04T20:28",
+   "situacao": "Encerrada",
+   "descricaoTipo": "Sessão Deliberativa",
+   "descricao": "Sessão Deliberativa Extraordinária Semipresencial (AM nº 123/2020)",
+   "localExterno": null,
+   "orgaos": [
+    {
+     "id": 180,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+     "sigla": "PLEN",
+     "nome": "Plenário",
+     "apelido": "Plenário",
+     "codTipoOrgao": 26,
+     "tipoOrgao": "Plenário Virtual",
+     "nomePublicacao": "Plenário",
+     "nomeResumido": "Plenário"
+    }
+   ],
+   "localCamara": {
+    "nome": "Plenário da Câmara dos Deputados",
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": "https://www.youtube.com/watch?v=AmljjQupEwk"
+  },
+  {
+   "id": 83075,
+   "uri": "https://dadosabertos.camara.leg.br/api/v2/eventos/83075",
+   "dataHoraInicio": "2026-11-10T14:00",
+   "dataHoraFim": null,
+   "situacao": "Não Confirmada",
+   "descricaoTipo": "Reunião Deliberativa",
+   "descricao": "Apreciação de pareceres\r\n PAUTA  SUJEITA A ALTERAÇÕES\r\n\r\nAPRECIAÇÃO DE PARECERES\r\n\r\n1. Representação nº 8/25, em desfavor do Deputado André Janones - leitura, discussão e votação do Parecer do relator, Deputado Fausto Jr..\r\n\r\n2. Representação nº 14/25, em desfavor do Deputado André Janones - leitura, discussão e votação do Parecer do relator, Deputado Fausto Jr..\r\n\r\n3. Representação nº 15/25, em desfavor do Deputado André Janones - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Acácio Favacho.\r\n\r\n4. Representação nº 1/26, em desfavor do Deputado Lindbergh Farias - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Fernando Rodolfo.\r\n\r\n5. Representação nº 2/26, em desfavor do Deputado Delegado Paulo Bilynskyj - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Delegado Fábio Costa.\r\n\r\n6. Representação nº 3/26, em desfavor da Deputada Célia Xakriabá e outros - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Ricardo Maia.\r\n\r\n7. Representação nº 4/26, em desfavor do Deputado Rogério Correia - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Gutemberg Reis.\r\n\r\n8. Representação nº 5/26, em desfavor do Deputado Rogério Correia - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Moses Rodrigues.\r\n\r\n9. Representação nº 6/26, em desfavor do Deputado Rogério Correia - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Moses Rodrigues.\r\n\r\n10. Representação nº 7/26, em desfavor da Deputada Érika Hilton - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Fernando Rodolfo.\r\n\r\n11. Representação nº 9/26, em desfavor do Deputado Lindbergh Farias - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Acácio Favacho.\r\n\r\n12. Representação nº 10/26, em desfavor do Deputado Alfredo Gaspar - leitura, discussão e votação do Parecer Preliminar do relator, Deputado Ricardo Maia.",
+   "localExterno": null,
+   "orgaos": [
+    {
+     "id": 5971,
+     "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/5971",
+     "sigla": "COETICA",
+     "nome": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados",
+     "apelido": "Conselho de Ética e Decoro Parlamentar",
+     "codTipoOrgao": 11,
+     "tipoOrgao": "Conselho",
+     "nomePublicacao": "Conselho de Ética e Decoro Parlamentar",
+     "nomeResumido": "Conselho de Ética"
+    }
+   ],
+   "localCamara": {
+    "nome": "Anexo II, Plenário 11",
+    "predio": null,
+    "sala": null,
+    "andar": null
+   },
+   "urlRegistro": null
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/eventos?dataInicio=2026-11-01&dataFim=2026-11-12&itens=5"
+  },
+  {
+   "rel": "next",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/eventos?dataInicio=2026-11-01&dataFim=2026-11-12&pagina=2&itens=5"
+  },
+  {
+   "rel": "first",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/eventos?dataInicio=2026-11-01&dataFim=2026-11-12&pagina=1&itens=5"
+  }
+ ]
+}

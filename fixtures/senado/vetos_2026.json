@@ -1,0 +1,177 @@
+{
+ "ListaVetosAnoCN": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/cn/ListaVetosAnoCNv7.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 14:20:01",
+   "VersaoServico": "7",
+   "DataVersaoServico": "2018-08-06",
+   "DescricaoDataSet": "Lista dos vetos ocorridos em determinado ano"
+  },
+  "Vetos": {
+   "Veto": [
+    {
+     "Codigo": "18789",
+     "Materia": {
+      "Codigo": "176246",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "VET",
+      "Numero": "56",
+      "Ano": "2026",
+      "EmTramitacao": "Sim",
+      "Ementa": "Veto parcial aposto ao Projeto de Lei de Conversão (CN) nº 14 de 2026 (oriundo da Medida Provisória nº 1.370 de 2026), que que \"Institui o Exame Nacional de Avaliação da Formação Médica; e altera as Leis nºs 12.871, de 22 de outubro de 2013, 3.268, de 30 de setembro de 1957, 6.932, de 7 de julho de 1981, 13.959, de 18 de dezembro de 2019, e 10.861, de 14 de abril de 2004.\".",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/176246"
+     },
+     "MateriaVetada": {
+      "Codigo": "174819",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "MPV",
+      "Numero": "1370",
+      "Ano": "2026",
+      "EmTramitacao": "Sim",
+      "Ementa": "Altera a Lei nº 12.871, de 22 de outubro de 2013, a Lei nº 3.268, de 30 de setembro de 1957, a Lei nº 6.932, de 7 de julho de 1981, a Lei nº 13.959, de 18 de dezembro de 2019, e a Lei nº 10.861, de 14 de abril de 2004, para dispor sobre o Exame Nacional de Avaliação da  Formação Médica.",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/174819",
+      "UrlRelatorias": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/174819",
+      "NormaGerada": {
+       "NomeNorma": "Lei nº 15.527 de 06/11/2026",
+       "UrlNorma": "https://legis.senado.leg.br/norma/44363487",
+       "CodigoNorma": "44363487",
+       "SiglaTipoNorma": "LEI-n",
+       "DescricaoTipoNorma": "Lei Numerada",
+       "NumeroNorma": "15527",
+       "AnoNorma": "2026",
+       "DataAssinatura": "2026-11-06",
+       "DataPublicacao": "2026-11-06",
+       "SiglaVeiculoPublicacao": "DOUE",
+       "DescricaoVeiculoPublicacao": "[Diário Oficial da União - Edição Extra  de 06/11/2026 - nº 209-A] (p. 1, col. 1)"
+      }
+     },
+     "Mensagem": {
+      "Sigla": "MSG",
+      "Numero": "547",
+      "Ano": "2026",
+      "UrlPlanalto": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/msg/vep/vep-842-26.htm"
+     },
+     "Total": "Não",
+     "Assunto": "Exame Nacional de Avaliação da Formação Médica",
+     "DataRecebimentoCongresso": "2026-11-09",
+     "DataPublicacao": "2026-11-05",
+     "DataSobrestacaoPauta": "2026-12-09",
+     "SobrestandoPauta": "Não",
+     "QuantidadeDispositivos": "1",
+     "UrlDispositivos": "https://www.congressonacional.leg.br/dados/plenario/resultado/veto/materia/176246"
+    },
+    {
+     "Codigo": "18769",
+     "Materia": {
+      "Codigo": "175890",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "VET",
+      "Numero": "55",
+      "Ano": "2026",
+      "EmTramitacao": "Sim",
+      "Ementa": "Veto parcial aposto ao Projeto de Lei nº 2.951, de 2024, que \"Altera a Lei nº 8.171, de 17 de janeiro de 1991, a Lei nº 10.823, de 19 de dezembro de 2003, e a Lei Complementar nº 137, de 26 de agosto de 2010, para aperfeiçoar o marco legal do seguro rural.\".",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/175890"
+     },
+     "MateriaVetada": {
+      "Codigo": "164777",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "PL",
+      "Numero": "2951",
+      "Ano": "2024",
+      "DescricaoObjetivoProcesso": "Iniciadora",
+      "EmTramitacao": "Sim",
+      "Ementa": "Altera a Lei nº 8.171, de 17 de janeiro de 1991, que dispõe sobre a política agrícola; a Lei nº 10.823, de 19 de dezembro de 2003, que dispõe sobre a subvenção econômica ao prêmio do Seguro Rural e dá outras providências; e a Lei Complementar nº 137, de 26 de agosto de 2010, que autoriza a participação da União em fundo destinado à cobertura suplementar dos riscos do seguro rural; bem como revoga dispositivos da Lei Complementar nº 137, de 26 de agosto de 2010, para aperfeiçoar os marcos legais do seguro rural.",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/164777",
+      "UrlRelatorias": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/164777",
+      "NormaGerada": {
+       "NomeNorma": "Lei nº 15.526 de 29/09/2026",
+       "UrlNorma": "https://legis.senado.leg.br/norma/44095919",
+       "CodigoNorma": "44095919",
+       "SiglaTipoNorma": "LEI-n",
+       "DescricaoTipoNorma": "Lei Numerada",
+       "NumeroNorma": "15526",
+       "AnoNorma": "2026",
+       "DataAssinatura": "2026-09-29",
+       "DataPublicacao": "2026-09-30",
+       "SiglaVeiculoPublicacao": "DOU",
+       "DescricaoVeiculoPublicacao": "[Diário Oficial da União  de 30/09/2026] (p. 2, col. 2)"
+      }
+     },
+     "Mensagem": {
+      "Sigla": "MSG",
+      "Numero": "794",
+      "Ano": "2026",
+      "UrlPlanalto": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/Msg/Vep/VEP-794-26.htm"
+     },
+     "Total": "Não",
+     "Assunto": "Marco Legal do Seguro Rural",
+     "Comentario": "O veto incide sobre os dispositivos que tratam sobre a isenção tributária da operação rural e sobre a aquisição de Letra de Risco de Seguro pelo Fundo.",
+     "DataRecebimentoCongresso": "2026-09-30",
+     "DataPublicacao": "2026-09-30",
+     "DataSobrestacaoPauta": "2026-10-30",
+     "SobrestandoPauta": "Sim",
+     "QuantidadeDispositivos": "3",
+     "UrlDispositivos": "https://www.congressonacional.leg.br/dados/plenario/resultado/veto/materia/175890"
+    },
+    {
+     "Codigo": "18749",
+     "Materia": {
+      "Codigo": "175849",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "VET",
+      "Numero": "54",
+      "Ano": "2026",
+      "EmTramitacao": "Sim",
+      "Ementa": "Veto parcial aposto ao Projeto de Lei nº 1.675, de 2023, que \"Dispõe sobre o exercício da atividade de psicopedagogia.\".",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/175849"
+     },
+     "MateriaVetada": {
+      "Codigo": "156730",
+      "SiglaCasa": "CN",
+      "NomeCasa": "Congresso Nacional",
+      "Sigla": "PL",
+      "Numero": "1675",
+      "Ano": "2023",
+      "DescricaoObjetivoProcesso": "Iniciadora",
+      "EmTramitacao": "Sim",
+      "Ementa": "Dispõe sobre o exercício da atividade de Psicopedagogia.",
+      "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/156730",
+      "UrlRelatorias": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/156730",
+      "NormaGerada": {
+       "NomeNorma": "Lei nº 15.519 de 22/09/2026",
+       "UrlNorma": "https://legis.senado.leg.br/norma/43999260",
+       "CodigoNorma": "43999260",
+       "SiglaTipoNorma": "LEI-n",
+       "DescricaoTipoNorma": "Lei Numerada",
+       "NumeroNorma": "15519",
+       "AnoNorma": "2026",
+       "DataAssinatura": "2026-09-22",
+       "DataPublicacao": "2026-09-23",
+       "SiglaVeiculoPublicacao": "DOU",
+       "DescricaoVeiculoPublicacao": "[Diário Oficial da União  de 23/09/2026] (p. 5, col. 1)"
+      }
+     },
+     "Mensagem": {
+      "Sigla": "MSG",
+      "Numero": "774",
+      "Ano": "2026",
+      "UrlPlanalto": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/msg/vep/vep-774-26.htm"
+     },
+     "Total": "Não",
+     "Assunto": "Atividade de Psicopedagogia",
+     "DataRecebimentoCongresso": "2026-09-23",
+     "DataPublicacao": "2026-09-23",
+     "DataSobrestacaoPauta": "2026-10-23",
+     "SobrestandoPauta": "Sim",
+     "QuantidadeDispositivos": "5",
+     "UrlDispositivos": "https://www.congressonacional.leg.br/dados/plenario/resultado/veto/materia/175849"
+    }
+   ]
+  }
+ }
+}

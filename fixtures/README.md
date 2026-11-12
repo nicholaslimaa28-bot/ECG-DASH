@@ -1,0 +1,9 @@
+# Fixtures — amostras reais das fontes
+
+Coletadas em 12/11/2026 durante a Fase 0 (ver `docs/fontes.md`). Cada lista foi reduzida a no máximo 3 itens e campos de CPF foram substituídos por `<removido>`. Serão usadas nos testes dos normalizadores.
+
+- `camara/` — API v2 da Câmara (`dadosabertos.camara.leg.br/api/v2`)
+- `senado/` — API do Senado/Congresso (`legis.senado.leg.br/dadosabertos`)
+- `dou/` — `jsonArray` extraído de `in.gov.br/leiturajornal` (DO1 de 11/11/2026)
+- `planalto/` — trecho do HTML da agenda do Presidente de 11/11/2026
+- `datajud/` — resposta de `api_publica_tst/_search`

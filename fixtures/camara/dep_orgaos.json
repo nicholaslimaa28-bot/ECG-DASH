@@ -1,0 +1,51 @@
+{
+ "dados": [
+  {
+   "idOrgao": 537507,
+   "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537507",
+   "siglaOrgao": "GTCL",
+   "nomeOrgao": "Grupo de Trabalho de Consolidação das Leis",
+   "nomePublicacao": "Grupo de Trabalho para Consolidação da Legislação Brasileira",
+   "titulo": "Titular",
+   "codTitulo": "101",
+   "dataInicio": "2025-04-30T00:00",
+   "dataFim": null
+  },
+  {
+   "idOrgao": 5971,
+   "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/5971",
+   "siglaOrgao": "COETICA",
+   "nomeOrgao": "Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados",
+   "nomePublicacao": "Conselho de Ética e Decoro Parlamentar",
+   "titulo": "Titular",
+   "codTitulo": "101",
+   "dataInicio": "2025-07-01T00:00",
+   "dataFim": null
+  },
+  {
+   "idOrgao": 6174,
+   "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6174",
+   "siglaOrgao": "CMADS",
+   "nomeOrgao": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "nomePublicacao": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "titulo": "Suplente",
+   "codTitulo": "102",
+   "dataInicio": "2026-03-03T00:00",
+   "dataFim": null
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/orgaos?itens=5"
+  },
+  {
+   "rel": "first",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/orgaos?pagina=1&itens=5"
+  },
+  {
+   "rel": "last",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/orgaos?pagina=1&itens=5"
+  }
+ ]
+}

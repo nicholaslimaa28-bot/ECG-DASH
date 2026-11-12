@@ -1,0 +1,50 @@
+[
+ {
+  "dataHora": "2025-05-22T15:13",
+  "sequencia": 1,
+  "siglaOrgao": "PLEN",
+  "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+  "uriUltimoRelator": null,
+  "regime": "Urgência (Art. 155, RICD)",
+  "descricaoTramitacao": "Apresentação de Proposição",
+  "codTipoTramitacao": "100",
+  "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+  "codSituacao": 1293,
+  "despacho": "Apresentação do PL n. 2475/2025 (Projeto de Lei), pelo Deputado Célio Studart (PSD/CE), que \"Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal\".",
+  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2916380",
+  "ambito": "Regimental",
+  "apreciacao": "Proposição Sujeita à Apreciação do Plenário"
+ },
+ {
+  "dataHora": "2025-06-11T13:23",
+  "sequencia": 7,
+  "siglaOrgao": "MESA",
+  "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+  "uriUltimoRelator": null,
+  "regime": "Urgência (Art. 155, RICD)",
+  "descricaoTramitacao": "Distribuição",
+  "codTipoTramitacao": "110",
+  "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+  "codSituacao": 1293,
+  "despacho": "Às Comissões de Meio Ambiente e Desenvolvimento Sustentável e Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do PlenárioRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2924976",
+  "ambito": "Regimental",
+  "apreciacao": "Proposição Sujeita à Apreciação do Plenário"
+ },
+ {
+  "dataHora": "2025-06-12T00:00",
+  "sequencia": 14,
+  "siglaOrgao": "CCP",
+  "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+  "uriUltimoRelator": null,
+  "regime": "Urgência (Art. 155, RICD)",
+  "descricaoTramitacao": "Publicação de Proposição",
+  "codTipoTramitacao": "604",
+  "descricaoSituacao": "Aguardando Encaminhamento",
+  "codSituacao": 910,
+  "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 13/06/2025.",
+  "url": null,
+  "ambito": "Regimental",
+  "apreciacao": "Proposição Sujeita à Apreciação do Plenário"
+ }
+]

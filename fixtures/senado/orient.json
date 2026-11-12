@@ -1,0 +1,168 @@
+{
+ "votacoes": [
+  {
+   "codigoVotacaoSve": 13396,
+   "sequencialVotacao": 4423,
+   "descricaoVotacao": "Requerimentos do Relator, para que as Emendas nºs 84 e 87 passem a constituir proposições em separado.",
+   "dataInicioVotacao": "2026-11-03T18:40:28",
+   "dataTerminoVotacao": "2026-11-03T18:52:04",
+   "siglaTipoMateria": "PEC",
+   "descricaoMateria": "Requerimentos nºs 741 e 742, de 2026, do Relator",
+   "numeroMateria": 18,
+   "anoMateria": 2025,
+   "dispositivo": null,
+   "descricaoSessao": "Sessão Deliberativa Ordinária, às 14 horas",
+   "tipoSessao": "Deliberativa Ordinária",
+   "numeroSessao": 139,
+   "presidenteSessao": "Davi Alcolumbre",
+   "qtdVotosSim": 38,
+   "qtdVotosNao": 36,
+   "qtdVotosAbstencao": 1,
+   "qtdObstrucoes": 0,
+   "quorumInicial": 76,
+   "quorumFinal": 79,
+   "orientacoesLideranca": [
+    {
+     "dataHora": "2026-11-03T18:44:26",
+     "partido": "Republicanos",
+     "voto": "NÃO"
+    },
+    {
+     "dataHora": "2026-11-03T18:44:51",
+     "partido": "PSD",
+     "voto": "SIM"
+    },
+    {
+     "dataHora": "2026-11-03T18:41:53",
+     "partido": "PT",
+     "voto": "SIM"
+    }
+   ],
+   "votosParlamentar": [
+    {
+     "nomeParlamentar": "Angelo Coronel",
+     "partido": "Republicanos",
+     "voto": "NÃO",
+     "uf": "BA"
+    },
+    {
+     "nomeParlamentar": "Roberta Acioly",
+     "partido": "Republicanos",
+     "voto": "NÃO",
+     "uf": "RR"
+    },
+    {
+     "nomeParlamentar": "Flávio Bolsonaro",
+     "partido": "PL",
+     "voto": "NÃO",
+     "uf": "RJ"
+    }
+   ],
+   "votosLideranca": []
+  },
+  {
+   "codigoVotacaoSve": 13353,
+   "sequencialVotacao": 4424,
+   "descricaoVotacao": "Altera a Constituição Federal para redefinir regras sobre segurança pública, defesa social, sistema penitenciário e atividade de inteligência (PEC da Segurança Pública).",
+   "dataInicioVotacao": "2026-11-03T19:00:40",
+   "dataTerminoVotacao": "2026-11-03T19:06:06",
+   "siglaTipoMateria": "PEC",
+   "descricaoMateria": "Proposta de Emenda à Constituição nº 18, de 2025, nos termos dos pareceres, ressalvado o destaque (1º Turno)",
+   "numeroMateria": 18,
+   "anoMateria": 2025,
+   "dispositivo": null,
+   "descricaoSessao": "Sessão Deliberativa Ordinária, às 14 horas",
+   "tipoSessao": "Deliberativa Ordinária",
+   "numeroSessao": 139,
+   "presidenteSessao": "Davi Alcolumbre",
+   "qtdVotosSim": 73,
+   "qtdVotosNao": 0,
+   "qtdVotosAbstencao": 0,
+   "qtdObstrucoes": 0,
+   "quorumInicial": 79,
+   "quorumFinal": 80,
+   "orientacoesLideranca": [
+    {
+     "dataHora": "2026-11-03T19:01:15",
+     "partido": "PDT",
+     "voto": "SIM"
+    },
+    {
+     "dataHora": "2026-11-03T19:01:15",
+     "partido": "PSB",
+     "voto": "SIM"
+    },
+    {
+     "dataHora": "2026-11-03T19:01:15",
+     "partido": "Governo",
+     "voto": "SIM"
+    }
+   ],
+   "votosParlamentar": [
+    {
+     "nomeParlamentar": "Daniella Ribeiro",
+     "partido": "Progressistas",
+     "voto": "SIM",
+     "uf": "PB"
+    },
+    {
+     "nomeParlamentar": "Leany Lemos",
+     "partido": "PSB",
+     "voto": "SIM",
+     "uf": "DF"
+    },
+    {
+     "nomeParlamentar": "Veneziano Vital Rêgo",
+     "partido": "MDB",
+     "voto": "SIM",
+     "uf": "PB"
+    }
+   ],
+   "votosLideranca": []
+  },
+  {
+   "codigoVotacaoSve": 13355,
+   "sequencialVotacao": 4425,
+   "descricaoVotacao": null,
+   "dataInicioVotacao": "2026-11-03T19:18:38",
+   "dataTerminoVotacao": "2026-11-03T19:22:51",
+   "siglaTipoMateria": "PEC",
+   "descricaoMateria": "Emenda nº 85 à Proposta de Emenda à Constituição nº 18, de 2025, nos termos do acordo de Plenário",
+   "numeroMateria": 18,
+   "anoMateria": 2025,
+   "dispositivo": "Emenda nº 85",
+   "descricaoSessao": "Sessão Deliberativa Ordinária, às 14 horas",
+   "tipoSessao": "Deliberativa Ordinária",
+   "numeroSessao": 139,
+   "presidenteSessao": "Davi Alcolumbre",
+   "qtdVotosSim": 67,
+   "qtdVotosNao": 0,
+   "qtdVotosAbstencao": 0,
+   "qtdObstrucoes": 0,
+   "quorumInicial": 80,
+   "quorumFinal": 80,
+   "orientacoesLideranca": [],
+   "votosParlamentar": [
+    {
+     "nomeParlamentar": "Nelsinho Trad",
+     "partido": "PSD",
+     "voto": "SIM",
+     "uf": "MS"
+    },
+    {
+     "nomeParlamentar": "Ivete da Silveira ",
+     "partido": "MDB",
+     "voto": "SIM",
+     "uf": "SC"
+    },
+    {
+     "nomeParlamentar": "Prof. Dorinha Seabra",
+     "partido": "UNIÃO",
+     "voto": "SIM",
+     "uf": "TO"
+    }
+   ],
+   "votosLideranca": []
+  }
+ ]
+}

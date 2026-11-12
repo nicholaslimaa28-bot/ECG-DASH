@@ -1,0 +1,1484 @@
+{
+ "AgendaReuniao": {
+  "Metadados": {
+   "Versao": "12/11/2026 13:53:11",
+   "VersaoServico": "2",
+   "DataVersaoServico": "2020-08-07",
+   "DescricaoDataSet": "Agenda das Reuniões das Comissões na data informada."
+  },
+  "reunioes": {
+   "reuniao": [
+    {
+     "codigo": "15032",
+     "versao": "2026-11-11T11:44:05.445",
+     "descricao": "11ª, Reunião - Semipresencial",
+     "titulo": "11ª Reunião Semipresencial",
+     "colegiadoCriador": {
+      "codigo": "1774",
+      "sigla": "CMCVM",
+      "nome": "Comissão Permanente Mista de Combate à Violência contra a Mulher",
+      "siglaCasa": "CN",
+      "codigoTipo": "41",
+      "descricaoTipo": "Comissão Permanente",
+      "materiasOriginadoras": {
+       "nomeFormatado": "OFN 12/2015",
+       "sigla": "OFN",
+       "numero": "00012",
+       "ano": "2015",
+       "idProcesso": "2600591",
+       "codMateriaLegado": "119800"
+      }
+     },
+     "dataInicio": "2026-11-11T14:30:00.000",
+     "dataInicioFormatadaComObsHorario": "11/11/2026 às 14h30",
+     "isExibirNoPortal": "true",
+     "confirmada": "false",
+     "realizada": "false",
+     "foiAgendadaAposTerSidoSuspensa": "false",
+     "codigoSituacao": "2",
+     "situacao": "Não Realizada",
+     "status": "Cancelada",
+     "descricaoDeNaoRealizacao": "Cancelada",
+     "secreta": "false",
+     "local": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 6",
+     "numReuniao": "11",
+     "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/7336bd29-f5e3-4527-b748-b9bf9e703637",
+     "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/8cc17d1b-bd7e-4efd-ba41-f06a75386429",
+     "idUltimaPublicacaoPautaSimples": "7336bd29-f5e3-4527-b748-b9bf9e703637",
+     "tipoPresenca": "Semipresencial",
+     "continuacaoCancelada": "false",
+     "tipo": {
+      "codigo": "5",
+      "descricao": "Reunião",
+      "sigla": "REU"
+     },
+     "sessaoLegislativa": {
+      "codigo": "874",
+      "numeroLegislatura": "57",
+      "numero": "4",
+      "descricao": "57a. Legislatura (2026) - 4a. Sessão Legislativa Ordinária",
+      "inicio": "2026-02-02",
+      "fim": "2026-12-22"
+     },
+     "permitePresencaApp": "true",
+     "permiteVotacaoSemPresencaFisica": "true",
+     "possuiVotacaoSecreta": "false",
+     "dataReuniao": [
+      {
+       "codigo": "69205",
+       "dataEvento": "2026-11-11T11:41:00.000",
+       "codigoSituacao": "2",
+       "descricaoSituacao": "Não Realizada",
+       "realizada": "false",
+       "rotuloDivulgacao": "Cancelada"
+      },
+      {
+       "codigo": "69187",
+       "dataEvento": "2026-11-11T14:30:00.000",
+       "codigoSituacao": "1",
+       "descricaoSituacao": "Agendada",
+       "realizada": "false"
+      }
+     ],
+     "colegiados": {
+      "codigo": "1774",
+      "nome": "Comissão Permanente Mista de Combate à Violência contra a Mulher",
+      "sigla": "CMCVM",
+      "siglaCasa": "CN",
+      "codigoTipoColegiado": "41",
+      "nomeTipoColegiado": "Comissão Permanente",
+      "numeroReuniao": "11",
+      "isSubcomissao": "false",
+      "composicaoPublica": "true",
+      "publicoPortal": "true"
+     },
+     "partes": {
+      "codigo": "19359",
+      "nome": "Deliberativa",
+      "codigoTipo": "2",
+      "descricaoTipo": "Deliberativa",
+      "sequencial": "1",
+      "sequencialFormatado": "1ª PARTE",
+      "isDeliberativa": "true",
+      "finalidade": "Apreciação de Requerimentos.",
+      "itens": [
+       {
+        "codigo": "112940",
+        "tipo": "MATE",
+        "ordem": "1",
+        "nome": "REQ 42/2026 - CMCVM",
+        "nomeFormatadoComOrdem": "1 - REQ 42/2026 - CMCVM",
+        "descricao": "REQ 42/2026 - CMCVM",
+        "autorItemPauta": {
+         "nomeAutoria": "Deputada Federal Luizianne Lins (REDE/CE)",
+         "isParlamentar": "true",
+         "isColegiado": "false",
+         "possuiOutrosAutores": "false",
+         "tipoAutoriaDomaSigla": "DEPUTADO",
+         "tipoAutoriaDomaDescricao": "Deputado",
+         "parlamentar": {
+          "codigo": "5701",
+          "nome": "Luizianne Lins",
+          "sexo": "F",
+          "isDeputado": "false",
+          "isSenador": "true",
+          "partidoSigla": "REDE"
+         }
+        },
+        "isTerminativo": "false",
+        "tipoPauta": "Pauta",
+        "categoria": "Matéria",
+        "classificacao": {
+         "codigo": "1",
+         "descricao": "Vinculado a uma matéria"
+        },
+        "ordemDeliberacao": "2",
+        "apreciado": "false",
+        "emDeliberacao": "false",
+        "revisado": "false",
+        "resultadoPublico": "false",
+        "cabecalhoParecer": "REQ 42/2026 - CMCVM",
+        "dataHoraEstadoAtual": "2026-11-10T14:09:35.000",
+        "textosPauta": {
+         "ordemNaPauta": "1",
+         "idDoma": "10347206",
+         "idProcesso": "9124417",
+         "identificacao": "Requerimento",
+         "descricaoTipoDoma": "Requerimento",
+         "siglaTipoDoma": "REQUERIMENTO",
+         "dataAtualizacao": "2026-11-10",
+         "codigoColegiado": "1774",
+         "siglaColegiado": "CMCVM",
+         "conteudoInformacional": "REQ 42/2026 - CMCVM",
+         "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/88bed94b-5f3f-4700-9d43-e920c556cdc4",
+         "descricao": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, a realização de Seminário e Exposição para demonstração de experiências exitosas de tecnologias utilizadas no combate à violência contra a mulher, no âmbito dos 21 Dias de Ativismo de combate à violência contra a Mulher."
+        },
+        "doma": {
+         "idDoma": "10347206",
+         "idProcesso": "9124417",
+         "autoria": "Deputada Federal Luizianne Lins (REDE/CE)",
+         "idTipoDoma": "87",
+         "numeroSedol": "CD262419691200",
+         "descricaoTipoDoma": "Requerimento",
+         "siglaTipoDoma": "REQUERIMENTO",
+         "ementa": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, a realização de Seminário e Exposição para demonstração de experiências exitosas de tecnologias utilizadas no combate à violência contra a mulher, no âmbito dos 21 Dias de Ativismo de combate à violência contra a Mulher.",
+         "dataApresentacao": "2026-11-10T12:58:02.000",
+         "sigla": "REQ",
+         "numero": "00042",
+         "ano": "2026",
+         "identificacao": "REQ 42/2026 - CMCVM",
+         "identificacaoPorExtenso": "Requerimento da Comissão Permanente Mista de Combate à Violência contra a Mulher n° 42, de 2026",
+         "idConteudoInformacional": "7674650",
+         "codigoMateria": "176267",
+         "siglaPorExtenso": "Requerimento",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": {
+          "idDoma": "10347206",
+          "idProcesso": "9124417",
+          "identificacao": "Requerimento",
+          "descricaoTipoDoma": "Requerimento",
+          "siglaTipoDoma": "REQUERIMENTO",
+          "dataAtualizacao": "2026-11-10",
+          "codigoColegiado": "1774",
+          "conteudoInformacional": "REQ 42/2026 - CMCVM",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/88bed94b-5f3f-4700-9d43-e920c556cdc4",
+          "descricao": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, a realização de Seminário e Exposição para demonstração de experiências exitosas de tecnologias utilizadas no combate à violência contra a mulher, no âmbito dos 21 Dias de Ativismo de combate à violência contra a Mulher."
+         },
+         "autorias": {
+          "ordem": "1",
+          "siglaTipo": "DEPUTADO",
+          "descricaoTipo": "Deputado",
+          "isAutoriaComOutros": "false",
+          "nome": "Luizianne Lins",
+          "tratamento": "Deputada",
+          "parlamentar": {
+           "codigo": "5701",
+           "nome": "Luizianne de Oliveira Lins",
+           "nomeParlamentar": "Luizianne Lins",
+           "sexo": "F",
+           "cargo": "Deputada",
+           "nomeComCargo": "Deputada Luizianne Lins",
+           "nomeComCargoResumido": "Dep. Luizianne Lins",
+           "casa": "CD",
+           "ufPartido": "CE",
+           "siglaPartido": "REDE",
+           "partido": "Rede Sustentabilidade",
+           "codigoDeputado": "178866",
+           "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/178866.jpgmaior.jpg",
+           "urlPagina": "https://www.camara.leg.br/deputados/178866",
+           "isSenador": "false",
+           "isDeputado": "true",
+           "data": "2026-11-10T00:00:00.000"
+          }
+         }
+        },
+        "possuiVotacaoSecreta": "false",
+        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/88bed94b-5f3f-4700-9d43-e920c556cdc4"
+       },
+       {
+        "codigo": "112941",
+        "tipo": "MATE",
+        "ordem": "2",
+        "nome": "REQ 43/2026 - CMCVM",
+        "nomeFormatadoComOrdem": "2 - REQ 43/2026 - CMCVM",
+        "descricao": "REQ 43/2026 - CMCVM",
+        "autorItemPauta": {
+         "nomeAutoria": "Deputada Federal Luizianne Lins (REDE/CE)",
+         "isParlamentar": "true",
+         "isColegiado": "false",
+         "possuiOutrosAutores": "false",
+         "tipoAutoriaDomaSigla": "DEPUTADO",
+         "tipoAutoriaDomaDescricao": "Deputado",
+         "parlamentar": {
+          "codigo": "5701",
+          "nome": "Luizianne Lins",
+          "sexo": "F",
+          "isDeputado": "false",
+          "isSenador": "true",
+          "partidoSigla": "REDE"
+         }
+        },
+        "isTerminativo": "false",
+        "tipoPauta": "Pauta",
+        "categoria": "Matéria",
+        "classificacao": {
+         "codigo": "1",
+         "descricao": "Vinculado a uma matéria"
+        },
+        "ordemDeliberacao": "2",
+        "apreciado": "false",
+        "emDeliberacao": "false",
+        "revisado": "false",
+        "resultadoPublico": "false",
+        "cabecalhoParecer": "REQ 43/2026 - CMCVM",
+        "dataHoraEstadoAtual": "2026-11-10T14:12:46.000",
+        "textosPauta": {
+         "ordemNaPauta": "1",
+         "idDoma": "10347231",
+         "idProcesso": "9124422",
+         "identificacao": "Requerimento",
+         "descricaoTipoDoma": "Requerimento",
+         "siglaTipoDoma": "REQUERIMENTO",
+         "dataAtualizacao": "2026-11-10",
+         "codigoColegiado": "1774",
+         "siglaColegiado": "CMCVM",
+         "conteudoInformacional": "REQ 43/2026 - CMCVM",
+         "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/edf9ea01-806b-4780-a9cd-52f97f91edff",
+         "descricao": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, do Regimento Comum do Congresso Nacional, a realização de audiência pública para discutir a importância da autonomia econômica das mulheres no combate à violência."
+        },
+        "doma": {
+         "idDoma": "10347231",
+         "idProcesso": "9124422",
+         "autoria": "Deputada Federal Luizianne Lins (REDE/CE)",
+         "idTipoDoma": "87",
+         "numeroSedol": "CD265074220800",
+         "descricaoTipoDoma": "Requerimento",
+         "siglaTipoDoma": "REQUERIMENTO",
+         "ementa": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, do Regimento Comum do Congresso Nacional, a realização de audiência pública para discutir a importância da autonomia econômica das mulheres no combate à violência.",
+         "dataApresentacao": "2026-11-10T12:58:03.000",
+         "sigla": "REQ",
+         "numero": "00043",
+         "ano": "2026",
+         "identificacao": "REQ 43/2026 - CMCVM",
+         "identificacaoPorExtenso": "Requerimento da Comissão Permanente Mista de Combate à Violência contra a Mulher n° 43, de 2026",
+         "idConteudoInformacional": "7674651",
+         "codigoMateria": "176268",
+         "siglaPorExtenso": "Requerimento",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": {
+          "idDoma": "10347231",
+          "idProcesso": "9124422",
+          "identificacao": "Requerimento",
+          "descricaoTipoDoma": "Requerimento",
+          "siglaTipoDoma": "REQUERIMENTO",
+          "dataAtualizacao": "2026-11-10",
+          "codigoColegiado": "1774",
+          "conteudoInformacional": "REQ 43/2026 - CMCVM",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/edf9ea01-806b-4780-a9cd-52f97f91edff",
+          "descricao": "Requeiro, nos termos do art. 58, §2º, inciso II, da Constituição Federal, combinado com o art. 3º, inciso III e V, da Resolução do Congresso Nacional nº 1, de 2014, do Regimento Comum do Congresso Nacional, a realização de audiência pública para discutir a importância da autonomia econômica das mulheres no combate à violência."
+         },
+         "autorias": {
+          "ordem": "1",
+          "siglaTipo": "DEPUTADO",
+          "descricaoTipo": "Deputado",
+          "isAutoriaComOutros": "false",
+          "nome": "Luizianne Lins",
+          "tratamento": "Deputada",
+          "parlamentar": {
+           "codigo": "5701",
+           "nome": "Luizianne de Oliveira Lins",
+           "nomeParlamentar": "Luizianne Lins",
+           "sexo": "F",
+           "cargo": "Deputada",
+           "nomeComCargo": "Deputada Luizianne Lins",
+           "nomeComCargoResumido": "Dep. Luizianne Lins",
+           "casa": "CD",
+           "ufPartido": "CE",
+           "siglaPartido": "REDE",
+           "partido": "Rede Sustentabilidade",
+           "codigoDeputado": "178866",
+           "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/178866.jpgmaior.jpg",
+           "urlPagina": "https://www.camara.leg.br/deputados/178866",
+           "isSenador": "false",
+           "isDeputado": "true",
+           "data": "2026-11-10T00:00:00.000"
+          }
+         }
+        },
+        "possuiVotacaoSecreta": "false",
+        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/edf9ea01-806b-4780-a9cd-52f97f91edff"
+       }
+      ]
+     },
+     "videos": {
+      "codigo": "8196",
+      "ordem": "1",
+      "url": "https://www.youtube.com/watch?v=3OApTi1T0uI",
+      "titulo": "Ao vivo: Reunião da Comissão Mista Permanente de Combate à Violência Contra Mulher – 11/11/26",
+      "dataHoraReuniao": "2026-11-11T14:30:00.000"
+     },
+     "localReuniao": {
+      "codigo": "3",
+      "descricao": "Anexo II, Ala Senador Nilo Coelho, Plenário nº 6",
+      "ordem": "22",
+      "suportaSve": "true"
+     }
+    },
+    {
+     "codigo": "15026",
+     "versao": "2026-11-11T16:12:05.161",
+     "descricao": "39ª, Extraordinária - Semipresencial",
+     "titulo": "39ª Reunião Extraordinária Semipresencial",
+     "colegiadoCriador": {
+      "codigo": "47",
+      "sigla": "CE",
+      "nome": "Comissão de Educação e Cultura",
+      "siglaCasa": "SF",
+      "codigoTipo": "21",
+      "descricaoTipo": "Comissão Permanente"
+     },
+     "dataInicio": "2026-11-11T14:00:00.000",
+     "dataInicioFormatadaComObsHorario": "11/11/2026 às 14h",
+     "isExibirNoPortal": "true",
+     "confirmada": "false",
+     "realizada": "true",
+     "foiAgendadaAposTerSidoSuspensa": "false",
+     "codigoSituacao": "6",
+     "situacao": "Realizada",
+     "status": "Realizada",
+     "secreta": "false",
+     "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 15",
+     "numReuniao": "39",
+     "linkECidadania": "https://www12.senado.leg.br/ecidadania/visualizacaoaudiencia?id=41050",
+     "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/62e4f97c-1675-470c-a33b-0d87f64bad27",
+     "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/dc26f392-72ac-4ab4-a206-3782a0892847",
+     "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/68aa339e-afad-4609-8307-adbad9303b67",
+     "idUltimaPublicacaoPautaSimples": "62e4f97c-1675-470c-a33b-0d87f64bad27",
+     "idUltimaPublicacaoResultado": "68aa339e-afad-4609-8307-adbad9303b67",
+     "tipoPresenca": "Semipresencial",
+     "continuacaoCancelada": "false",
+     "tipo": {
+      "codigo": "2",
+      "descricao": "Extraordinária",
+      "sigla": "EXT"
+     },
+     "sessaoLegislativa": {
+      "codigo": "874",
+      "numeroLegislatura": "57",
+      "numero": "4",
+      "descricao": "57a. Legislatura (2026) - 4a. Sessão Legislativa Ordinária",
+      "inicio": "2026-02-02",
+      "fim": "2026-12-22"
+     },
+     "permitePresencaApp": "true",
+     "permiteVotacaoSemPresencaFisica": "true",
+     "possuiVotacaoSecreta": "false",
+     "presidente": {
+      "codigo": "5936",
+      "nome": "Carlos Francisco Portinho",
+      "nomeParlamentar": "Carlos Portinho",
+      "sexo": "M",
+      "cargo": "Senador",
+      "nomeComCargo": "Senador Carlos Portinho",
+      "nomeComCargoResumido": "Sen. Carlos Portinho",
+      "casa": "SF",
+      "ufPartido": "RJ",
+      "siglaPartido": "PL",
+      "partido": "Partido Liberal",
+      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5936.jpg",
+      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5936",
+      "isSenador": "true",
+      "isDeputado": "false",
+      "data": "2026-11-11T00:00:00.000",
+      "liderancas": {
+       "titulo": "Líder do Senado Federal",
+       "siglaPartido": "PL",
+       "nomePartido": "Partido Liberal"
+      }
+     },
+     "dataReuniao": [
+      {
+       "codigo": "69221",
+       "dataEvento": "2026-11-11T15:57:00.000",
+       "codigoSituacao": "6",
+       "descricaoSituacao": "Realizada",
+       "realizada": "true"
+      },
+      {
+       "codigo": "69215",
+       "dataEvento": "2026-11-11T14:43:00.000",
+       "codigoSituacao": "3",
+       "descricaoSituacao": "Aberta",
+       "realizada": "false"
+      },
+      {
+       "codigo": "69175",
+       "dataEvento": "2026-11-11T14:00:00.000",
+       "codigoSituacao": "1",
+       "descricaoSituacao": "Agendada",
+       "realizada": "false"
+      }
+     ],
+     "colegiados": {
+      "codigo": "47",
+      "nome": "Comissão de Educação e Cultura",
+      "sigla": "CE",
+      "siglaCasa": "SF",
+      "codigoTipoColegiado": "21",
+      "nomeTipoColegiado": "Comissão Permanente",
+      "numeroReuniao": "39",
+      "isSubcomissao": "false",
+      "composicaoPublica": "true",
+      "publicoPortal": "true"
+     },
+     "partes": {
+      "codigo": "19352",
+      "nome": "Audiência Pública Interativa",
+      "codigoTipo": "1",
+      "descricaoTipo": "Audiência Pública Interativa",
+      "sequencial": "1",
+      "sequencialFormatado": "1ª PARTE",
+      "isDeliberativa": "false",
+      "evento": {
+       "codigo": "10503",
+       "finalidade": "Discutir a instituição do Dia Nacional da Cachaça Brasileira.",
+       "isPublicado": "true",
+       "isRealizado": "true",
+       "observacoes": "A reunião será interativa, transmitida ao vivo e aberta à participação dos interessados por meio do portal e-cidadania, na internet, em senado.leg.br/ecidadania ou pelo telefone da ouvidoria 0800 061 22 11.",
+       "resultadoTexto": "Audiência pública realizada.",
+       "convidados": [
+        {
+         "codigo": "43799",
+         "ordem": "1",
+         "tratamento": "Sr.",
+         "nome": "Leonardo Barci Castriota",
+         "sexo": "M",
+         "cargo": "Representante do Conselho Internacional de Monumentos e Sítios (ICOMOS)",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false",
+         "codigoSituacao": "4"
+        },
+        {
+         "codigo": "43800",
+         "ordem": "2",
+         "tratamento": "Sra.",
+         "nome": "Andressa Beig Jordão",
+         "sexo": "F",
+         "cargo": "Diretora Executiva do Instituto Brasileiro da Cachaça (IBRAC)",
+         "representanteDe": "IBRAC e Associação dos Produtores e Amigos da Cachaça do Rio de Janeiro (APACERJ)",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false",
+         "codigoSituacao": "2"
+        },
+        {
+         "codigo": "43804",
+         "ordem": "3",
+         "tratamento": "Sra.",
+         "nome": "Fernanda Cesar de Morais",
+         "sexo": "F",
+         "cargo": "Representante comercial da Indústria e Comércio de Bebidas Seleta",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false",
+         "codigoSituacao": "2"
+        }
+       ],
+       "participantes": [
+        {
+         "codigo": "34178",
+         "ordem": "1",
+         "tratamento": "Sr.",
+         "nome": "Leonardo Barci Castriota",
+         "sexo": "M",
+         "cargo": "Representante do Conselho Internacional de Monumentos e Sítios (ICOMOS)",
+         "codigoConvidado": "43799",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false"
+        },
+        {
+         "codigo": "34176",
+         "ordem": "2",
+         "tratamento": "Sra.",
+         "nome": "Andressa Beig Jordão",
+         "sexo": "F",
+         "cargo": "Diretora Executiva do Instituto Brasileiro da Cachaça (IBRAC)",
+         "representanteDe": "IBRAC e Associação dos Produtores e Amigos da Cachaça do Rio de Janeiro (APACERJ)",
+         "apresentacoes": {
+          "idEcmSenado": "fb603af9-2e6e-4324-a358-cf18331bb114",
+          "descricao": "Apresentação",
+          "nome": "Apresentacao_IBRAC_AP_Senado_Dia1309.pdf",
+          "mimeType": "application/pdf",
+          "linkDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/fb603af9-2e6e-4324-a358-cf18331bb114"
+         },
+         "codigoConvidado": "43800",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false"
+        },
+        {
+         "codigo": "34177",
+         "ordem": "3",
+         "tratamento": "Sra.",
+         "nome": "Fernanda Cesar de Morais",
+         "sexo": "F",
+         "cargo": "Representante comercial da Indústria e Comércio de Bebidas Seleta",
+         "codigoConvidado": "43804",
+         "isDepoentePresente": "false",
+         "isPorVideoConferencia": "false"
+        }
+       ],
+       "domasRelacionados": {
+        "finalidade": "C",
+        "descricaoFinalidade": "Solicitação de realização de Audiência Pública Interativa",
+        "ordem": "1",
+        "doma": {
+         "idDoma": "10223003",
+         "idProcesso": "9048017",
+         "autoria": "Senador Carlos Portinho (PL/RJ), Senadora Teresa Leitão (PT/PE), Senadora Jussara Lima (PSD/PI)",
+         "idTipoDoma": "87",
+         "numeroSedol": "SF265528799507",
+         "descricaoTipoDoma": "Requerimento",
+         "siglaTipoDoma": "REQUERIMENTO",
+         "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de discutir a instituição do Dia Nacional da Cachaça Brasileira.",
+         "dataApresentacao": "2026-05-14T15:03:00.000",
+         "sigla": "REQ",
+         "numero": "00030",
+         "ano": "2026",
+         "identificacao": "REQ 30/2026 - CE",
+         "identificacaoPorExtenso": "Requerimento da Comissão de Educação e Cultura n° 30, de 2026",
+         "idConteudoInformacional": "7657527",
+         "codigoMateria": "174158",
+         "siglaPorExtenso": "Requerimento",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": [
+          {
+           "idDoma": "10223003",
+           "idProcesso": "9048017",
+           "identificacao": "Requerimento",
+           "descricaoTipoDoma": "Requerimento",
+           "siglaTipoDoma": "REQUERIMENTO",
+           "dataAtualizacao": "2026-05-14",
+           "codigoColegiado": "47",
+           "conteudoInformacional": "REQ 30/2026 - CE",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/d165ed09-d089-4c97-8250-7502127c8ff6",
+           "descricao": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de discutir a instituição do Dia Nacional da Cachaça Brasileira."
+          },
+          {
+           "idDoma": "10225333",
+           "identificacao": "Listagem ou relatório descritivo",
+           "descricaoTipoDoma": "Listagem ou relatório descritivo",
+           "siglaTipoDoma": "LISTAGEM_RELATORIO",
+           "dataAtualizacao": "2026-05-19",
+           "codigoColegiado": "47",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/11bc657d-023c-48b1-a248-d1765ce866a1",
+           "descricao": "Listagem ou relatório descritivo-Lista de Presença da reunião da 20ª Reunião CE"
+          }
+         ],
+         "autorias": [
+          {
+           "ordem": "1",
+           "siglaTipo": "SENADOR",
+           "descricaoTipo": "Senador",
+           "isAutoriaComOutros": "true",
+           "nome": "Carlos Portinho",
+           "tratamento": "Senador",
+           "parlamentar": {
+            "codigo": "5936",
+            "nome": "Carlos Francisco Portinho",
+            "nomeParlamentar": "Carlos Portinho",
+            "sexo": "M",
+            "cargo": "Senador",
+            "nomeComCargo": "Senador Carlos Portinho",
+            "nomeComCargoResumido": "Sen. Carlos Portinho",
+            "casa": "SF",
+            "ufPartido": "RJ",
+            "siglaPartido": "PL",
+            "partido": "Partido Liberal",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5936.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5936",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2026-05-14T00:00:00.000",
+            "liderancas": {
+             "titulo": "Líder do Senado Federal",
+             "siglaPartido": "PL",
+             "nomePartido": "Partido Liberal"
+            }
+           }
+          },
+          {
+           "ordem": "2",
+           "siglaTipo": "SENADOR",
+           "descricaoTipo": "Senador",
+           "isAutoriaComOutros": "true",
+           "nome": "Teresa Leitão",
+           "tratamento": "Senadora",
+           "parlamentar": {
+            "codigo": "6338",
+            "nome": "Maria Teresa Leitão de Melo",
+            "nomeParlamentar": "Teresa Leitão",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Teresa Leitão",
+            "nomeComCargoResumido": "Sen. Teresa Leitão",
+            "casa": "SF",
+            "ufPartido": "PE",
+            "siglaPartido": "PT",
+            "partido": "Partido dos Trabalhadores",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador6338.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6338",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2026-05-14T00:00:00.000",
+            "liderancas": [
+             {
+              "titulo": "Líder do Senado Federal",
+              "nomeUnidadeLideranca": "Liderança do Governo"
+             },
+             {
+              "titulo": "Líder do Senado Federal"
+             }
+            ]
+           }
+          },
+          {
+           "ordem": "3",
+           "siglaTipo": "SENADOR",
+           "descricaoTipo": "Senador",
+           "isAutoriaComOutros": "true",
+           "nome": "Jussara Lima",
+           "tratamento": "Senadora",
+           "parlamentar": {
+            "codigo": "6369",
+            "nome": "Antônia Jussara Gomes Alves Sousa Lima",
+            "nomeParlamentar": "Jussara Lima",
+            "sexo": "F",
+            "cargo": "Senadora",
+            "nomeComCargo": "Senadora Jussara Lima",
+            "nomeComCargoResumido": "Sen. Jussara Lima",
+            "casa": "SF",
+            "ufPartido": "PI",
+            "siglaPartido": "PSD",
+            "partido": "Partido Social Democrático",
+            "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador6369.jpg",
+            "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6369",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2026-05-14T00:00:00.000"
+           }
+          }
+         ]
+        }
+       }
+      }
+     },
+     "videos": {
+      "codigo": "8197",
+      "ordem": "1",
+      "url": "https://www.youtube.com/watch?v=hBFgvHumOIM",
+      "dataHoraReuniao": "2026-11-11T14:00:00.000"
+     },
+     "localReuniao": {
+      "codigo": "7",
+      "descricao": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 15",
+      "ordem": "15",
+      "suportaSve": "true"
+     }
+    },
+    {
+     "codigo": "15023",
+     "versao": "2026-11-11T16:48:46.853",
+     "descricao": "21ª, Extraordinária - Semipresencial",
+     "titulo": "21ª Reunião Extraordinária Semipresencial",
+     "colegiadoCriador": {
+      "codigo": "1307",
+      "sigla": "CRA",
+      "nome": "Comissão de Agricultura e Reforma Agrária",
+      "siglaCasa": "SF",
+      "codigoTipo": "21",
+      "descricaoTipo": "Comissão Permanente"
+     },
+     "dataInicio": "2026-11-11T14:00:00.000",
+     "dataInicioFormatadaComObsHorario": "11/11/2026 às 14h",
+     "isExibirNoPortal": "true",
+     "confirmada": "false",
+     "realizada": "true",
+     "foiAgendadaAposTerSidoSuspensa": "false",
+     "codigoSituacao": "6",
+     "situacao": "Realizada",
+     "status": "Realizada",
+     "secreta": "false",
+     "local": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+     "numReuniao": "21",
+     "urlUltimaPautaSimplesPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/ac460546-5211-470c-95d0-14e83e0d90d8",
+     "urlUltimaPautaCheiaPublicada": "https://legis.senado.leg.br/sdleg-getter/documento/download/3046191d-786f-4c48-8c85-a27c9a53268c",
+     "urlUltimoResultadoPublicado": "https://legis.senado.leg.br/sdleg-getter/documento/download/c4d633d2-13f4-4284-8bbc-617ab18dff9c",
+     "urlSumarioDosPareceres": "https://sac.senado.leg.br/sac/servlet/RecuperaQuadroSinteseComissaoServlet?codigo=15023",
+     "idUltimaPublicacaoPautaSimples": "ac460546-5211-470c-95d0-14e83e0d90d8",
+     "idUltimaPublicacaoResultado": "c4d633d2-13f4-4284-8bbc-617ab18dff9c",
+     "tipoPresenca": "Semipresencial",
+     "continuacaoCancelada": "false",
+     "tipo": {
+      "codigo": "2",
+      "descricao": "Extraordinária",
+      "sigla": "EXT"
+     },
+     "sessaoLegislativa": {
+      "codigo": "874",
+      "numeroLegislatura": "57",
+      "numero": "4",
+      "descricao": "57a. Legislatura (2026) - 4a. Sessão Legislativa Ordinária",
+      "inicio": "2026-02-02",
+      "fim": "2026-12-22"
+     },
+     "permitePresencaApp": "true",
+     "permiteVotacaoSemPresencaFisica": "true",
+     "possuiVotacaoSecreta": "false",
+     "presidente": {
+      "codigo": "6341",
+      "nome": "Antonio Hamilton Martins Mourão",
+      "nomeParlamentar": "Hamilton Mourão",
+      "sexo": "M",
+      "cargo": "Senador",
+      "nomeComCargo": "Senador Hamilton Mourão",
+      "nomeComCargoResumido": "Sen. Hamilton Mourão",
+      "casa": "SF",
+      "ufPartido": "RS",
+      "siglaPartido": "REPUBLICANOS",
+      "partido": "Republicanos",
+      "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador6341.jpg",
+      "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/6341",
+      "isSenador": "true",
+      "isDeputado": "false",
+      "data": "2026-11-11T00:00:00.000",
+      "liderancas": {
+       "titulo": "Vice-líder do Senado Federal",
+       "siglaPartido": "REPUBLICANOS",
+       "nomePartido": "Republicanos"
+      }
+     },
+     "dataReuniao": [
+      {
+       "codigo": "69217",
+       "dataEvento": "2026-11-11T15:01:00.000",
+       "codigoSituacao": "6",
+       "descricaoSituacao": "Realizada",
+       "realizada": "true"
+      },
+      {
+       "codigo": "69214",
+       "dataEvento": "2026-11-11T14:04:00.000",
+       "codigoSituacao": "3",
+       "descricaoSituacao": "Aberta",
+       "realizada": "false"
+      },
+      {
+       "codigo": "69169",
+       "dataEvento": "2026-11-11T14:00:00.000",
+       "codigoSituacao": "1",
+       "descricaoSituacao": "Agendada",
+       "realizada": "false"
+      }
+     ],
+     "colegiados": {
+      "codigo": "1307",
+      "nome": "Comissão de Agricultura e Reforma Agrária",
+      "sigla": "CRA",
+      "siglaCasa": "SF",
+      "codigoTipoColegiado": "21",
+      "nomeTipoColegiado": "Comissão Permanente",
+      "numeroReuniao": "21",
+      "isSubcomissao": "false",
+      "composicaoPublica": "true",
+      "publicoPortal": "true"
+     },
+     "partes": {
+      "codigo": "19349",
+      "nome": "Deliberativa",
+      "codigoTipo": "2",
+      "descricaoTipo": "Deliberativa",
+      "sequencial": "1",
+      "sequencialFormatado": "1ª PARTE",
+      "isDeliberativa": "true",
+      "itens": [
+       {
+        "codigo": "112906",
+        "tipo": "MATE",
+        "ordem": "1",
+        "nome": "PL 6028/2019",
+        "nomeFormatadoComOrdem": "1 - PL 6028/2019",
+        "descricao": "PL 6028/2019",
+        "autorItemPauta": {
+         "nomeAutoria": "Câmara dos Deputados",
+         "isParlamentar": "false",
+         "isColegiado": "false",
+         "possuiOutrosAutores": "false",
+         "tipoAutoriaDomaSigla": "CAMARA",
+         "tipoAutoriaDomaDescricao": "Câmara dos Deputados"
+        },
+        "isTerminativo": "false",
+        "tipoPauta": "Pauta",
+        "categoria": "Matéria",
+        "classificacao": {
+         "codigo": "1",
+         "descricao": "Vinculado a uma matéria"
+        },
+        "relatorio": "Pela aprovação do Projeto e das 2 (duas) Emendas que apresenta e pela rejeição da Emenda n° 1.",
+        "siglaRelatorio": "Pela aprovação com emendas",
+        "observacao": "- A matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação.\r\n- Votação simbólica.",
+        "observacaoRelatorio": "- A matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação.\r\n- Votação simbólica.",
+        "descricaoResultado": "Adiado",
+        "siglaResultado": "Adiado",
+        "situacao": {
+         "codigoTipoResultado": "13",
+         "descricaoTipoResultado": "Adiado",
+         "isSuspensoAguardandoReinicioDeReuniao": "false"
+        },
+        "ordemDeliberacao": "1",
+        "apreciado": "false",
+        "emDeliberacao": "false",
+        "revisado": "false",
+        "resultadoPublico": "true",
+        "cabecalhoParecer": "PL 6028/2019",
+        "dataHoraEstadoAtual": "2026-11-11T15:01:52.000",
+        "textosPauta": [
+         {
+          "ordemNaPauta": "1",
+          "idDoma": "10246759",
+          "identificacao": "Relatório Legislativo",
+          "descricaoTipoDoma": "Relatório Legislativo",
+          "siglaTipoDoma": "RELATORIO",
+          "dataAtualizacao": "2026-06-16",
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/4bf907a9-503d-4d4d-b7ad-9bd0a8d32b6f",
+          "descricao": "Relatório sobre PL 6028/2019"
+         },
+         {
+          "ordemNaPauta": "2",
+          "idDoma": "9304253",
+          "identificacao": "EMENDA 1 - PL 6028/2019",
+          "descricaoTipoDoma": "Emenda",
+          "siglaTipoDoma": "EMENDA",
+          "dataAtualizacao": "2023-03-29",
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "conteudoInformacional": "EMENDA 1 - PL 6028/2019",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/581dd718-cae5-48e2-a273-116a532236b0",
+          "descricao": "EMENDA 01 PL 6028/2019"
+         },
+         {
+          "ordemNaPauta": "3",
+          "idDoma": "9191640",
+          "identificacao": "Avulso inicial da matéria",
+          "descricaoTipoDoma": "Avulso inicial da matéria",
+          "siglaTipoDoma": "AVULSO_INICIAL",
+          "dataAtualizacao": "2022-08-10",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/05e930c9-b734-43c2-92d8-5d367d77ad71",
+          "descricao": "-"
+         }
+        ],
+        "doma": {
+         "idDoma": "9028115",
+         "idProcesso": "8152618",
+         "autoria": "Câmara dos Deputados",
+         "idTipoDoma": "7350240",
+         "numeroSedol": "SF211705518629",
+         "objetivoCasa": "1",
+         "objetivoCasaDescricao": "Casa revisora",
+         "descricaoTipoDoma": "Projeto de Lei Ordinária",
+         "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+         "ementa": "Dispõe sobre o uso de cães farejadores nas ações de vigilância e defesa agropecuária realizadas em portos, em aeroportos e em postos de fronteira internacional.",
+         "dataApresentacao": "2021-10-18T17:14:17.000",
+         "sigla": "PL",
+         "numero": "06028",
+         "ano": "2019",
+         "identificacao": "PL 6028/2019",
+         "identificacaoPorExtenso": "Projeto de Lei n° 6028, de 2019",
+         "idConteudoInformacional": "7468400",
+         "codigoMateria": "154373",
+         "siglaPorExtenso": "Projeto de Lei",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": [
+          {
+           "idDoma": "9028115",
+           "idProcesso": "8152618",
+           "identificacao": "Projeto de Lei Ordinária",
+           "descricaoTipoDoma": "Projeto de Lei Ordinária",
+           "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+           "dataAtualizacao": "2021-10-18",
+           "codigoColegiado": "1998",
+           "conteudoInformacional": "PL 6028/2019",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b15990c8-c802-4c7f-a0a8-2163dfee9fbc",
+           "descricao": "Dispõe sobre o uso de cães farejadores nas ações de vigilância e defesa agropecuária realizadas em portos, em aeroportos e em postos de fronteira internacional."
+          },
+          {
+           "idDoma": "9191640",
+           "identificacao": "Avulso inicial da matéria",
+           "descricaoTipoDoma": "Avulso inicial da matéria",
+           "siglaTipoDoma": "AVULSO_INICIAL",
+           "dataAtualizacao": "2022-08-10",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/05e930c9-b734-43c2-92d8-5d367d77ad71",
+           "descricao": "-"
+          },
+          {
+           "idDoma": "9304253",
+           "identificacao": "EMENDA 1 - PL 6028/2019",
+           "descricaoTipoDoma": "Emenda",
+           "siglaTipoDoma": "EMENDA",
+           "dataAtualizacao": "2023-03-29",
+           "codigoColegiado": "1307",
+           "conteudoInformacional": "EMENDA 1 - PL 6028/2019",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/581dd718-cae5-48e2-a273-116a532236b0",
+           "descricao": "EMENDA 01 PL 6028/2019"
+          }
+         ],
+         "autorias": {
+          "ordem": "1",
+          "siglaTipo": "CAMARA",
+          "descricaoTipo": "Câmara dos Deputados",
+          "isAutoriaComOutros": "false",
+          "nome": "Câmara dos Deputados"
+         },
+         "relatorias": {
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "relator": {
+           "id": "10202979",
+           "idProcesso": "8152618",
+           "parlamentar": {
+            "codigo": "470",
+            "sexo": "M",
+            "nomeComCargo": "Senador Chico Rodrigues",
+            "casa": "SF",
+            "ufPartido": "RR",
+            "siglaPartido": "PSB",
+            "partido": "Partido Socialista Brasileiro",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2026-04-13T00:00:00.000"
+           },
+           "dataDesignacao": "2026-04-13T15:02:02.000",
+           "plenario": "false",
+           "idTipo": "1",
+           "descricaoTipo": "Relator",
+           "casaLegislativa": "SF",
+           "aberta": "true",
+           "encerrada": "false",
+           "relator": "true",
+           "adhoc": "false",
+           "revisor": "false"
+          }
+         }
+        },
+        "resultado": {
+         "descricao": "Adiado",
+         "texto": "Adiado"
+        },
+        "possuiVotacaoSecreta": "false",
+        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/b15990c8-c802-4c7f-a0a8-2163dfee9fbc"
+       },
+       {
+        "codigo": "112907",
+        "tipo": "MATE",
+        "ordem": "2",
+        "nome": "PL 810/2020",
+        "nomeFormatadoComOrdem": "2 - PL 810/2020",
+        "descricao": "PL 810/2020",
+        "autorItemPauta": {
+         "nomeAutoria": "Câmara dos Deputados",
+         "isParlamentar": "false",
+         "isColegiado": "false",
+         "possuiOutrosAutores": "false",
+         "tipoAutoriaDomaSigla": "CAMARA",
+         "tipoAutoriaDomaDescricao": "Câmara dos Deputados"
+        },
+        "isTerminativo": "false",
+        "tipoPauta": "Pauta",
+        "categoria": "Matéria",
+        "classificacao": {
+         "codigo": "1",
+         "descricao": "Vinculado a uma matéria"
+        },
+        "relatorio": "Pela aprovação do Projeto na forma da Emenda nº 4-CDH (Substitutivo) e pela rejeição das Emendas nºs 5 e 6.",
+        "siglaRelatorio": "Pela aprovação nos termos do substitutivo",
+        "observacao": "- Em 1°.09.2026, o Senador Weverton apresentou as Emendas n°s 5 e 6.\r\n- Em 17.09.2025, a Comissão de Direitos Humanos e Legislação Participativa aprovou Parecer favorável ao Projeto na forma da Emenda nº 4-CDH (Substitutivo), acolhendo parcialmente as Emendas nºs 1 a 3.\r\n- A matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação.\r\n- Votação simbólica.",
+        "observacaoRelatorio": "- Em 1°.09.2026, o Senador Weverton apresentou as Emendas n°s 5 e 6.\r\n- Em 17.09.2025, a Comissão de Direitos Humanos e Legislação Participativa aprovou Parecer favorável ao Projeto na forma da Emenda nº 4-CDH (Substitutivo), acolhendo parcialmente as Emendas nºs 1 a 3.\r\n- A matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação.\r\n- Votação simbólica.",
+        "descricaoResultado": "Aprovado Parecer favorável ao Projeto na forma da Emenda nº 4-CDH-CRA (Substitutivo) e contrário às Emendas nº 5 e 6.\r\n\r\nA matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação.",
+        "siglaResultado": "Aprovado o relatório",
+        "situacao": {
+         "codigoTipoResultado": "11",
+         "descricaoTipoResultado": "Aprovado o relatório",
+         "isSuspensoAguardandoReinicioDeReuniao": "false"
+        },
+        "ordemDeliberacao": "4",
+        "apreciado": "true",
+        "emDeliberacao": "false",
+        "revisado": "false",
+        "resultadoPublico": "true",
+        "dataInicio": "2026-11-11T14:47:18.000",
+        "cabecalhoParecer": "PL 810/2020",
+        "dataHoraEstadoAtual": "2026-11-11T14:56:53.000",
+        "dataResultado": "2026-11-11T14:56:53.000",
+        "textosPauta": [
+         {
+          "ordemNaPauta": "1",
+          "idDoma": "10350727",
+          "identificacao": "Parecer",
+          "descricaoTipoDoma": "Parecer",
+          "siglaTipoDoma": "PARECER",
+          "dataAtualizacao": "2026-11-11",
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "conteudoInformacional": "P.S 19/2026 - CRA",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/31cbd582-e9c6-4095-9d78-0359c44adb70",
+          "descricao": "Da COMISSÃO DE AGRICULTURA E REFORMA AGRÁRIA, sobre Projeto de Lei n° 810, de 2020, do Deputado Federal José Guimarães (PT/CE), que Altera a Lei nº 8.629, de 25 de fevereiro de 1993 (Lei da Reforma Agrária), para prever a adoção de medidas de estímulo e de facilitação da titulação de terras a mulheres trabalhadoras rurais da agricultura familiar no âmbito da reforma agrária e para incluir grupos prioritários no processo de seleção do Programa Nacional de Reforma Agrária."
+         },
+         {
+          "ordemNaPauta": "2",
+          "idDoma": "9440566",
+          "identificacao": "Avulso inicial da matéria",
+          "descricaoTipoDoma": "Avulso inicial da matéria",
+          "siglaTipoDoma": "AVULSO_INICIAL",
+          "dataAtualizacao": "2023-08-25",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/73954b74-cc6f-4137-a138-98cb654fe397",
+          "descricao": "-"
+         }
+        ],
+        "doma": {
+         "idDoma": "9440519",
+         "idProcesso": "8524256",
+         "autoria": "Câmara dos Deputados",
+         "idTipoDoma": "7350240",
+         "numeroSedol": "SF233656844640",
+         "objetivoCasa": "1",
+         "objetivoCasaDescricao": "Casa revisora",
+         "descricaoTipoDoma": "Projeto de Lei Ordinária",
+         "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+         "ementa": "Altera a Lei nº 8.629, de 25 de fevereiro de 1993 (Lei da Reforma Agrária), para prever a adoção de medidas de estímulo e de facilitação da titulação de terras a mulheres trabalhadoras rurais da agricultura familiar no âmbito da reforma agrária e para incluir grupos prioritários no processo de seleção do Programa Nacional de Reforma Agrária.",
+         "dataApresentacao": "2023-08-25T15:04:42.000",
+         "sigla": "PL",
+         "numero": "00810",
+         "ano": "2020",
+         "identificacao": "PL 810/2020",
+         "identificacaoPorExtenso": "Projeto de Lei n° 810, de 2020",
+         "idConteudoInformacional": "7539946",
+         "codigoMateria": "159464",
+         "siglaPorExtenso": "Projeto de Lei",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": [
+          {
+           "idDoma": "9440519",
+           "idProcesso": "8524256",
+           "identificacao": "Projeto de Lei Ordinária",
+           "descricaoTipoDoma": "Projeto de Lei Ordinária",
+           "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+           "dataAtualizacao": "2023-08-25",
+           "codigoColegiado": "1998",
+           "conteudoInformacional": "PL 810/2020",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/2e181160-cc67-46e0-883a-7954742174db",
+           "descricao": "Altera a Lei nº 8.629, de 25 de fevereiro de 1993 (Lei da Reforma Agrária), para prever a adoção de medidas de estímulo e de facilitação da titulação de terras a mulheres trabalhadoras rurais da agricultura familiar no âmbito da reforma agrária e para incluir grupos prioritários no processo de seleção do Programa Nacional de Reforma Agrária."
+          },
+          {
+           "idDoma": "9440566",
+           "identificacao": "Avulso inicial da matéria",
+           "descricaoTipoDoma": "Avulso inicial da matéria",
+           "siglaTipoDoma": "AVULSO_INICIAL",
+           "dataAtualizacao": "2023-08-25",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/73954b74-cc6f-4137-a138-98cb654fe397",
+           "descricao": "-"
+          },
+          {
+           "idDoma": "9948328",
+           "identificacao": "Relatório Legislativo",
+           "descricaoTipoDoma": "Relatório Legislativo",
+           "siglaTipoDoma": "RELATORIO",
+           "dataAtualizacao": "2025-05-07",
+           "codigoColegiado": "834",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/7ffb854b-80c6-4597-9dd7-f781aff910ea",
+           "descricao": "Relatório pela aprovação, com emenda de redação."
+          }
+         ],
+         "autorias": {
+          "ordem": "1",
+          "siglaTipo": "CAMARA",
+          "descricaoTipo": "Câmara dos Deputados",
+          "isAutoriaComOutros": "false",
+          "nome": "Câmara dos Deputados"
+         },
+         "relatorias": {
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "relator": {
+           "id": "10069251",
+           "idProcesso": "8524256",
+           "parlamentar": {
+            "codigo": "1173",
+            "sexo": "M",
+            "nomeComCargo": "Senador Wellington Fagundes",
+            "casa": "SF",
+            "ufPartido": "MT",
+            "siglaPartido": "PL",
+            "partido": "Partido Liberal",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2025-10-02T00:00:00.000",
+            "liderancas": {
+             "titulo": "Líder do Senado Federal",
+             "bloco": "Bloco Parlamentar Vanguarda"
+            }
+           },
+           "dataDesignacao": "2025-10-02T15:28:26.000",
+           "dataEncerramento": "2026-11-11T15:34:11.000",
+           "plenario": "false",
+           "idTipo": "1",
+           "descricaoTipo": "Relator",
+           "casaLegislativa": "SF",
+           "aberta": "false",
+           "encerrada": "true",
+           "relator": "true",
+           "adhoc": "false",
+           "revisor": "false",
+           "idTipoEncerramento": "13"
+          }
+         }
+        },
+        "resultado": {
+         "descricao": "Aprovado o relatório",
+         "texto": "Aprovado Parecer favorável ao Projeto na forma da Emenda nº 4-CDH-CRA (Substitutivo) e contrário às Emendas nº 5 e 6.\r\n\r\nA matéria vai ao Plenário do Senado Federal para prosseguimento da tramitação."
+        },
+        "possuiVotacaoSecreta": "false",
+        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/2e181160-cc67-46e0-883a-7954742174db"
+       },
+       {
+        "codigo": "112908",
+        "tipo": "MATE",
+        "ordem": "3",
+        "nome": "PL 237/2022",
+        "nomeFormatadoComOrdem": "3 - PL 237/2022",
+        "descricao": "PL 237/2022",
+        "autorItemPauta": {
+         "nomeAutoria": "Senador Alessandro Vieira (CIDADANIA/SE)",
+         "isParlamentar": "true",
+         "isColegiado": "false",
+         "possuiOutrosAutores": "false",
+         "tipoAutoriaDomaSigla": "SENADOR",
+         "tipoAutoriaDomaDescricao": "Senador",
+         "parlamentar": {
+          "codigo": "5982",
+          "nome": "Alessandro Vieira",
+          "sexo": "M",
+          "isDeputado": "false",
+          "isSenador": "true",
+          "partidoSigla": "CIDADANIA",
+          "uf": "SE"
+         }
+        },
+        "isTerminativo": "false",
+        "tipoPauta": "Pauta",
+        "categoria": "Matéria",
+        "classificacao": {
+         "codigo": "1",
+         "descricao": "Vinculado a uma matéria"
+        },
+        "relatorio": "Pela aprovação do PL nº 237, de 2022, na forma do Substitutivo que apresenta e pela rejeição do PL nº 1865, de 2022, que tramita em conjunto.",
+        "siglaRelatorio": "Pela aprovação nos termos do substitutivo",
+        "observacao": "- A matéria vai à Comissão de Constituição, Justiça e Cidadania para prosseguimento da tramitação. \r\n- Votação simbólica.",
+        "observacaoRelatorio": "- A matéria vai à Comissão de Constituição, Justiça e Cidadania para prosseguimento da tramitação. \r\n- Votação simbólica.",
+        "descricaoResultado": "Retirado de pauta a pedido da Relatora.",
+        "siglaResultado": "Retirado de pauta",
+        "situacao": {
+         "codigoTipoResultado": "15",
+         "descricaoTipoResultado": "Retirado de pauta",
+         "isSuspensoAguardandoReinicioDeReuniao": "false"
+        },
+        "ordemDeliberacao": "2",
+        "apreciado": "false",
+        "emDeliberacao": "false",
+        "revisado": "false",
+        "resultadoPublico": "true",
+        "cabecalhoParecer": "PL 237/2022",
+        "dataHoraEstadoAtual": "2026-11-11T14:35:13.000",
+        "dataResultado": "2026-11-11T14:35:13.000",
+        "textosPauta": [
+         {
+          "ordemNaPauta": "1",
+          "idDoma": "10323471",
+          "identificacao": "Relatório Legislativo",
+          "descricaoTipoDoma": "Relatório Legislativo",
+          "siglaTipoDoma": "RELATORIO",
+          "dataAtualizacao": "2026-09-24",
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/0672012d-839a-49b1-885a-4fe622acd90e",
+          "descricao": "Parecer aos PL’s 1.865/2022 e 237/2022, para instituir e ampliar a transparência dos dados sobre posse e propriedade de terras."
+         },
+         {
+          "ordemNaPauta": "2",
+          "idDoma": "9069409",
+          "identificacao": "Avulso inicial da matéria",
+          "descricaoTipoDoma": "Avulso inicial da matéria",
+          "siglaTipoDoma": "AVULSO_INICIAL",
+          "dataAtualizacao": "2022-02-14",
+          "codigoColegiado": "1998",
+          "siglaColegiado": "PLEN",
+          "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/06fe4f9c-5652-4df5-80a3-6ae1a682a5e3",
+          "descricao": "-"
+         }
+        ],
+        "anexados": [
+         {
+          "codigo": "4771",
+          "codigoItemPauta": "112908",
+          "doma": {
+           "idDoma": "9069402",
+           "idProcesso": "8199253",
+           "autoria": "Senador Alessandro Vieira (CIDADANIA/SE)",
+           "idTipoDoma": "7350240",
+           "numeroSedol": "SF229746427440",
+           "objetivoCasa": "0",
+           "objetivoCasaDescricao": "Casa iniciadora",
+           "descricaoTipoDoma": "Projeto de Lei Ordinária",
+           "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+           "ementa": "Altera a Lei nº 12.651, de 25 de maio de 2012; a Lei nº 6.015, de 31 de dezembro de 1973 – Lei dos Registros Públicos; a Lei nº 4.947, de 6 de abril de 1966; e a nº Lei 5.868/1972, de 12 de dezembro de 1972 , para instituir e ampliar a transparência dos dados sobre posse e propriedade de terras.",
+           "dataApresentacao": "2022-02-14T11:22:16.000",
+           "sigla": "PL",
+           "numero": "00237",
+           "ano": "2022",
+           "identificacao": "PL 237/2022",
+           "identificacaoPorExtenso": "Projeto de Lei n° 237, de 2022",
+           "idConteudoInformacional": "7478408",
+           "codigoMateria": "151728",
+           "siglaPorExtenso": "Projeto de Lei",
+           "complementar": "false",
+           "consolidacao": "false",
+           "proposicao": "true",
+           "identificado": "true"
+          },
+          "relatorio": "Pela aprovação nos termos do substitutivo",
+          "resultado": "Retirado de pauta",
+          "principal": "false"
+         },
+         {
+          "codigo": "4772",
+          "codigoItemPauta": "112908",
+          "doma": {
+           "idDoma": "9180626",
+           "idProcesso": "8283671",
+           "autoria": "Comissão de Meio Ambiente",
+           "idTipoDoma": "7350240",
+           "numeroSedol": "SF222423265554",
+           "objetivoCasa": "0",
+           "objetivoCasaDescricao": "Casa iniciadora",
+           "descricaoTipoDoma": "Projeto de Lei Ordinária",
+           "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+           "ementa": "Dispõe sobre a integração dos sistemas de cadastro de terras rurais e ambiental rural com os sistemas de registros públicos, e altera as Leis nºs 5.868, de 12 de dezembro de 1972, 9.393, de 19 de dezembro de 1996, e 12.651, de 25 de maio de 2012, para obter melhor conhecimento da realidade agrária e ambiental rural do País e aprimoramento das políticas públicas pertinentes.",
+           "dataApresentacao": "2022-07-01T17:45:36.000",
+           "sigla": "PL",
+           "numero": "01865",
+           "ano": "2022",
+           "identificacao": "PL 1865/2022",
+           "identificacaoPorExtenso": "Projeto de Lei n° 1865, de 2022",
+           "idConteudoInformacional": "7497297",
+           "codigoMateria": "153909",
+           "siglaPorExtenso": "Projeto de Lei",
+           "complementar": "false",
+           "consolidacao": "false",
+           "proposicao": "true",
+           "identificado": "true"
+          },
+          "relatorio": "Pela rejeição",
+          "resultado": "Retirado de pauta",
+          "principal": "false"
+         }
+        ],
+        "doma": {
+         "idDoma": "9069402",
+         "idProcesso": "8199253",
+         "autoria": "Senador Alessandro Vieira (CIDADANIA/SE)",
+         "idTipoDoma": "7350240",
+         "numeroSedol": "SF229746427440",
+         "objetivoCasa": "0",
+         "objetivoCasaDescricao": "Casa iniciadora",
+         "descricaoTipoDoma": "Projeto de Lei Ordinária",
+         "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+         "ementa": "Altera a Lei nº 12.651, de 25 de maio de 2012; a Lei nº 6.015, de 31 de dezembro de 1973 – Lei dos Registros Públicos; a Lei nº 4.947, de 6 de abril de 1966; e a nº Lei 5.868/1972, de 12 de dezembro de 1972 , para instituir e ampliar a transparência dos dados sobre posse e propriedade de terras.",
+         "dataApresentacao": "2022-02-14T11:22:16.000",
+         "sigla": "PL",
+         "numero": "00237",
+         "ano": "2022",
+         "identificacao": "PL 237/2022",
+         "identificacaoPorExtenso": "Projeto de Lei n° 237, de 2022",
+         "idConteudoInformacional": "7478408",
+         "codigoMateria": "151728",
+         "siglaPorExtenso": "Projeto de Lei",
+         "complementar": "false",
+         "consolidacao": "false",
+         "proposicao": "true",
+         "identificado": "true",
+         "textos": [
+          {
+           "idDoma": "9069402",
+           "idProcesso": "8199253",
+           "identificacao": "Projeto de Lei Ordinária",
+           "descricaoTipoDoma": "Projeto de Lei Ordinária",
+           "siglaTipoDoma": "PROJETO_LEI_ORDINARIA",
+           "dataAtualizacao": "2022-02-14",
+           "codigoColegiado": "1998",
+           "conteudoInformacional": "PL 237/2022",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/7a604dbc-0cd3-48f4-b716-4d631f3ef503",
+           "descricao": "Altera a Lei nº 12.651, de 25 de maio de 2012; a Lei nº 6.015, de 31 de dezembro de 1973 – Lei dos Registros Públicos; a Lei nº 4.947, de 6 de abril de 1966; e a nº Lei 5.868/1972, de 12 de dezembro de 1972 , para instituir e ampliar a transparência dos dados sobre posse e propriedade de terras."
+          },
+          {
+           "idDoma": "9069409",
+           "identificacao": "Avulso inicial da matéria",
+           "descricaoTipoDoma": "Avulso inicial da matéria",
+           "siglaTipoDoma": "AVULSO_INICIAL",
+           "dataAtualizacao": "2022-02-14",
+           "codigoColegiado": "1998",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/06fe4f9c-5652-4df5-80a3-6ae1a682a5e3",
+           "descricao": "-"
+          },
+          {
+           "idDoma": "9387945",
+           "identificacao": "Relatório Legislativo",
+           "descricaoTipoDoma": "Relatório Legislativo",
+           "siglaTipoDoma": "RELATORIO",
+           "dataAtualizacao": "2023-06-14",
+           "codigoColegiado": "1307",
+           "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/44e37248-beaf-4200-a0cf-2bdf0a766431",
+           "descricao": "Relatório"
+          }
+         ],
+         "autorias": {
+          "ordem": "1",
+          "siglaTipo": "SENADOR",
+          "descricaoTipo": "Senador",
+          "isAutoriaComOutros": "false",
+          "nome": "Alessandro Vieira",
+          "tratamento": "Senador",
+          "parlamentar": {
+           "codigo": "5982",
+           "nome": "Alessandro Vieira",
+           "nomeParlamentar": "Alessandro Vieira",
+           "sexo": "M",
+           "cargo": "Senador",
+           "nomeComCargo": "Senador Alessandro Vieira",
+           "nomeComCargoResumido": "Sen. Alessandro Vieira",
+           "casa": "SF",
+           "ufPartido": "SE",
+           "siglaPartido": "CIDADANIA",
+           "partido": "CIDADANIA",
+           "urlFoto": "https://www.senado.gov.br/senadores/img/fotos-oficiais/senador5982.jpg",
+           "urlPagina": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5982",
+           "isSenador": "true",
+           "isDeputado": "false",
+           "data": "2022-02-14T00:00:00.000",
+           "liderancas": {
+            "titulo": "Líder do Senado Federal",
+            "siglaPartido": "CIDADANIA",
+            "nomePartido": "CIDADANIA"
+           }
+          }
+         },
+         "relatorias": {
+          "codigoColegiado": "1307",
+          "siglaColegiado": "CRA",
+          "relator": {
+           "id": "9609493",
+           "idProcesso": "8199253",
+           "parlamentar": {
+            "codigo": "5736",
+            "sexo": "F",
+            "nomeComCargo": "Senadora Tereza Cristina",
+            "casa": "SF",
+            "ufPartido": "MS",
+            "siglaPartido": "PP",
+            "partido": "Progressistas",
+            "isSenador": "true",
+            "isDeputado": "false",
+            "data": "2024-05-15T00:00:00.000",
+            "liderancas": [
+             {
+              "titulo": "Vice-líder do Congresso Nacional",
+              "nomeUnidadeLideranca": "Liderança da Minoria"
+             },
+             {
+              "titulo": "Líder do Senado Federal",
+              "siglaPartido": "PP",
+              "nomePartido": "Progressistas"
+             }
+            ]
+           },
+           "dataDesignacao": "2024-05-15T16:04:01.000",
+           "plenario": "false",
+           "idTipo": "1",
+           "descricaoTipo": "Relator",
+           "casaLegislativa": "SF",
+           "aberta": "true",
+           "encerrada": "false",
+           "relator": "true",
+           "adhoc": "false",
+           "revisor": "false"
+          }
+         }
+        },
+        "resultado": {
+         "descricao": "Retirado de pauta",
+         "texto": "Retirado de pauta a pedido da Relatora."
+        },
+        "possuiVotacaoSecreta": "false",
+        "urlDownload": "https://legis.senado.leg.br/sdleg-getter/documento/download/7a604dbc-0cd3-48f4-b716-4d631f3ef503"
+       }
+      ]
+     },
+     "videos": {
+      "codigo": "8198",
+      "ordem": "1",
+      "url": "https://www.youtube.com/watch?v=pP_73z2oGAo",
+      "dataHoraReuniao": "2026-11-11T14:00:00.000"
+     },
+     "localReuniao": {
+      "codigo": "4",
+      "descricao": "Anexo II, Ala Senador Alexandre Costa, Plenário nº 7",
+      "ordem": "7",
+      "suportaSve": "true"
+     }
+    }
+   ]
+  }
+ }
+}

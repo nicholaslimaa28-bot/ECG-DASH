@@ -1,0 +1,59 @@
+{
+ "DetalheParlamentar": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/DetalheParlamentarv6.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 14:01:37",
+   "VersaoServico": "6",
+   "DataVersaoServico": "2021-09-09",
+   "DescricaoDataSet": "Retorna os detalhes de um Senador informado no parâmetro."
+  },
+  "Parlamentar": {
+   "IdentificacaoParlamentar": {
+    "CodigoParlamentar": "5672",
+    "CodigoPublicoNaLegAtual": "800",
+    "NomeParlamentar": "Alan Rick",
+    "NomeCompletoParlamentar": "Alan Rick Miranda",
+    "SexoParlamentar": "Masculino",
+    "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg",
+    "UrlPaginaParlamentar": "http://www25.senado.leg.br/web/senadores/senador/-/perfil/5672",
+    "EmailParlamentar": "sen.alanrick@senado.leg.br",
+    "SiglaPartidoParlamentar": "REPUBLICANOS",
+    "UfParlamentar": "AC"
+   },
+   "DadosBasicosParlamentar": {
+    "DataNascimento": "1976-10-23",
+    "Naturalidade": "Rio Branco",
+    "UfNaturalidade": "AC",
+    "EnderecoParlamentar": "Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 05"
+   },
+   "Telefones": {
+    "Telefone": [
+     {
+      "NumeroTelefone": "33036333",
+      "OrdemPublicacao": "1",
+      "IndicadorFax": "Não"
+     }
+    ]
+   },
+   "OutrasInformacoes": {
+    "Servico": [
+     {
+      "NomeServico": "ApartesParlamentar",
+      "DescricaoServico": "Apartes do parlamentar",
+      "UrlServico": "https://legis.senado.leg.br/dadosabertos/senador/5672/apartes?v=5"
+     },
+     {
+      "NomeServico": "CargoParlamentar",
+      "DescricaoServico": "Cargos do parlamentar ao longo do(s) mandato(s).",
+      "UrlServico": "https://legis.senado.leg.br/dadosabertos/senador/5672/cargos?v=5"
+     },
+     {
+      "NomeServico": "DiscursosParlamentar",
+      "DescricaoServico": "Discursos do parlamentar. Se não informar o período, serão retornados os discursos dos últimos 30 dias.",
+      "UrlServico": "https://legis.senado.leg.br/dadosabertos/senador/5672/discursos?v=5"
+     }
+    ]
+   }
+  }
+ }
+}

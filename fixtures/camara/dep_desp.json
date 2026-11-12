@@ -1,0 +1,75 @@
+{
+ "dados": [
+  {
+   "ano": 2026,
+   "mes": 1,
+   "tipoDespesa": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+   "codDocumento": "8046356",
+   "tipoDocumento": "Nota Fiscal",
+   "codTipoDocumento": 0,
+   "dataDocumento": "2026-01-29T00:00:00",
+   "numDocumento": "298",
+   "valorDocumento": 5000.0,
+   "urlDocumento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3308/2026/8046356.pdf",
+   "nomeFornecedor": "VN & FW LTDA-M",
+   "cnpjCpfFornecedor": "22209187000170",
+   "valorLiquido": -5000.0,
+   "valorGlosa": 0.0,
+   "numRessarcimento": "",
+   "codLote": 2206629,
+   "parcela": 0
+  },
+  {
+   "ano": 2026,
+   "mes": 1,
+   "tipoDespesa": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+   "codDocumento": "8046357",
+   "tipoDocumento": "Nota Fiscal",
+   "codTipoDocumento": 0,
+   "dataDocumento": "2026-01-27T00:00:00",
+   "numDocumento": "90",
+   "valorDocumento": 6200.0,
+   "urlDocumento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3308/2026/8046357.pdf",
+   "nomeFornecedor": "QUINTELA & SA SERVIÇOS LTDA",
+   "cnpjCpfFornecedor": "31277848000196",
+   "valorLiquido": -6200.0,
+   "valorGlosa": 0.0,
+   "numRessarcimento": "",
+   "codLote": 2206629,
+   "parcela": 0
+  },
+  {
+   "ano": 2026,
+   "mes": 1,
+   "tipoDespesa": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+   "codDocumento": "8046358",
+   "tipoDocumento": "Nota Fiscal",
+   "codTipoDocumento": 0,
+   "dataDocumento": "2026-02-02T00:00:00",
+   "numDocumento": "61",
+   "valorDocumento": 1500.0,
+   "urlDocumento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3308/2026/8046358.pdf",
+   "nomeFornecedor": "Eka Comunicacao",
+   "cnpjCpfFornecedor": "58744132000108",
+   "valorLiquido": -1500.0,
+   "valorGlosa": 0.0,
+   "numRessarcimento": "",
+   "codLote": 2206629,
+   "parcela": 0
+  }
+ ],
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/despesas?ano=2026&itens=3"
+  },
+  {
+   "rel": "next",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/despesas?ano=2026&pagina=2&itens=3"
+  },
+  {
+   "rel": "first",
+   "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379/despesas?ano=2026&pagina=1&itens=3"
+  }
+ ]
+}
