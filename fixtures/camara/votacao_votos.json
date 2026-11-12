@@ -1,47 +1,49 @@
-[
- {
-  "tipoVoto": "Não",
-  "dataRegistroVoto": "2026-05-27T20:52:15",
-  "deputado_": {
-   "id": 220549,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220549",
-   "nome": "Any Ortiz",
-   "siglaPartido": "PP",
-   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
-   "siglaUf": "RS",
-   "idLegislatura": 57,
-   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/220549.jpg",
-   "email": "dep.anyortiz@camara.leg.br"
+{
+ "dados": [
+  {
+   "tipoVoto": "Não",
+   "dataRegistroVoto": "2026-05-27T20:52:15",
+   "deputado_": {
+    "id": 220549,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220549",
+    "nome": "Any Ortiz",
+    "siglaPartido": "PP",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+    "siglaUf": "RS",
+    "idLegislatura": 57,
+    "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/220549.jpg",
+    "email": "dep.anyortiz@camara.leg.br"
+   }
+  },
+  {
+   "tipoVoto": "Não",
+   "dataRegistroVoto": "2026-05-27T20:52:11",
+   "deputado_": {
+    "id": 225846,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/225846",
+    "nome": "Itamar Paim",
+    "siglaPartido": "PL",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+    "siglaUf": "PR",
+    "idLegislatura": 57,
+    "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/225846.jpg",
+    "email": "dep.itamarpaim@camara.leg.br"
+   }
+  },
+  {
+   "tipoVoto": "Não",
+   "dataRegistroVoto": "2026-05-27T20:51:54",
+   "deputado_": {
+    "id": 160673,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160673",
+    "nome": "Giovani Cherini",
+    "siglaPartido": "PL",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+    "siglaUf": "RS",
+    "idLegislatura": 57,
+    "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/160673.jpg",
+    "email": "dep.giovanicherini@camara.leg.br"
+   }
   }
- },
- {
-  "tipoVoto": "Não",
-  "dataRegistroVoto": "2026-05-27T20:52:11",
-  "deputado_": {
-   "id": 225846,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/225846",
-   "nome": "Itamar Paim",
-   "siglaPartido": "PL",
-   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
-   "siglaUf": "PR",
-   "idLegislatura": 57,
-   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/225846.jpg",
-   "email": "dep.itamarpaim@camara.leg.br"
-  }
- },
- {
-  "tipoVoto": "Não",
-  "dataRegistroVoto": "2026-05-27T20:51:54",
-  "deputado_": {
-   "id": 160673,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160673",
-   "nome": "Giovani Cherini",
-   "siglaPartido": "PL",
-   "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
-   "siglaUf": "RS",
-   "idLegislatura": 57,
-   "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/160673.jpg",
-   "email": "dep.giovanicherini@camara.leg.br"
-  }
- }
-]
+ ]
+}

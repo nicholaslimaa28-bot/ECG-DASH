@@ -1,0 +1,52 @@
+# Coletores agendados. Exige o secret DATABASE_URL (e, opcionalmente, COLETOR_EMAIL_CONTATO e SITE_URL).
+# Horários em UTC: Brasília = UTC−3.
+name: Coleta
+on:
+  schedule:
+    # Agenda e votações: a cada 15 min das 8h às 23h de Brasília, de segunda a sexta (11h–02h UTC)
+    - cron: "*/15 11-23 * * 1-5"
+    - cron: "*/15 0-2 * * 2-6"
+    # Fora desse horário: 1×/hora
+    - cron: "7 3-10 * * *"
+    - cron: "7 11-23 * * 0,6"
+    # Rotina diária (cadastros, despesas, presença, autoria, tramitação): 6h10 de Brasília
+    - cron: "10 9 * * *"
+  workflow_dispatch:
+    inputs:
+      rotina:
+        description: "Rotina ou tarefa (frequente, diaria, inicial, camara:votacoes...)"
+        required: true
+        default: frequente
+
+concurrency:
+  group: coleta-${{ github.event.schedule == '10 9 * * *' && 'diaria' || 'frequente' }}
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      COLETOR_EMAIL_CONTATO: ${{ secrets.COLETOR_EMAIL_CONTATO }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      DADOS_BRUTOS_DIR: ./dados-brutos
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run db:migrate
+      - name: Coletar
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then R="${{ inputs.rotina }}";
+          elif [ "${{ github.event.schedule }}" = "10 9 * * *" ]; then R=diaria; else R=frequente; fi
+          npm run coletar -- "$R"
+      # Respostas brutas desta execução ficam guardadas por 30 dias para auditoria
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: brutos-${{ github.run_id }}
+          path: dados-brutos/
+          retention-days: 30
+          if-no-files-found: ignore

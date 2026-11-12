@@ -1,0 +1,47 @@
+[
+ {
+  "id": 2295493,
+  "tipoDocumento": "Passagem / Bilhete / Código Localizador",
+  "ano": 2026,
+  "mes": 6,
+  "codSenador": 5012,
+  "nomeSenador": "RANDOLFE RODRIGUES",
+  "tipoDespesa": "Passagens aéreas, aquáticas e terrestres nacionais",
+  "cpfCnpj": "10.358.691/0001-53",
+  "fornecedor": "VITÓRIA RÉGIA",
+  "documento": "CRRLTQ",
+  "data": "2026-06-12",
+  "detalhamento": "Companhia Aérea: GOL, Localizador: CRRLTQ. Passageiros: RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 1731 - BEL/BSB - 14/06/26; RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 2007 - MCP/BEL - 14/06/26; ",
+  "valorReembolsado": 2880.81
+ },
+ {
+  "id": 2295499,
+  "tipoDocumento": "Passagem / Bilhete / Código Localizador",
+  "ano": 2026,
+  "mes": 6,
+  "codSenador": 5012,
+  "nomeSenador": "RANDOLFE RODRIGUES",
+  "tipoDespesa": "Passagens aéreas, aquáticas e terrestres nacionais",
+  "cpfCnpj": "10.358.691/0001-53",
+  "fornecedor": "VITÓRIA RÉGIA",
+  "documento": "MFDDDN",
+  "data": "2026-06-13",
+  "detalhamento": "Companhia Aérea: GOL, Localizador: MFDDDN. Passageiros: RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 1731 - BEL/BSB - 21/06/26; RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 2007 - MCP/BEL - 21/06/26; ",
+  "valorReembolsado": 2549.48
+ },
+ {
+  "id": 2295494,
+  "tipoDocumento": "Passagem / Bilhete / Código Localizador",
+  "ano": 2026,
+  "mes": 6,
+  "codSenador": 5012,
+  "nomeSenador": "RANDOLFE RODRIGUES",
+  "tipoDespesa": "Passagens aéreas, aquáticas e terrestres nacionais",
+  "cpfCnpj": "10.358.691/0001-53",
+  "fornecedor": "VITÓRIA RÉGIA",
+  "documento": "GJOYFJ",
+  "data": "2026-06-14",
+  "detalhamento": "Companhia Aérea: GOL, Localizador: GJOYFJ. Passageiros: RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 1731 - BEL/BSB - 28/06/26; RANDOLPH FREDERICH RODRIGUES ALVES (Matrícula 234282, PARLAMENTAR), Voo: 2007 - MCP/BEL - 28/06/26; ",
+  "valorReembolsado": 1947.1
+ }
+]

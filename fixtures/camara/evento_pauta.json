@@ -1,95 +1,97 @@
-[
- {
-  "ordem": 1,
-  "topico": "Requerimentos de Urgência Art. 155",
-  "regime": "Matéria Sobre a Mesa",
-  "codRegime": 99,
-  "titulo": "REQ 2965/2026",
-  "proposicao_": {
-   "id": 2625853,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625853",
-   "siglaTipo": "REQ",
-   "codTipo": 392,
-   "numero": 2965,
-   "ano": 2026,
-   "ementa": "Requer regime de urgência para apreciação do PL nº 479/2025, que “Define a Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH).como Pessoa com Deficiência para todos os efeitos legais e dá outras providências”.",
-   "dataApresentacao": "2026-05-19T16:04"
+{
+ "dados": [
+  {
+   "ordem": 1,
+   "topico": "Requerimentos de Urgência Art. 155",
+   "regime": "Matéria Sobre a Mesa",
+   "codRegime": 99,
+   "titulo": "REQ 2965/2026",
+   "proposicao_": {
+    "id": 2625853,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625853",
+    "siglaTipo": "REQ",
+    "codTipo": 392,
+    "numero": 2965,
+    "ano": 2026,
+    "ementa": "Requer regime de urgência para apreciação do PL nº 479/2025, que “Define a Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH).como Pessoa com Deficiência para todos os efeitos legais e dá outras providências”.",
+    "dataApresentacao": "2026-05-19T16:04"
+   },
+   "relator": null,
+   "textoParecer": null,
+   "proposicaoRelacionada_": {
+    "id": 2484087,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2484087",
+    "siglaTipo": "PL",
+    "codTipo": "139",
+    "numero": "479",
+    "ano": "2025",
+    "ementa": "Define a Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH).como Pessoa com Deficiência para todos os efeitos legais e dá outras providências.",
+    "dataApresentacao": null
+   },
+   "uriVotacao": null,
+   "situacaoItem": "Matéria não apreciada em face do encerramento da Sessão."
   },
-  "relator": null,
-  "textoParecer": null,
-  "proposicaoRelacionada_": {
-   "id": 2484087,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2484087",
-   "siglaTipo": "PL",
-   "codTipo": "139",
-   "numero": "479",
-   "ano": "2025",
-   "ementa": "Define a Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH).como Pessoa com Deficiência para todos os efeitos legais e dá outras providências.",
-   "dataApresentacao": null
+  {
+   "ordem": 2,
+   "topico": "Recursos",
+   "regime": "Matéria Sobre a Mesa",
+   "codRegime": 99,
+   "titulo": "REC 1/2026",
+   "proposicao_": {
+    "id": 2600339,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
+    "siglaTipo": "REC",
+    "codTipo": 373,
+    "numero": 1,
+    "ano": 2026,
+    "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+    "dataApresentacao": "2026-02-03T09:49"
+   },
+   "relator": null,
+   "textoParecer": null,
+   "proposicaoRelacionada_": {
+    "id": 2338753,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+    "siglaTipo": "PL",
+    "codTipo": "139",
+    "numero": "2812",
+    "ano": "2022",
+    "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+    "dataApresentacao": null
+   },
+   "uriVotacao": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15/",
+   "situacaoItem": "Matéria sobre a Mesa. Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD). A matéria segue a tramitação inicialmente prevista.  Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei. Rejeitado o Requerimento."
   },
-  "uriVotacao": null,
-  "situacaoItem": "Matéria não apreciada em face do encerramento da Sessão."
- },
- {
-  "ordem": 2,
-  "topico": "Recursos",
-  "regime": "Matéria Sobre a Mesa",
-  "codRegime": 99,
-  "titulo": "REC 1/2026",
-  "proposicao_": {
-   "id": 2600339,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
-   "siglaTipo": "REC",
-   "codTipo": 373,
-   "numero": 1,
-   "ano": 2026,
-   "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
-   "dataApresentacao": "2026-02-03T09:49"
-  },
-  "relator": null,
-  "textoParecer": null,
-  "proposicaoRelacionada_": {
-   "id": 2338753,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
-   "siglaTipo": "PL",
-   "codTipo": "139",
-   "numero": "2812",
-   "ano": "2022",
-   "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
-   "dataApresentacao": null
-  },
-  "uriVotacao": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15/",
-  "situacaoItem": "Matéria sobre a Mesa. Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD). A matéria segue a tramitação inicialmente prevista.  Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei. Rejeitado o Requerimento."
- },
- {
-  "ordem": 2,
-  "topico": "Recursos",
-  "regime": "Matéria Sobre a Mesa",
-  "codRegime": 99,
-  "titulo": "REC 1/2026",
-  "proposicao_": {
-   "id": 2600339,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
-   "siglaTipo": "REC",
-   "codTipo": 373,
-   "numero": 1,
-   "ano": 2026,
-   "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
-   "dataApresentacao": "2026-02-03T09:49"
-  },
-  "relator": null,
-  "textoParecer": null,
-  "proposicaoRelacionada_": {
-   "id": 2338753,
-   "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
-   "siglaTipo": "PL",
-   "codTipo": "139",
-   "numero": "2812",
-   "ano": "2022",
-   "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
-   "dataApresentacao": null
-  },
-  "uriVotacao": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18/",
-  "situacaoItem": "Matéria sobre a Mesa. Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD). A matéria segue a tramitação inicialmente prevista.  Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei. Rejeitado o Requerimento."
- }
-]
+  {
+   "ordem": 2,
+   "topico": "Recursos",
+   "regime": "Matéria Sobre a Mesa",
+   "codRegime": 99,
+   "titulo": "REC 1/2026",
+   "proposicao_": {
+    "id": 2600339,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
+    "siglaTipo": "REC",
+    "codTipo": 373,
+    "numero": 1,
+    "ano": 2026,
+    "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+    "dataApresentacao": "2026-02-03T09:49"
+   },
+   "relator": null,
+   "textoParecer": null,
+   "proposicaoRelacionada_": {
+    "id": 2338753,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+    "siglaTipo": "PL",
+    "codTipo": "139",
+    "numero": "2812",
+    "ano": "2022",
+    "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+    "dataApresentacao": null
+   },
+   "uriVotacao": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18/",
+   "situacaoItem": "Matéria sobre a Mesa. Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD). A matéria segue a tramitação inicialmente prevista.  Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei. Rejeitado o Requerimento."
+  }
+ ]
+}

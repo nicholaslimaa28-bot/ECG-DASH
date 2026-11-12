@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Tema: cores sóbrias, sem cores partidárias. Cada Poder tem uma cor usada só como identificação. */
+:root {
+  --fundo: #f7f7f5;
+  --superficie: #ffffff;
+  --texto: #1c1c1a;
+  --texto-suave: #55554f;
+  --borda: #dcdcd6;
+  --destaque: #1f4e79;
+  --foco: #b45309;
+  --legislativo: #0f6b63;
+  --executivo: #8a5a00;
+  --judiciario: #5b3a8c;
+  --ok: #1d6b35;
+  --alerta: #9a3b00;
+  --erro: #a1262b;
+  --tamanho-base: 16px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --fundo: #121412;
+    --superficie: #1b1e1b;
+    --texto: #ececea;
+    --texto-suave: #b3b3ab;
+    --borda: #34382f;
+    --destaque: #8cb8e6;
+    --foco: #f5a524;
+    --legislativo: #5fc4b8;
+    --executivo: #e0b25a;
+    --judiciario: #b9a2e6;
+    --ok: #6cc98a;
+    --alerta: #f0a060;
+    --erro: #f08a8f;
+    color-scheme: dark;
+  }
+}
+:root[data-tema="escuro"] {
+  --fundo: #121412;
+  --superficie: #1b1e1b;
+  --texto: #ececea;
+  --texto-suave: #b3b3ab;
+  --borda: #34382f;
+  --destaque: #8cb8e6;
+  --foco: #f5a524;
+  --legislativo: #5fc4b8;
+  --executivo: #e0b25a;
+  --judiciario: #b9a2e6;
+  --ok: #6cc98a;
+  --alerta: #f0a060;
+  --erro: #f08a8f;
+  color-scheme: dark;
+}
+
+/* Tamanho de fonte ajustável pelo leitor (A− / A+) */
+:root[data-fonte="grande"] { --tamanho-base: 18px; }
+:root[data-fonte="maior"] { --tamanho-base: 20px; }
+
+@theme inline {
+  --color-fundo: var(--fundo);
+  --color-superficie: var(--superficie);
+  --color-texto: var(--texto);
+  --color-suave: var(--texto-suave);
+  --color-borda: var(--borda);
+  --color-destaque: var(--destaque);
+  --color-legislativo: var(--legislativo);
+  --color-executivo: var(--executivo);
+  --color-judiciario: var(--judiciario);
+  --color-ok: var(--ok);
+  --color-alerta: var(--alerta);
+  --color-erro: var(--erro);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html { font-size: var(--tamanho-base); }
+body { background: var(--fundo); color: var(--texto); font-family: var(--font-sans); line-height: 1.55; }
+a { color: var(--destaque); text-underline-offset: 2px; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; border-radius: 2px; }
+abbr[title] { text-decoration: underline dotted; cursor: help; }
+.tabular { font-variant-numeric: tabular-nums; }
+.pular-conteudo { position: absolute; left: -9999px; }
+.pular-conteudo:focus { left: 1rem; top: 1rem; z-index: 50; background: var(--superficie); padding: .5rem 1rem; }

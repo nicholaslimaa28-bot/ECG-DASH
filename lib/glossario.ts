@@ -1,0 +1,23 @@
+// Glossário em linguagem simples. Usado nos tooltips (<Termo>) e na página /glossario.
+export const GLOSSARIO: Record<string, { termo: string; definicao: string }> = {
+  pl: { termo: "PL — Projeto de Lei", definicao: "Proposta de criação ou alteração de uma lei ordinária. Precisa ser aprovada pela Câmara e pelo Senado e depois sancionada (ou vetada) pelo Presidente da República." },
+  plp: { termo: "PLP — Projeto de Lei Complementar", definicao: "Proposta de lei complementar, usada nos temas em que a Constituição exige. Precisa de maioria absoluta: 257 votos na Câmara e 41 no Senado." },
+  pec: { termo: "PEC — Proposta de Emenda à Constituição", definicao: "Proposta para mudar o texto da Constituição. É votada em dois turnos em cada Casa e precisa de 3/5 dos votos (308 deputados e 49 senadores). Não passa por sanção do Presidente." },
+  mpv: { termo: "MPV — Medida Provisória", definicao: "Ato do Presidente da República com força de lei imediata, em casos de relevância e urgência. Perde a validade se o Congresso não a aprovar em até 120 dias." },
+  pdl: { termo: "PDL — Projeto de Decreto Legislativo", definicao: "Proposta sobre assuntos de competência exclusiva do Congresso, como aprovar tratados internacionais ou suspender atos do Executivo. Não vai à sanção." },
+  req: { termo: "REQ — Requerimento", definicao: "Pedido formal feito por parlamentares ou comissões, por exemplo para acelerar a votação de um projeto ou convidar uma autoridade." },
+  urgencia: { termo: "Regime de urgência", definicao: "Tramitação acelerada: o projeto pode ir direto ao Plenário, sem passar por todas as comissões e com prazos menores." },
+  quorum: { termo: "Quórum", definicao: "Número mínimo de parlamentares presentes ou de votos exigido para abrir uma sessão ou aprovar uma proposta." },
+  destaque: { termo: "Destaque", definicao: "Pedido para votar separadamente um trecho de uma proposta ou uma emenda, depois da votação do texto principal." },
+  deliberativa: { termo: "Sessão deliberativa", definicao: "Sessão em que há votação de propostas. É nesse tipo de sessão que a presença dos parlamentares é registrada oficialmente." },
+  naoDeliberativa: { termo: "Sessão não deliberativa", definicao: "Sessão sem votações: debates, homenagens (sessões solenes) e comunicações. Não conta para o controle oficial de presença." },
+  votacaoNominal: { termo: "Votação nominal", definicao: "Votação em que o voto de cada parlamentar é registrado no painel eletrônico e publicado." },
+  votacaoSimbolica: { termo: "Votação simbólica", definicao: "Votação sem registro individual: quem é a favor permanece como está. Não é possível saber como cada parlamentar votou." },
+  orientacao: { termo: "Orientação de bancada", definicao: "Recomendação de voto que o líder de um partido, bloco, do Governo ou da Oposição faz aos seus parlamentares antes de uma votação." },
+  obstrucao: { termo: "Obstrução", definicao: "Estratégia em que parlamentares, mesmo presentes, não registram voto para tentar impedir que se alcance o quórum." },
+  art17: { termo: "Art. 17 (Câmara)", definicao: "O Presidente da Câmara, ao presidir a sessão, só vota em casos específicos. O registro “Artigo 17” indica essa condição, e não ausência." },
+  ausenciaJustificada: { termo: "Ausência justificada", definicao: "Falta com motivo aceito pela Casa, como licença médica, missão oficial ou atividade parlamentar autorizada." },
+  cota: { termo: "Cota parlamentar (CEAP/CEAPS)", definicao: "Verba mensal para despesas do mandato, como passagens, escritório e divulgação, reembolsada mediante comprovante. O valor varia por estado." },
+  sessaoConjunta: { termo: "Sessão do Congresso Nacional", definicao: "Sessão conjunta de deputados e senadores, usada por exemplo para votar vetos presidenciais e o Orçamento." },
+  veto: { termo: "Veto", definicao: "Recusa do Presidente da República a um projeto aprovado, no todo ou em parte. O Congresso pode derrubar o veto em sessão conjunta." },
+};

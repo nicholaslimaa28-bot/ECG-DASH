@@ -191,3 +191,14 @@ Os links fixos dos canais vão num arquivo de configuração, revisado manualmen
 - Guardar cada resposta bruta (comprimida) com URL, horário e hash. Processar de novo a partir do bruto quando o normalizador mudar.
 - Horários: a Câmara manda sem fuso (horário de Brasília); o Senado manda `-03:00` ou sem fuso; o Planalto manda no fuso do local da agenda. Converter tudo para `timestamptz`.
 - Fontes em XML convertido: tratar "lista com um item" que vem como objeto.
+
+---
+
+## 7. Achados da Fase 1 (12/11/2026)
+
+- **Despesas dos senadores (CEAPS):** `https://adm.senado.gov.br/adm-dadosabertos/api/v1/senadores/despesas_ceaps/{ano}`. API administrativa do Senado, sem chave, um JSON por ano (16.505 lançamentos em 2026, 6,8 MB). Campos: `codSenador` (o mesmo código da API legislativa), `tipoDespesa`, `cpfCnpj`, `fornecedor`, `data`, `valorReembolsado`. O campo `detalhamento` traz nomes de passageiros, inclusive assessores: **não é guardado**.
+- **Cota da Câmara (arquivo anual):** cada linha tem `idDeputado` (o mesmo id da API v2) e `numeroDeputadoID` (outro identificador, que não usamos). Linhas de lideranças vêm sem `idDeputado` e são ignoradas. Documentos parcelados repetem `idDocumento`: a chave é `idDocumento-parcela`. `dataEmissao` às vezes vem vazio. Alguns fornecedores MEI trazem o CPF no próprio nome, e ele é removido.
+- **Votos nominais recentes da Câmara:** das 185 votações de Plenário de 1º a 12/11/2026, só 1 tinha `/votos` publicado no dia da coleta. Em maio de 2026, a proporção de nominais foi bem maior. É provável que parte dos votos nominais seja publicada com atraso. Por isso a tarefa `frequente` recoleta os últimos 3 dias, e vale uma recoleta semanal de 30 dias.
+- **Agenda do Plenário do Senado:** a hora vem sem zero à esquerda (`"9:00"`).
+- **Autoria no Senado:** `/processo?codigoParlamentarAutor={cod}&sigla={PL|PEC…}&dataInicioApresentacao=AAAA-MM-DD` funciona e inclui coautoria.
+- **Presença (perfil da Câmara):** os totais coletados batem com a página oficial (ex.: deputado 204379 em 2026: 63 / 0 / 16 no Plenário; 12 / 0 / 44 nas comissões).
