@@ -9,6 +9,7 @@ if (existsSync(".env")) process.loadEnvFile(".env");
 const { encerrar } = await import("@/lib/db");
 const camara = await import("./camara/coletar");
 const senado = await import("./senado/coletar");
+const planalto = await import("./planalto/coletar");
 
 type Tarefa = (...args: string[]) => Promise<unknown>;
 const tarefas: Record<string, Tarefa> = {
@@ -24,11 +25,12 @@ const tarefas: Record<string, Tarefa> = {
   "senado:votacoes": (de, ate) => senado.votacoes(de, ate),
   "senado:despesas": (ano) => senado.despesas(ano ? Number(ano) : undefined),
   "senado:autoria": (desde) => senado.autoria(desde),
+  "planalto:agenda": (de, ate) => planalto.agenda(de, ate),
 };
 
 // Rotinas agrupam tarefas na ordem certa (cadastros antes de votos, por exemplo)
 const rotinas: Record<string, string[]> = {
-  frequente: ["camara:agenda", "senado:agenda", "camara:votacoes", "senado:votacoes"],
+  frequente: ["camara:agenda", "senado:agenda", "camara:votacoes", "senado:votacoes", "planalto:agenda"],
   diaria: [
     "camara:cadastro", "senado:cadastro", "camara:despesas", "senado:despesas",
     "camara:presenca", "camara:autoria", "senado:autoria", "camara:tramitacoes",

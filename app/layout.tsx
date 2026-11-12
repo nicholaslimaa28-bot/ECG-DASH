@@ -19,6 +19,7 @@ const scriptPreferencias = `try{var t=localStorage.getItem('tema');if(t&&t!=='au
 const LINKS = [
   ["/", "Hoje"],
   ["/parlamentares", "Parlamentares"],
+  ["/executivo", "Executivo"],
   ["/busca", "Busca"],
   ["/metodologia", "Metodologia"],
   ["/status", "Status"],
@@ -38,8 +39,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               Três Poderes Hoje
             </Link>
             <Preferencias />
-            <nav aria-label="Principal" className="w-full overflow-x-auto">
-              <ul className="flex gap-4 text-sm">
+            <nav aria-label="Principal" className="w-full">
+              <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
                 {LINKS.map(([href, rotulo]) => (
                   <li key={href}><Link href={href}>{rotulo}</Link></li>
                 ))}

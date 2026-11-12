@@ -33,6 +33,7 @@ export default function Metodologia() {
 
       <h2 id="horarios" className={h2}>Horários</h2>
       <p>Todos os horários estão no fuso de Brasília. A situação das sessões (agendada, em andamento, encerrada, cancelada, suspensa) é a publicada pelas Casas e é atualizada a cada coleta.</p>
+      <p>Na agenda do Presidente, durante viagens, a Presidência publica o <strong>horário local</strong> e um aviso com a diferença para Brasília (ex.: “Fuso horário: +6h em relação a Brasília”). Mostramos o horário como publicado e, ao lado, o equivalente em Brasília, calculado com a diferença informada no aviso. O arquivo de calendário oferecido pela página trata o horário local como se fosse de Brasília; por isso não o usamos.</p>
 
       <h2 id="proposicoes" className={h2}>Proposições</h2>
       <p>Desde 2019 o número de uma proposição é o mesmo nas duas Casas. Juntamos as informações da Câmara e do Senado pela combinação sigla + número + ano. A lista de proposições de um parlamentar inclui autoria e coautoria dos tipos PL, PLP, PEC, PDL (e MPV na Câmara) apresentados desde fevereiro de 2023.</p>

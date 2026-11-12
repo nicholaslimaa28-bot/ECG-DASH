@@ -15,6 +15,13 @@
       "when": 1794506986170,
       "tag": "0001_reporte_erro",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794507836293,
+      "tag": "0002_agenda_executivo",
+      "breakpoints": true
     }
   ]
 }

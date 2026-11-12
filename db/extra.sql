@@ -15,5 +15,6 @@ CREATE INDEX IF NOT EXISTS proposicao_apelido_trgm ON proposicao USING gin (lowe
 -- Fontes conhecidas
 INSERT INTO fonte (id, nome, url_base) VALUES
   ('camara', 'Câmara dos Deputados', 'https://dadosabertos.camara.leg.br'),
-  ('senado', 'Senado Federal / Congresso Nacional', 'https://legis.senado.leg.br/dadosabertos')
+  ('senado', 'Senado Federal / Congresso Nacional', 'https://legis.senado.leg.br/dadosabertos'),
+  ('planalto', 'Presidência da República — agenda', 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto')
 ON CONFLICT (id) DO NOTHING;

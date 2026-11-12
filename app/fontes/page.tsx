@@ -7,6 +7,7 @@ const FONTES = [
   ["Câmara dos Deputados — Dados Abertos", "https://dadosabertos.camara.leg.br", "Deputados, eventos e pautas, votações, votos, orientações, proposições, tramitação e presença em eventos (API v2); cota parlamentar (arquivo anual)."],
   ["Câmara dos Deputados — perfil do deputado", "https://www.camara.leg.br/deputados/quem-sao", "Totais oficiais de presença em Plenário e comissões."],
   ["Senado Federal / Congresso Nacional — Dados Abertos Legislativos", "https://legis.senado.leg.br/dadosabertos", "Senadores, licenças, agenda do Plenário e das comissões, votações nominais, orientação de bancada e processos legislativos."],
+  ["Presidência da República — Agenda do Presidente", "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto", "Compromissos oficiais do Presidente, dia a dia (página pública, coleta permitida pelo robots.txt do gov.br)."],
   ["Senado Federal — Dados Abertos Administrativos", "https://adm.senado.gov.br/adm-dadosabertos/swagger-ui/index.html", "Cota para o Exercício da Atividade Parlamentar dos Senadores (CEAPS)."],
 ];
 
@@ -21,7 +22,7 @@ export default function Fontes() {
         ))}
       </ul>
       <h2 className="text-xl font-semibold">Em breve</h2>
-      <p className="text-sm">Diário Oficial da União (Imprensa Nacional — INLABS), agenda da Presidência da República, Supremo Tribunal Federal e DataJud (CNJ). Quando usarmos o DataJud, as telas trarão a citação “Fonte: CNJ – DataJud”, como exige o termo de uso.</p>
+      <p className="text-sm">Diário Oficial da União (Imprensa Nacional — INLABS), agendas do Vice-Presidente e de ministros (e-Agendas/CGU), Supremo Tribunal Federal e DataJud (CNJ). Quando usarmos o DataJud, as telas trarão a citação “Fonte: CNJ – DataJud”, como exige o termo de uso.</p>
       <h2 className="text-xl font-semibold">Privacidade (LGPD)</h2>
       <p className="text-sm">Exibimos apenas informação funcional de agentes públicos, como os órgãos já publicam. Não armazenamos CPF, data de nascimento ou endereço residencial, ainda que algumas fontes os disponibilizem.</p>
       <p className="text-sm"><strong>Site independente, sem vínculo com os órgãos oficiais.</strong></p>

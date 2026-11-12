@@ -279,3 +279,30 @@ export const reporteErro = pgTable("reporte_erro", {
   status: text("status").notNull().default("aberto"),
   criadoEm: tz("criado_em").notNull().defaultNow(),
 });
+
+// ---------------- Executivo: agenda do Presidente ----------------
+
+/** Situação de cada dia de agenda: se a página existia, o aviso de fuso (viagens) e quando foi coletada. */
+export const agendaDia = pgTable("agenda_dia", {
+  autoridade: text("autoridade").notNull(), // 'presidente'
+  data: date("data").notNull(),
+  publicada: boolean("publicada").notNull(), // false = página ainda não publicada (404)
+  aviso: text("aviso"),
+  fusoMin: integer("fuso_min"), // diferença do horário publicado para Brasília, em minutos
+  url: text("url").notNull(),
+  coletadoEm: tz("coletado_em").notNull(),
+}, (t) => [primaryKey({ columns: [t.autoridade, t.data] })]);
+
+export const agendaExecutivo = pgTable("agenda_executivo", {
+  id: serial("id").primaryKey(),
+  autoridade: text("autoridade").notNull(),
+  data: date("data").notNull(),
+  ordem: integer("ordem").notNull(),
+  inicio: tz("inicio"), // convertido para Brasília
+  inicioTexto: text("inicio_texto"), // como publicado ("13h00", horário local em viagens)
+  horaLocal: boolean("hora_local").notNull().default(false),
+  titulo: text("titulo").notNull(),
+  local: text("local"),
+  url: text("url"),
+  coletadoEm: tz("coletado_em").notNull(),
+}, (t) => [index("agenda_exec_data_idx").on(t.autoridade, t.data)]);

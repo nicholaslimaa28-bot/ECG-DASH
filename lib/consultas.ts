@@ -309,3 +309,24 @@ export async function ultimaColeta(fonteId: string, tarefa: string): Promise<Dat
     SELECT max(terminado_em) AS t FROM coleta WHERE fonte_id = ${fonteId} AND tarefa = ${tarefa} AND status IN ('ok','parcial')`;
   return r?.t ?? null;
 }
+
+// ---------------- Executivo: agenda do Presidente ----------------
+
+export type DiaAgenda = { data: string; publicada: boolean; aviso: string | null; fusoMin: number | null; url: string; coletadoEm: Date } | null;
+export type CompromissoAgenda = { inicio: Date | null; inicioTexto: string | null; horaLocal: boolean; titulo: string; local: string | null; url: string | null };
+
+export async function agendaPresidente(dia: string): Promise<{ dia: DiaAgenda; compromissos: CompromissoAgenda[] }> {
+  const [d] = await sql<NonNullable<DiaAgenda>[]>`
+    SELECT data::text, publicada, aviso, fuso_min AS "fusoMin", url, coletado_em AS "coletadoEm"
+    FROM agenda_dia WHERE autoridade = 'presidente' AND data = ${dia}`;
+  const compromissos = await sql<CompromissoAgenda[]>`
+    SELECT inicio, inicio_texto AS "inicioTexto", hora_local AS "horaLocal", titulo, local, url
+    FROM agenda_executivo WHERE autoridade = 'presidente' AND data = ${dia} ORDER BY ordem`;
+  return { dia: d ?? null, compromissos };
+}
+
+export async function diasComAgenda(limite = 14): Promise<string[]> {
+  const r = await sql<{ data: string }[]>`
+    SELECT data::text FROM agenda_dia WHERE autoridade = 'presidente' AND publicada ORDER BY data DESC LIMIT ${limite}`;
+  return r.map((x) => x.data);
+}

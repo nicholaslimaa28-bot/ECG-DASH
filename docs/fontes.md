@@ -202,3 +202,14 @@ Os links fixos dos canais vão num arquivo de configuração, revisado manualmen
 - **Agenda do Plenário do Senado:** a hora vem sem zero à esquerda (`"9:00"`).
 - **Autoria no Senado:** `/processo?codigoParlamentarAutor={cod}&sigla={PL|PEC…}&dataInicioApresentacao=AAAA-MM-DD` funciona e inclui coautoria.
 - **Presença (perfil da Câmara):** os totais coletados batem com a página oficial (ex.: deputado 204379 em 2026: 63 / 0 / 16 no Plenário; 12 / 0 / 44 nas comissões).
+
+---
+
+## 8. Fase 2A — Agenda do Presidente (12/11/2026)
+
+- **URL do dia:** `{base}/AAAA-MM-DD`. Dias ainda não publicados (futuros) devolvem **404**: o site mostra "a Presidência ainda não publicou a agenda deste dia".
+- **Descoberta da base:** o coletor procura o link `agenda-do-presidente-da-republica*/agenda-do-presidente-da-republica` em `https://www.gov.br/planalto/pt-br/acompanhe-o-planalto`. Se não encontrar, usa o caminho conhecido (que tem `-lula` no nome). Isso protege contra a troca de URL na posse de 2027.
+- **Fuso em viagens:** o horário publicado é o **local**, com o aviso `.portalMessage.info` "Antália (Turquia) (Fuso horário: +6h em relação a Brasília)". O **vCal** de cada compromisso trata esse horário como se fosse de Brasília (ex.: "13h00" em Antália → `DTSTART:20261112T160000Z`, ou seja, 13h de Brasília, quando o correto é 7h): **não usar o vCal**. Convertemos com a diferença publicada no aviso.
+- O portal tem um `dl.portalMessage.info` oculto (`display:none`, texto "Info") em todas as páginas: deve ser ignorado.
+- O gov.br às vezes responde com "Empty reply from server": o retry resolve.
+- **Vice-Presidente e ministros:** a agenda do Vice não fica mais no Planalto; a página da Vice-Presidência aponta para o **e-Agendas (CGU)**. O robots.txt permite tudo, e há uma API oficial (`https://eagendas.cgu.gov.br/api/v2`, documentada em `github.com/cgugovbr/eagendas-publico/api-consulta`), mas ela **exige token pessoal** gerado por quem faz login no e-Agendas (conta gov.br). Variável prevista: `EAGENDAS_TOKEN`.
