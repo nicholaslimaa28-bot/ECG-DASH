@@ -12,7 +12,7 @@ Legenda: ✅ funciona como esperado · ⚠️ funciona com ressalvas · ❌ indi
 | Senado/Congresso — API | ✅ | JSON (pedir `.json` ou `Accept`) | não |
 | Senado — presença com justificativa | ✅ por votação nominal | JSON | não |
 | DOU — INLABS | ❌ em manutenção no dia do teste | XML/PDF | login |
-| DOU — página pública `leiturajornal` | ✅ alternativa | JSON embutido no HTML | não |
+| DOU — página pública `leiturajornal` | ❌ funciona, mas o `robots.txt` do in.gov.br proíbe robôs (`Disallow: /`) | JSON embutido no HTML | não |
 | Agenda do Presidente (gov.br) | ✅ via raspagem | HTML | não |
 | STF — portal | ❌ firewall bloqueia IPs de datacenter fora do Brasil | — | — |
 | DataJud (CNJ) | ⚠️ funciona, mas servidor sobrecarregado; **não inclui STF** | JSON (Elasticsearch) | chave pública |
@@ -136,7 +136,8 @@ Desde 2019 o número do projeto é único nas duas Casas (ex.: "PEC 18/2025" nas
 ### 3.1 Diário Oficial da União
 - **INLABS** (`inlabs.in.gov.br`): no dia do teste a página exibia **"Estamos em manutenção"** e indicava a "Base de Dados de Publicações do DOU" como alternativa temporária. O README oficial (`github.com/Imprensa-Nacional/inlabs`, ramo `master`) informa que o INLABS guarda **só os últimos 4 meses**; para períodos anteriores, ver a página de Dados Abertos da Imprensa Nacional (dumps mensais). O INLABS exige cadastro (usuário e senha), então vamos precisar de `INLABS_EMAIL` e `INLABS_SENHA`.
 - **Alternativa testada, sem login:** `https://www.in.gov.br/leiturajornal?data=DD-MM-AAAA&secao=do1`. O HTML traz `<script id="params" type="application/json">` com `jsonArray`: **471 atos** no DO1 de 11/11/2026. Campos: `title`, `artType` (Portaria, Decreto, Lei, Medida Provisória…), `hierarchyStr` (órgão), `pubDate`, `editionNumber`, `numberPage`, `urlTitle` (o texto integral fica em `https://www.in.gov.br/web/dou/-/{urlTitle}`) e `content` (só o começo do texto).
-- **Proposta:** usar o `leiturajornal` para o card "Publicado hoje" (filtrar por `artType` (Lei, Decreto, Medida Provisória e despachos de veto; confirmar os valores exatos numa amostra de vários dias) e pela hierarquia "Atos do Poder Executivo" / "Presidência da República"). Usar o INLABS quando voltar, para o XML completo. O `robots.txt` de www.in.gov.br não pôde ser lido (erro de protocolo HTTP/2): tentar de novo antes da Fase 2.
+- ❌ **Atualização (2º teste, mesmo dia):** o `robots.txt` de `www.in.gov.br` foi lido via HTTP/1.1 e diz `User-agent: *` / `Disallow: /`. Ele **proíbe qualquer robô** no site inteiro, incluindo o `leiturajornal`. Pelo princípio de coleta respeitosa, o `leiturajornal` **não deve ser a fonte automática**. A amostra em `fixtures/dou/` serve só para conhecer o formato.
+- **Proposta revisada:** a fonte do DOU é o **INLABS** (canal oficial para download automatizado, com cadastro). No 2º teste ele continuava em manutenção. Enquanto não volta, o card "Publicado hoje" mostra "dado indisponível no momento" e um link para a edição do dia. Os filtros de interesse são `artType` (Lei, Decreto, Medida Provisória, vetos; confirmar os valores exatos) e a hierarquia "Atos do Poder Executivo" / "Presidência da República". Outra fonte permitida: `/legislacao/lista` do Senado, para leis e decretos já publicados (com algum atraso).
 
 ### 3.2 Agenda do Presidente
 - URL: `https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/AAAA-MM-DD` → 200, HTML estável: `li.item-compromisso-wrapper` > `time.compromisso-inicio`, `h2.compromisso-titulo`, `div.compromisso-local`, link `vcal_view` por compromisso.
