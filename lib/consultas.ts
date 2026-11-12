@@ -215,13 +215,15 @@ export type Proposicao = {
   id: number; sigla: string; numero: number; ano: number; idCamara: number | null; idSenado: number | null; casaIniciadora: string | null;
   ementa: string | null; apelido: string | null; situacaoCamara: string | null; situacaoSenado: string | null;
   dataApresentacao: string | null; urlInteiroTeor: string | null; slug: string; atualizadoEm: Date;
+  normaGerada: string | null; urlNorma: string | null; dataNorma: string | null;
 };
 
 export async function proposicaoPorSlug(slug: string): Promise<Proposicao | null> {
   const [p] = await sql<Proposicao[]>`
     SELECT id, sigla, numero, ano, id_camara AS "idCamara", id_senado AS "idSenado", casa_iniciadora AS "casaIniciadora", ementa, apelido,
       situacao_camara AS "situacaoCamara", situacao_senado AS "situacaoSenado", data_apresentacao::text AS "dataApresentacao",
-      url_inteiro_teor AS "urlInteiroTeor", slug, atualizado_em AS "atualizadoEm"
+      url_inteiro_teor AS "urlInteiroTeor", slug, atualizado_em AS "atualizadoEm",
+      norma_gerada AS "normaGerada", url_norma AS "urlNorma", data_norma::text AS "dataNorma"
     FROM proposicao WHERE slug = ${slug}`;
   return p ?? null;
 }
@@ -329,4 +331,52 @@ export async function diasComAgenda(limite = 14): Promise<string[]> {
   const r = await sql<{ data: string }[]>`
     SELECT data::text FROM agenda_dia WHERE autoridade = 'presidente' AND publicada ORDER BY data DESC LIMIT ${limite}`;
   return r.map((x) => x.data);
+}
+
+// ---------------- Sanções, vetos, leis e MPs ----------------
+
+export type LeiRecente = { nome: string; ementa: string | null; dataAssinatura: string; url: string; proposicao: { sigla: string; numero: number; ano: number; slug: string } | null; vetoParcial: boolean };
+
+export async function leisRecentes(desde: string, limite = 30): Promise<LeiRecente[]> {
+  return sql<LeiRecente[]>`
+    SELECT n.nome, n.ementa, n.data_assinatura::text AS "dataAssinatura", n.url,
+      CASE WHEN p.id IS NULL THEN NULL ELSE json_build_object('sigla', p.sigla, 'numero', p.numero, 'ano', p.ano, 'slug', p.slug) END AS proposicao,
+      EXISTS (SELECT 1 FROM veto v WHERE v.proposicao_id = p.id AND v.total = false) AS "vetoParcial"
+    FROM norma n LEFT JOIN proposicao p ON p.id = n.proposicao_id
+    WHERE n.data_assinatura >= ${desde} ORDER BY n.data_assinatura DESC, n.numero DESC LIMIT ${limite}`;
+}
+
+export type VetoResumo = {
+  id: number; numero: number; ano: number; total: boolean | null; assunto: string | null; ementa: string | null; comentario: string | null;
+  dataPublicacao: string | null; dataSobrestacao: string | null; sobrestando: boolean | null; emTramitacao: boolean | null;
+  urlMensagem: string | null; resultado: string; dispositivos: { identificador: string | null; descricao: string; situacao: string; dataSessao: string | null }[] | null;
+  fonteUrl: string; coletadoEm: Date;
+  proposicao: { sigla: string; numero: number; ano: number; slug: string } | null;
+};
+
+const camposVeto = sql`
+  v.id, v.numero, v.ano, v.total, v.assunto, v.ementa, v.comentario, v.data_publicacao::text AS "dataPublicacao",
+  v.data_sobrestacao::text AS "dataSobrestacao", v.sobrestando, v.em_tramitacao AS "emTramitacao", v.url_mensagem AS "urlMensagem",
+  v.resultado, v.dispositivos, v.fonte_url AS "fonteUrl", v.coletado_em AS "coletadoEm",
+  CASE WHEN p.id IS NULL THEN NULL ELSE json_build_object('sigla', p.sigla, 'numero', p.numero, 'ano', p.ano, 'slug', p.slug) END AS proposicao`;
+
+export async function vetosRecentes(desde: string, limite = 30): Promise<VetoResumo[]> {
+  return sql<VetoResumo[]>`SELECT ${camposVeto} FROM veto v LEFT JOIN proposicao p ON p.id = v.proposicao_id
+    WHERE v.data_publicacao >= ${desde} ORDER BY v.data_publicacao DESC, v.numero DESC LIMIT ${limite}`;
+}
+
+export async function vetosPendentes(): Promise<VetoResumo[]> {
+  return sql<VetoResumo[]>`SELECT ${camposVeto} FROM veto v LEFT JOIN proposicao p ON p.id = v.proposicao_id
+    WHERE v.em_tramitacao ORDER BY v.data_sobrestacao NULLS LAST, v.numero`;
+}
+
+export async function vetosDaProposicao(proposicaoId: number): Promise<VetoResumo[]> {
+  return sql<VetoResumo[]>`SELECT ${camposVeto} FROM veto v LEFT JOIN proposicao p ON p.id = v.proposicao_id
+    WHERE v.proposicao_id = ${proposicaoId} ORDER BY v.ano DESC, v.numero DESC`;
+}
+
+export async function mpvsRecentes(desde: string, limite = 20) {
+  return sql<{ sigla: string; numero: number; ano: number; slug: string; ementa: string | null; situacao: string | null; data: string; normaGerada: string | null }[]>`
+    SELECT sigla, numero, ano, slug, ementa, situacao_senado AS situacao, data_apresentacao::text AS data, norma_gerada AS "normaGerada"
+    FROM proposicao WHERE sigla = 'MPV' AND data_apresentacao >= ${desde} ORDER BY data_apresentacao DESC, numero DESC LIMIT ${limite}`;
 }

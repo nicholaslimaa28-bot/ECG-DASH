@@ -15,7 +15,8 @@ Site de transparência que reúne, em linguagem simples, o que acontece hoje na 
 | Páginas de sessão, votação (voto a voto) e proposição (situação nas duas Casas, tramitação na Câmara) | ✅ |
 | Busca unificada (nome com erro de digitação/sem acento, número "PL 2475/2025", tema) | ✅ |
 | `/status`, Metodologia, Fontes e licenças, Glossário, Reportar erro | ✅ |
-| Executivo (DOU, agenda do Presidente) | Fase 2 — card com links oficiais |
+| Executivo: agenda do Presidente (com fuso em viagens), leis, vetos e MPs | ✅ Fase 2A e 2B |
+| Executivo: Diário Oficial (INLABS) | Fase 2C — aguarda o INLABS e o cadastro |
 | Judiciário (STF, DataJud) | Fase 3 — card com links oficiais |
 
 ## Arquitetura

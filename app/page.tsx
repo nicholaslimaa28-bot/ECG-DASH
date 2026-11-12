@@ -1,6 +1,6 @@
 // Home — "Hoje nos Três Poderes"
 import Link from "next/link";
-import { eventosEntre, votacoesEntre, orientacoes, ultimaColeta, agendaPresidente, type Votacao, type Orientacao } from "@/lib/consultas";
+import { eventosEntre, votacoesEntre, orientacoes, ultimaColeta, agendaPresidente, leisRecentes, vetosRecentes, type Votacao, type Orientacao } from "@/lib/consultas";
 import { AgendaPresidente } from "@/components/AgendaPresidente";
 import { hojeBrasilia, somarDias, formatarData, formatarHora } from "@/lib/tempo";
 import { EventoItem, ehPlenario } from "@/components/EventoItem";
@@ -80,6 +80,7 @@ export default async function Hoje() {
     ultimaColeta("camara", "votacoes"), ultimaColeta("senado", "votacoes"),
     agendaPresidente(hoje),
   ]);
+  const [leis7, vetos7] = await Promise.all([leisRecentes(somarDias(hoje, -7), 6), vetosRecentes(somarDias(hoje, -7), 6)]);
   const plenarios = eventos.filter(ehPlenario);
   const comissoes = eventos.filter((e) => !ehPlenario(e));
   const votacoes = votosHoje.length ? votosHoje : votosRecentes.slice(0, 6);
@@ -131,6 +132,23 @@ export default async function Hoje() {
             <Link href="/executivo">Outros dias</Link> · <a href={CANAIS.GOV.url} target="_blank" rel="noopener">Assistir à {CANAIS.GOV.nome}</a> ·{" "}
             <a href="https://www.in.gov.br/leiturajornal" target="_blank" rel="noopener">Diário Oficial de hoje</a>
           </p>
+        </Secao>
+        <Secao titulo="Sancionado e vetado nos últimos 7 dias" poder="executivo">
+          {leis7.length + vetos7.length === 0 ? <p className="text-sm text-suave">Nenhuma lei ou veto publicado nos últimos 7 dias.</p> : (
+            <ul className="space-y-2 text-sm">
+              {leis7.map((l) => (
+                <li key={l.nome}><a href={l.url} target="_blank" rel="noopener" className="font-medium">{l.nome}</a>
+                  {l.proposicao && <> · <Link href={`/proposicao/${l.proposicao.slug}`}>{l.proposicao.sigla} {l.proposicao.numero}/{l.proposicao.ano}</Link></>}
+                  {l.ementa && <span className="block text-suave">{l.ementa.length > 140 ? l.ementa.slice(0, 137) + "…" : l.ementa}</span>}</li>
+              ))}
+              {vetos7.map((v) => (
+                <li key={v.id}>Veto {v.total ? "total" : "parcial"} nº {v.numero}/{v.ano}
+                  {v.proposicao && <> · <Link href={`/proposicao/${v.proposicao.slug}`}>{v.proposicao.sigla} {v.proposicao.numero}/{v.proposicao.ano}</Link></>}
+                  {v.assunto && <span className="block text-suave">{v.assunto}</span>}</li>
+              ))}
+            </ul>
+          )}
+          <p className="mt-2 text-sm"><Link href="/executivo#leis">Leis, vetos e medidas provisórias</Link></p>
         </Secao>
         <Secao titulo="Supremo Tribunal Federal" poder="judiciario">
           <p className="text-sm">Dado indisponível no momento: o portal do STF não permite a coleta automática a partir dos nossos servidores. Veja a pauta na fonte oficial.</p>

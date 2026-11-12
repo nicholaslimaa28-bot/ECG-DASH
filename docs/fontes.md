@@ -213,3 +213,18 @@ Os links fixos dos canais vão num arquivo de configuração, revisado manualmen
 - O portal tem um `dl.portalMessage.info` oculto (`display:none`, texto "Info") em todas as páginas: deve ser ignorado.
 - O gov.br às vezes responde com "Empty reply from server": o retry resolve.
 - **Vice-Presidente e ministros:** a agenda do Vice não fica mais no Planalto; a página da Vice-Presidência aponta para o **e-Agendas (CGU)**. O robots.txt permite tudo, e há uma API oficial (`https://eagendas.cgu.gov.br/api/v2`, documentada em `github.com/cgugovbr/eagendas-publico/api-consulta`), mas ela **exige token pessoal** gerado por quem faz login no e-Agendas (conta gov.br). Variável prevista: `EAGENDAS_TOKEN`.
+
+---
+
+## 9. Fase 2B — Sanções, vetos, leis e MPs (12/11/2026)
+
+- **Vetos por ano:** `/materia/vetos/{ano}.json` responde com **301** para `/dados/ListaVetosAnoCN{ano}.json`: o cliente precisa seguir o redirecionamento. Cada veto traz:
+  - `Total` (Sim/Não), `Assunto`, `Comentario`;
+  - `Mensagem.UrlPlanalto` (razões do veto);
+  - `DataSobrestacaoPauta` / `SobrestandoPauta`;
+  - `MateriaVetada` (sigla/número/ano do projeto ou MP) com `NormaGerada` (lei, data e edição do DOU).
+- **Resultado do veto:** `/plenario/resultado/veto/materia/{codigoMateria}.json` → `Dispositivos.Dispositivo[]` com `Situacao`: **Mantido**, **Rejeitado** (veto derrubado) ou **Não Apreciado**, mais `DataSessao`. Exemplo real: VET 3/2026 (veto total ao PL 2162/2023) foi "Rejeitado" em 30/04/2026 e virou a Lei 15.402.
+- **Leis:** `/legislacao/lista.json?tipo=LEI-n&ano=AAAA` (e `tipo=LCP` para leis complementares). Os filtros de data são **ignorados**: sem `tipo` e `ano`, a resposta traz o acervo inteiro (7 MB). Em 2026: 206 leis ordinárias e 14 complementares.
+- **Lei → projeto de origem:** `/processo?tipoNorma=LEI&numeroNorma=N&anoNorma=AAAA` devolve o processo que originou a lei. As 220 leis de 2026 foram ligadas ao projeto.
+- **Medidas provisórias:** `/processo?sigla=MPV&ano=AAAA` traz número, data de edição e situação ("SEM EFICÁCIA", "TRANSFORMADA EM NORMA JURÍDICA"...). Em 2026: 68 MPs.
+- **Sanção sem veto:** não há lista própria. Aparece como lei publicada cujo projeto não tem veto.

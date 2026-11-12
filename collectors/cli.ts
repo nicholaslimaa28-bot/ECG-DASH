@@ -10,6 +10,7 @@ const { encerrar } = await import("@/lib/db");
 const camara = await import("./camara/coletar");
 const senado = await import("./senado/coletar");
 const planalto = await import("./planalto/coletar");
+const congresso = await import("./congresso/coletar");
 
 type Tarefa = (...args: string[]) => Promise<unknown>;
 const tarefas: Record<string, Tarefa> = {
@@ -26,6 +27,9 @@ const tarefas: Record<string, Tarefa> = {
   "senado:despesas": (ano) => senado.despesas(ano ? Number(ano) : undefined),
   "senado:autoria": (desde) => senado.autoria(desde),
   "planalto:agenda": (de, ate) => planalto.agenda(de, ate),
+  "congresso:vetos": (...anos) => congresso.vetos(anos.length ? anos.map(Number) : undefined),
+  "congresso:leis": (ano) => congresso.leis(ano ? Number(ano) : undefined),
+  "congresso:mpvs": (ano) => congresso.mpvs(ano ? Number(ano) : undefined),
 };
 
 // Rotinas agrupam tarefas na ordem certa (cadastros antes de votos, por exemplo)
@@ -34,6 +38,7 @@ const rotinas: Record<string, string[]> = {
   diaria: [
     "camara:cadastro", "senado:cadastro", "camara:despesas", "senado:despesas",
     "camara:presenca", "camara:autoria", "senado:autoria", "camara:tramitacoes",
+    "congresso:vetos", "congresso:leis", "congresso:mpvs",
   ],
 };
 rotinas.inicial = [...rotinas.diaria.slice(0, 2), ...rotinas.frequente, ...rotinas.diaria.slice(2)];

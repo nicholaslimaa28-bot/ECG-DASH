@@ -31,6 +31,9 @@ export default function Metodologia() {
       <h2 id="gastos" className={h2}>Gastos da cota parlamentar</h2>
       <p>Valores líquidos reembolsados, como publicados pela Câmara (arquivo anual da CEAP) e pelo Senado (CEAPS, API administrativa). Valores negativos são estornos ou compensações registrados pela própria Casa. Não guardamos CPF de fornecedores pessoa física e removemos números de CPF que apareçam no nome do fornecedor.</p>
 
+      <h2 id="vetos" className={h2}>Sanções e vetos</h2>
+      <p>Uma lei aparece como “sancionada ou promulgada” quando consta na legislação federal publicada; ligamos cada lei ao projeto de origem com a informação do próprio Senado. Para cada veto, mostramos o resultado da deliberação do Congresso a partir da situação de cada trecho vetado: <strong>mantido</strong>, <strong>derrubado</strong> (o trecho volta a valer) ou ainda não apreciado. Quando parte dos trechos foi derrubada e parte mantida, o veto aparece como “derrubado em parte”.</p>
+
       <h2 id="horarios" className={h2}>Horários</h2>
       <p>Todos os horários estão no fuso de Brasília. A situação das sessões (agendada, em andamento, encerrada, cancelada, suspensa) é a publicada pelas Casas e é atualizada a cada coleta.</p>
       <p>Na agenda do Presidente, durante viagens, a Presidência publica o <strong>horário local</strong> e um aviso com a diferença para Brasília (ex.: “Fuso horário: +6h em relação a Brasília”). Mostramos o horário como publicado e, ao lado, o equivalente em Brasília, calculado com a diferença informada no aviso. O arquivo de calendário oferecido pela página trata o horário local como se fosse de Brasília; por isso não o usamos.</p>

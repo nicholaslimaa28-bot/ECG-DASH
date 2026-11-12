@@ -154,6 +154,9 @@ export const proposicao = pgTable("proposicao", {
   situacaoSenado: text("situacao_senado"),
   dataApresentacao: date("data_apresentacao"),
   urlInteiroTeor: text("url_inteiro_teor"),
+  normaGerada: text("norma_gerada"), // "Lei nº 15.527 de 06/11/2026" quando virou lei
+  urlNorma: text("url_norma"),
+  dataNorma: date("data_norma"),
   slug: text("slug").notNull(),
   hashConteudo: text("hash_conteudo"),
   atualizadoEm: tz("atualizado_em").notNull(),
@@ -306,3 +309,45 @@ export const agendaExecutivo = pgTable("agenda_executivo", {
   url: text("url"),
   coletadoEm: tz("coletado_em").notNull(),
 }, (t) => [index("agenda_exec_data_idx").on(t.autoridade, t.data)]);
+
+// ---------------- Executivo/Congresso: leis, vetos ----------------
+
+/** Leis federais (ordinárias e complementares) publicadas, ligadas ao projeto de origem quando a fonte informa. */
+export const norma = pgTable("norma", {
+  codigo: integer("codigo").primaryKey(), // código da norma no Senado
+  tipo: text("tipo").notNull(), // Lei | Lei Complementar
+  numero: integer("numero").notNull(),
+  ano: integer("ano").notNull(),
+  nome: text("nome").notNull(),
+  ementa: text("ementa"),
+  dataAssinatura: date("data_assinatura").notNull(),
+  url: text("url").notNull(),
+  proposicaoId: integer("proposicao_id").references(() => proposicao.id),
+  origemConsultada: boolean("origem_consultada").notNull().default(false),
+  coletadoEm: tz("coletado_em").notNull(),
+}, (t) => [index("norma_data_idx").on(t.dataAssinatura)]);
+
+export type DispositivoVeto = { identificador: string | null; descricao: string; situacao: string; dataSessao: string | null };
+
+export const veto = pgTable("veto", {
+  id: serial("id").primaryKey(),
+  codigoSenado: integer("codigo_senado").notNull(),
+  codigoMateria: integer("codigo_materia").notNull(),
+  numero: integer("numero").notNull(),
+  ano: integer("ano").notNull(),
+  proposicaoId: integer("proposicao_id").references(() => proposicao.id),
+  total: boolean("total"),
+  assunto: text("assunto"),
+  ementa: text("ementa"),
+  comentario: text("comentario"),
+  dataPublicacao: date("data_publicacao"),
+  dataRecebimento: date("data_recebimento"),
+  dataSobrestacao: date("data_sobrestacao"), // a partir desta data o veto tranca a pauta do Congresso
+  sobrestando: boolean("sobrestando"),
+  emTramitacao: boolean("em_tramitacao"),
+  urlMensagem: text("url_mensagem"), // mensagem de veto com as razões, no Planalto
+  resultado: text("resultado").notNull(),
+  dispositivos: jsonb("dispositivos").$type<DispositivoVeto[]>(),
+  fonteUrl: text("fonte_url").notNull(),
+  coletadoEm: tz("coletado_em").notNull(),
+}, (t) => [uniqueIndex("veto_codigo_uq").on(t.codigoSenado), index("veto_data_idx").on(t.dataPublicacao)]);

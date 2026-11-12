@@ -1,0 +1,87 @@
+{
+ "ResultadoVetoMateriaCN": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/cn/ResultadoVetoMateriaCNv7.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 15:27:24",
+   "VersaoServico": "7",
+   "DataVersaoServico": "2018-08-06",
+   "DescricaoDataSet": "Resultado da votação nominal de vetos de uma matéria."
+  },
+  "Veto": {
+   "Codigo": "17969",
+   "Materia": {
+    "Codigo": "172342",
+    "SiglaCasa": "CN",
+    "NomeCasa": "Congresso Nacional",
+    "Sigla": "VET",
+    "Numero": "3",
+    "Ano": "2026",
+    "EmTramitacao": "Não",
+    "Ementa": "Veto total aposto ao Projeto de Lei nº 2.162, de 2023, que \"Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal).\"",
+    "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/172342"
+   },
+   "MateriaVetada": {
+    "Codigo": "172003",
+    "SiglaCasa": "CN",
+    "NomeCasa": "Congresso Nacional",
+    "Sigla": "PL",
+    "Numero": "2162",
+    "Ano": "2023",
+    "DescricaoObjetivoProcesso": "Revisora",
+    "EmTramitacao": "Não",
+    "Ementa": "Altera dispositivos da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal) e do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal).",
+    "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/172003",
+    "UrlRelatorias": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/172003",
+    "NormaGerada": {
+     "NomeNorma": "Lei nº 15.402 de 08/05/2026",
+     "UrlNorma": "https://legis.senado.leg.br/norma/43271992",
+     "CodigoNorma": "43271992",
+     "SiglaTipoNorma": "LEI-n",
+     "DescricaoTipoNorma": "Lei Numerada",
+     "NumeroNorma": "15402",
+     "AnoNorma": "2026",
+     "DataAssinatura": "2026-05-08",
+     "DataPublicacao": "2026-05-08",
+     "SiglaVeiculoPublicacao": "DOUE",
+     "DescricaoVeiculoPublicacao": "[Diário Oficial da União - Edição Extra  de 08/05/2026] (p. 1, col. 1)"
+    }
+   },
+   "Mensagem": {
+    "Sigla": "MSG",
+    "Numero": "17",
+    "Ano": "2026",
+    "UrlPlanalto": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/Msg/Vet/VEP-17-26.htm"
+   },
+   "Total": "Sim",
+   "DataRecebimentoCongresso": "2026-01-12",
+   "DataSobrestacaoPauta": "2026-03-04",
+   "DataPublicacao": "2026-01-09",
+   "SobrestandoPauta": "Não",
+   "Assunto": "Dosimetria de Penas",
+   "RazaoVeto": "\"Em que pese a boa intenção do legislador, a proposição é inconstitucional e contraria o interesse público uma vez que a redução da resposta penal a crimes contra o Estado Democrático de Direito daria o condão de aumentar a incidência de crimes contra a ordem democrática e indicaria retrocesso no processo histórico de redemocratização que originou a Nova República, violando o fundamento disposto no art. 1º da Constituição. Além disso, a facilitação de condutas que ameaçam o Estado Democrático de Direito representaria não apenas a impunidade baseada em interesses casuísticos, mas também a ameaça ao ordenamento jurídico e a todo o sistema de garantias fundamentais alicerçado na Constituição ao afrontar os princípios constitucionais da proporcionalidade, da isonomia e da impessoalidade, incorrendo em uma proteção deficiente de bens jurídicos fundamentais. Por fim, o encaminhamento da proposição legislativa à sanção presidencial após a alteração de mérito promovida na Casa Revisora violaria a integridade do processo legislativo e o modelo bicameral disposto no parágrafo único do art. 65 da Constituição.\"\nOuvidos Advocacia-Geral da União, o Ministério dos Direitos Humanos e da Cidadania e o Ministério da Justiça e Segurança Pública",
+   "PdfsResultadoVotacao": {
+    "PdfResultadoVotacao": [
+     {
+      "URL": "https://legis.senado.leg.br/siscon/api/portalcn/pdfResultadoNominalDestaque/17969",
+      "Descricao": "Resultado dos destaques da Sessão Conjunta em 30/04/2026"
+     }
+    ]
+   },
+   "Dispositivos": {
+    "Dispositivo": [
+     {
+      "Identificador": "03.26.000",
+      "Descricao": "Veto total",
+      "Conteudo": "Veto total aposto ao Projeto de Lei nº 2.162, de 2023, que \"Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal).\"",
+      "Assunto": "Dosimetria de Penas",
+      "RazaoVeto": "\"Em que pese a boa intenção do legislador, a proposição é inconstitucional e contraria o interesse público uma vez que a redução da resposta penal a crimes contra o Estado Democrático de Direito daria o condão de aumentar a incidência de crimes contra a ordem democrática e indicaria retrocesso no processo histórico de redemocratização que originou a Nova República, violando o fundamento disposto no art. 1º da Constituição. Além disso, a facilitação de condutas que ameaçam o Estado Democrático de Direito representaria não apenas a impunidade baseada em interesses casuísticos, mas também a ameaça ao ordenamento jurídico e a todo o sistema de garantias fundamentais alicerçado na Constituição ao afrontar os princípios constitucionais da proporcionalidade, da isonomia e da impessoalidade, incorrendo em uma proteção deficiente de bens jurídicos fundamentais. Por fim, o encaminhamento da proposição legislativa à sanção presidencial após a alteração de mérito promovida na Casa Revisora violaria a integridade do processo legislativo e o modelo bicameral disposto no parágrafo único do art. 65 da Constituição.\"\nOuvidos Advocacia-Geral da União, o Ministério dos Direitos Humanos e da Cidadania e o Ministério da Justiça e Segurança Pública",
+      "Situacao": "Rejeitado",
+      "PossuiVotos": "Sim",
+      "TipoVotacao": "Painel",
+      "DataSessao": "2026-04-30"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -116,6 +116,9 @@ export async function salvarProposicao(p: DadosProposicao): Promise<number> {
     return salvarProposicao(p); // corrida com outra inserção: tenta de novo como atualização
   }
   await db.update(s.proposicao).set(limpo).where(eq(s.proposicao.id, antes.id));
+  if (limpo.normaGerada && !antes.normaGerada) {
+    await db.insert(s.mudanca).values({ tipo: "virou_norma", entidade: "proposicao", entidadeId: antes.id, dados: { norma: limpo.normaGerada } });
+  }
   for (const campo of ["situacaoCamara", "situacaoSenado"] as const) {
     if (limpo[campo] && antes[campo] && limpo[campo] !== antes[campo]) {
       await db.insert(s.mudanca).values({

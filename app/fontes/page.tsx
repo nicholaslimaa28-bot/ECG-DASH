@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Fontes e licenças" };
 const FONTES = [
   ["Câmara dos Deputados — Dados Abertos", "https://dadosabertos.camara.leg.br", "Deputados, eventos e pautas, votações, votos, orientações, proposições, tramitação e presença em eventos (API v2); cota parlamentar (arquivo anual)."],
   ["Câmara dos Deputados — perfil do deputado", "https://www.camara.leg.br/deputados/quem-sao", "Totais oficiais de presença em Plenário e comissões."],
-  ["Senado Federal / Congresso Nacional — Dados Abertos Legislativos", "https://legis.senado.leg.br/dadosabertos", "Senadores, licenças, agenda do Plenário e das comissões, votações nominais, orientação de bancada e processos legislativos."],
+  ["Senado Federal / Congresso Nacional — Dados Abertos Legislativos", "https://legis.senado.leg.br/dadosabertos", "Senadores, licenças, agenda do Plenário e das comissões, votações nominais, orientação de bancada, processos legislativos, vetos, leis federais e medidas provisórias."],
   ["Presidência da República — Agenda do Presidente", "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto", "Compromissos oficiais do Presidente, dia a dia (página pública, coleta permitida pelo robots.txt do gov.br)."],
   ["Senado Federal — Dados Abertos Administrativos", "https://adm.senado.gov.br/adm-dadosabertos/swagger-ui/index.html", "Cota para o Exercício da Atividade Parlamentar dos Senadores (CEAPS)."],
 ];

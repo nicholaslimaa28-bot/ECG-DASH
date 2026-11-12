@@ -1,0 +1,51 @@
+{
+ "ListaDocumento": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/ListaDocumentov3.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 15:28:28",
+   "VersaoServico": "3",
+   "DataVersaoServico": "2017-02-01",
+   "DescricaoDataSet": "Obtém a lista de Legislação Federal com base nos parâmetros informados."
+  },
+  "documentos": {
+   "documento": [
+    {
+     "id": "44386606",
+     "tipo": "LEI-n",
+     "descricao": "Lei Numerada",
+     "numero": "15528",
+     "norma": "LEI-15528-2026-11-11",
+     "normaNome": "Lei nº 15.528 de 11/11/2026",
+     "ementa": "Autoriza a concessão de apoio financeiro aos produtores independentes de cana-de-açúcar da Região Nordeste no exercício de 2026 e a destinação de recursos a linhas de financiamento reembolsável para a renovação de frota; e altera as Leis nºs 9.818, de 23 de agosto de 1999, 11.540, de 12 de novembro de 2007, e 14.947, de 2 de agosto de 2024.",
+     "dataassinatura": "11/11/2026",
+     "anoassinatura": "2026",
+     "apelido": "LEI-15528-2026-11-11"
+    },
+    {
+     "id": "44363487",
+     "tipo": "LEI-n",
+     "descricao": "Lei Numerada",
+     "numero": "15527",
+     "norma": "LEI-15527-2026-11-06",
+     "normaNome": "Lei nº 15.527 de 06/11/2026",
+     "ementa": "Institui o Exame Nacional de Avaliação da Formação Médica; e altera as Leis nºs 12.871, de 22 de outubro de 2013, 3.268, de 30 de setembro de 1957, 6.932, de 7 de julho de 1981, 13.959, de 18 de dezembro de 2019, e 10.861, de 14 de abril de 2004.",
+     "dataassinatura": "06/11/2026",
+     "anoassinatura": "2026",
+     "apelido": "LEI-15527-2026-11-06"
+    },
+    {
+     "id": "44095919",
+     "tipo": "LEI-n",
+     "descricao": "Lei Numerada",
+     "numero": "15526",
+     "norma": "LEI-15526-2026-09-29",
+     "normaNome": "Lei nº 15.526 de 29/09/2026",
+     "ementa": "Altera a Lei nº 8.171, de 17 de janeiro de 1991, a Lei nº 10.823, de 19 de dezembro de 2003, e a Lei Complementar nº 137, de 26 de agosto de 2010, para aperfeiçoar o marco legal do seguro rural.",
+     "dataassinatura": "29/09/2026",
+     "anoassinatura": "2026",
+     "apelido": "LEI-15526-2026-09-29"
+    }
+   ]
+  }
+ }
+}

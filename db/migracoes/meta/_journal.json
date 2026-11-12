@@ -22,6 +22,13 @@
       "when": 1794507836293,
       "tag": "0002_agenda_executivo",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1794508208002,
+      "tag": "0003_sancao_veto",
+      "breakpoints": true
     }
   ]
 }

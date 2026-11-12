@@ -1,0 +1,76 @@
+{
+ "ResultadoVetoMateriaCN": {
+  "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/cn/ResultadoVetoMateriaCNv7.xsd",
+  "Metadados": {
+   "Versao": "12/11/2026 15:27:41",
+   "VersaoServico": "7",
+   "DataVersaoServico": "2018-08-06",
+   "DescricaoDataSet": "Resultado da votação nominal de vetos de uma matéria."
+  },
+  "Veto": {
+   "Codigo": "18789",
+   "Materia": {
+    "Codigo": "176246",
+    "SiglaCasa": "CN",
+    "NomeCasa": "Congresso Nacional",
+    "Sigla": "VET",
+    "Numero": "56",
+    "Ano": "2026",
+    "EmTramitacao": "Sim",
+    "Ementa": "Veto parcial aposto ao Projeto de Lei de Conversão (CN) nº 14 de 2026 (oriundo da Medida Provisória nº 1.370 de 2026), que que \"Institui o Exame Nacional de Avaliação da Formação Médica; e altera as Leis nºs 12.871, de 22 de outubro de 2013, 3.268, de 30 de setembro de 1957, 6.932, de 7 de julho de 1981, 13.959, de 18 de dezembro de 2019, e 10.861, de 14 de abril de 2004.\".",
+    "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/176246"
+   },
+   "MateriaVetada": {
+    "Codigo": "174819",
+    "SiglaCasa": "CN",
+    "NomeCasa": "Congresso Nacional",
+    "Sigla": "MPV",
+    "Numero": "1370",
+    "Ano": "2026",
+    "EmTramitacao": "Sim",
+    "Ementa": "Altera a Lei nº 12.871, de 22 de outubro de 2013, a Lei nº 3.268, de 30 de setembro de 1957, a Lei nº 6.932, de 7 de julho de 1981, a Lei nº 13.959, de 18 de dezembro de 2019, e a Lei nº 10.861, de 14 de abril de 2004, para dispor sobre o Exame Nacional de Avaliação da  Formação Médica.",
+    "UrlMovimentacoes": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/174819",
+    "UrlRelatorias": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/174819",
+    "NormaGerada": {
+     "NomeNorma": "Lei nº 15.527 de 06/11/2026",
+     "UrlNorma": "https://legis.senado.leg.br/norma/44363487",
+     "CodigoNorma": "44363487",
+     "SiglaTipoNorma": "LEI-n",
+     "DescricaoTipoNorma": "Lei Numerada",
+     "NumeroNorma": "15527",
+     "AnoNorma": "2026",
+     "DataAssinatura": "2026-11-06",
+     "DataPublicacao": "2026-11-06",
+     "SiglaVeiculoPublicacao": "DOUE",
+     "DescricaoVeiculoPublicacao": "[Diário Oficial da União - Edição Extra  de 06/11/2026 - nº 209-A] (p. 1, col. 1)"
+    }
+   },
+   "Mensagem": {
+    "Sigla": "MSG",
+    "Numero": "547",
+    "Ano": "2026",
+    "UrlPlanalto": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/msg/vep/vep-842-26.htm"
+   },
+   "Total": "Não",
+   "DataRecebimentoCongresso": "2026-11-09",
+   "DataSobrestacaoPauta": "2026-12-09",
+   "DataPublicacao": "2026-11-05",
+   "SobrestandoPauta": "Não",
+   "Assunto": "Exame Nacional de Avaliação da Formação Médica",
+   "PdfsResultadoVotacao": null,
+   "Dispositivos": {
+    "Dispositivo": [
+     {
+      "Codigo": "49593",
+      "Identificador": "56.26.001",
+      "Descricao": "inciso VII do \"caput\" do art. 2º da Lei nº 12.871, de 22 de outubro de 2013, com a redação dada pelo art. 9º do projeto",
+      "Conteudo": "estabelecimento de contrapartidas a serem concedidas por instituições que ofertem cursos de Medicina que utilizem a estrutura e os serviços de saúde pública do SUS para a realização de estágios curriculares obrigatórios e demais atividades formativas práticas, as quais podem assumir natureza financeira, assistencial, estrutural, educacional, científica ou de desenvolvimento profissional, a serem formalizadas por meio de Contrato Organizativo da Ação Pública Ensino-Saúde, conforme diretrizes estabelecidas em ato conjunto do Ministro de Estado da Educação e do Ministro de Estado da Saúde, limitada a contrapartida para todos os serviços utilizados ao valor global de 2% (dois por cento) do faturamento líquido do curso, rateado proporcionalmente entre os entes e os estabelecimentos.",
+      "RazaoVeto": "\"A proposição legislativa contraria o interesse público, uma vez que fragiliza a pactuação entre instituições de ensino e gestores do Sistema Único de Saúde - SUS e compromete a definição de contrapartidas compatíveis com a utilização efetiva dos serviços, com os custos envolvidos e com as necessidades de cada território. Ademais, a imposição de limite financeiro uniforme compromete a equidade entre as instituições.\"\nOuvidos, o Ministério da Saúde, o Ministério da Educação e o Ministério do Planejamento e Orçamento",
+      "Situacao": "Não Apreciado",
+      "PossuiVotos": "Não"
+     }
+    ]
+   }
+  }
+ }
+}

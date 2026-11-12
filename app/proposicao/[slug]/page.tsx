@@ -2,7 +2,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { proposicaoPorSlug, tramitacoes, votacoesDaProposicao, autoresDaProposicao, orientacoes } from "@/lib/consultas";
+import { proposicaoPorSlug, tramitacoes, votacoesDaProposicao, autoresDaProposicao, orientacoes, vetosDaProposicao } from "@/lib/consultas";
+import { VetoItem } from "@/components/Veto";
+import { Termo } from "@/components/Termo";
 import { formatarData, formatarHora } from "@/lib/tempo";
 import { Fonte } from "@/components/Fonte";
 import { Placar } from "@/components/Placar";
@@ -27,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function PaginaProposicao({ params }: Props) {
   const p = await proposicaoPorSlug((await params).slug);
   if (!p) notFound();
-  const [tram, votos, autores] = await Promise.all([tramitacoes(p.id), votacoesDaProposicao(p.id), autoresDaProposicao(p.id)]);
+  const [tram, votos, autores, vetos] = await Promise.all([tramitacoes(p.id), votacoesDaProposicao(p.id), autoresDaProposicao(p.id), vetosDaProposicao(p.id)]);
   const orient = await orientacoes(votos.filter((v) => v.nominal).map((v) => v.id));
   const linkCamara = p.idCamara ? `https://www.camara.leg.br/propostas-legislativas/${p.idCamara}` : null;
   const linkSenado = p.idSenado ? `https://www25.senado.leg.br/web/atividade/materias/-/materia/${p.idSenado}` : null;
@@ -62,6 +64,22 @@ export default async function PaginaProposicao({ params }: Props) {
         )}
         <Fonte orgao="Câmara dos Deputados e Senado Federal" url={linkCamara ?? linkSenado ?? "https://dadosabertos.camara.leg.br"} em={p.atualizadoEm} />
       </section>
+
+      {(p.normaGerada || vetos.length > 0) && (
+        <section className="rounded-lg border border-borda bg-superficie p-4" aria-labelledby="sancao">
+          <h2 id="sancao" className="mb-2 text-lg font-semibold"><Termo id="sancao">Sanção</Termo> e veto</h2>
+          {p.normaGerada && (
+            <p className="text-sm">
+              Virou <strong>{p.urlNorma ? <a href={p.urlNorma} target="_blank" rel="noopener">{p.normaGerada}</a> : p.normaGerada}</strong>
+              {vetos.some((v) => v.total === false) ? ", com veto parcial." : vetos.some((v) => v.total && v.resultado.startsWith("derrubado")) ? <>, depois que o Congresso derrubou o veto total (<Termo id="promulgacao">promulgação</Termo>).</> : "."}
+            </p>
+          )}
+          {vetos.length > 0 && (
+            <ul className="mt-2 space-y-3">{vetos.map((v) => <li key={v.id} className="border-t border-borda pt-2 first:border-0 first:pt-0"><VetoItem v={v} mostrarProposicao={false} detalhar /></li>)}</ul>
+          )}
+          <Fonte orgao="Congresso Nacional — vetos e normas (API do Senado)" url={vetos[0]?.fonteUrl ?? "https://legis.senado.leg.br/dadosabertos"} em={vetos[0]?.coletadoEm ?? p.atualizadoEm} />
+        </section>
+      )}
 
       <section className="rounded-lg border border-borda bg-superficie p-4" aria-labelledby="vot">
         <h2 id="vot" className="mb-2 text-lg font-semibold">Votações em Plenário</h2>

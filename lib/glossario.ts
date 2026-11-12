@@ -19,5 +19,9 @@ export const GLOSSARIO: Record<string, { termo: string; definicao: string }> = {
   ausenciaJustificada: { termo: "Ausência justificada", definicao: "Falta com motivo aceito pela Casa, como licença médica, missão oficial ou atividade parlamentar autorizada." },
   cota: { termo: "Cota parlamentar (CEAP/CEAPS)", definicao: "Verba mensal para despesas do mandato, como passagens, escritório e divulgação, reembolsada mediante comprovante. O valor varia por estado." },
   sessaoConjunta: { termo: "Sessão do Congresso Nacional", definicao: "Sessão conjunta de deputados e senadores, usada por exemplo para votar vetos presidenciais e o Orçamento." },
+  sancao: { termo: "Sanção", definicao: "Aprovação do Presidente da República a um projeto aprovado pelo Congresso. Depois da sanção, a lei é publicada no Diário Oficial. Se o Presidente não se manifestar em 15 dias úteis, a sanção é tácita." },
+  promulgacao: { termo: "Promulgação", definicao: "Ato que declara a existência da lei. Quando o Congresso derruba um veto, os trechos restaurados são promulgados mesmo sem concordância do Presidente." },
+  sobrestamento: { termo: "Veto trancando a pauta", definicao: "O Congresso tem 30 dias, contados do recebimento, para deliberar sobre um veto. Passado o prazo, o veto passa à frente das demais votações da sessão conjunta (sobrestamento da pauta)." },
+  vetoParcial: { termo: "Veto parcial", definicao: "O Presidente veta só alguns trechos (artigos, parágrafos, incisos ou alíneas); o restante vira lei normalmente." },
   veto: { termo: "Veto", definicao: "Recusa do Presidente da República a um projeto aprovado, no todo ou em parte. O Congresso pode derrubar o veto em sessão conjunta." },
 };
