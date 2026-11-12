@@ -228,3 +228,18 @@ Os links fixos dos canais vão num arquivo de configuração, revisado manualmen
 - **Lei → projeto de origem:** `/processo?tipoNorma=LEI&numeroNorma=N&anoNorma=AAAA` devolve o processo que originou a lei. As 220 leis de 2026 foram ligadas ao projeto.
 - **Medidas provisórias:** `/processo?sigla=MPV&ano=AAAA` traz número, data de edição e situação ("SEM EFICÁCIA", "TRANSFORMADA EM NORMA JURÍDICA"...). Em 2026: 68 MPs.
 - **Sanção sem veto:** não há lista própria. Aparece como lei publicada cujo projeto não tem veto.
+
+---
+
+## 10. Fase 2C — Diário Oficial (situação em 12/11/2026)
+
+- **INLABS continua em manutenção** (2º e 3º testes do dia).
+- **Fluxo oficial confirmado** nos scripts de `github.com/Imprensa-Nacional/inlabs` (`public/python`):
+  1. `POST https://inlabs.in.gov.br/logar.php` com `email` e `password` (formulário), que devolve o cookie `inlabs_session_cookie`;
+  2. `GET https://inlabs.in.gov.br/index.php?p=AAAA-MM-DD&dl=AAAA-MM-DD-{DO1|DO2|DO3|DO1E|DO2E|DO3E}.zip` com o cookie e o cabeçalho `origem: 736372697074`, que devolve um ZIP de XML por seção (as edições extras têm o sufixo `E`);
+  3. resposta **404** = edição inexistente naquele dia.
+- **Pendente para implementar:**
+  - credenciais `INLABS_EMAIL` / `INLABS_SENHA` (cadastro gratuito, feito pelo responsável do projeto);
+  - **uma amostra real do XML**, para escrever e testar o leitor sem supor o formato.
+- **Alternativas descartadas:** a página "Base de Dados de Publicações do DOU" monta os links de download só com JavaScript, e o `robots.txt` de `www.in.gov.br` proíbe robôs (`Disallow: /`). Por isso não é usada como fonte automática.
+- **Enquanto isso:** leis e MPs já vêm do Senado (Fase 2B), com a edição do DOU em que foram publicadas. Decretos, nomeações e exonerações dependem do INLABS.
